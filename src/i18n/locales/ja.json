@@ -1,0 +1,90 @@
+{
+  "about": "について",
+  "skills": "スキル",
+  "projects": "プロジェクト",
+  "contact": "お問い合わせ",
+  "selectLanguage": "言語を選択",
+  "hero": {
+    "title": "BEREKOUTOU Boniface",
+    "role": "フロントエンド開発者",
+    "description": "モダンで直感的なウェブ体験を作ることに情熱を注いでいるフロントエンド開発者です。React、TypeScript、UI/UXデザインに特化しています。",
+    "contactButton": "お問い合わせ",
+    "projectsButton": "私のプロジェクトを見る"
+  },
+  "aboutSection": {
+    "title": "私について",
+    "frontend": {
+      "title": "フロントエンド開発",
+      "description": "React、TypeScript、最新のフレームワークを使用して高性能なウェブアプリケーションを作成する専門知識。"
+    },
+    "uiux": {
+      "title": "UI/UXデザイン",
+      "description": "細部にわたる注意を払って直感的で美しいユーザーインターフェースを作成します。"
+    },
+    "responsive": {
+      "title": "レスポンシブウェブ",
+      "description": "すべてのデバイスで最適な体験を提供する適応型ウェブアプリケーションの開発。"
+    },
+    "journey": {
+      "title": "私の旅",
+      "description": "2年以上のウェブ開発経験を持ち、モダンでパフォーマンスに優れたウェブアプリケーションを作成することに特化しています。新しい技術への情熱と細部へのこだわりのおかげで、卓越したユーザー体験を生み出すことができます。市場のベストプラクティスとツールを常に最新の状態に保っています。"
+    }
+  },
+  "skillsSection": {
+    "title": "スキル",
+    "categories": {
+      "frontend": "フロントエンド",
+      "styling": "スタイリング",
+      "tools": "ツール",
+      "design": "デザイン"
+    }
+  },
+  "projectsSection": {
+    "title": "私のプロジェクト",
+    "projects": {
+      "immobilier": {
+        "title": "不動産賃貸",
+        "description": "ReactとNext.jsで構築されたモダンな電子商取引プラットフォーム"
+      },
+      "bank": {
+        "title": "銀行アプリケーション",
+        "description": "インタラクティブなビジュアライゼーションを含む分析ダッシュボード"
+      },
+      "restaurant": {
+        "title": "レストランアプリ",
+        "description": "リアルタイム機能を備えたソーシャルネットワークアプリケーション"
+      }
+    },
+    "viewCode": "コード",
+    "viewDemo": "デモ"
+  },
+  "contactSection": {
+    "title": "お問い合わせ",
+    "subtitle": "あなたのプロジェクトについて話しましょう",
+    "description": "私に連絡するには、以下の方法でご連絡ください。",
+    "email": "メール",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "form": {
+      "fullName": "名前",
+      "email": "メールアドレス",
+      "message": "メッセージ",
+      "send": "送信"
+    }
+  },
+  "footer": {
+    "role": "フロントエンド開発者",
+    "rights": "全著作権所有",
+    "description": "© 2023 BEREKOUTOU Boniface. All rights reserved.",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  },
+  "rightsReserved": "全著作権所有",
+  "allRightsReserved": "全著作権所有",
+  "contactForm": {
+    "name": "名前",
+    "email": "メールアドレス",
+    "message": "メッセージ",
+    "sendButton": "送信"
+  }
+}
