@@ -19,7 +19,7 @@ const Hero = () => {
             <h2 className="text-2xl md:text-3xl text-gray-600">
               {t('hero.role')}
             </h2>
-            <p className="text-lg text-gray-600 max-w-lg">
+            <p className="text-lg text-gray-600 max-w-lg description-font">
               {t('hero.description')}
             </p>
             <div className="flex space-x-4">

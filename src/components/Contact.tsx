@@ -14,7 +14,7 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold mb-6">
               {t('contactSection.subtitle')}
             </h3>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-600 mb-8 description-font">
               {t('contactSection.description')}
             </p>
 
