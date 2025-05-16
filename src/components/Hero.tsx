@@ -43,19 +43,17 @@ const Hero = () => {
             className="md:w-1/2 mt-12 md:mt-0 h-80"
             style={{
               perspective: '1000px',
-              position: 'relative',
               width: '100%',
               maxWidth: '800px',
               margin: '0 auto',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
               backgroundColor: 'transparent',
               borderRadius: '20px',
               boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
               height: '500px',
               overflow: 'hidden',
-              
+              position: 'relative',
+              marginTop: '20px',
+              marginBottom: '20px',
              transformStyle: 'preserve-3d',
             }}
           >
@@ -86,6 +84,7 @@ const Hero = () => {
                 style={{
                   backfaceVisibility: 'hidden',
                   position: 'absolute',
+                  objectFit: 'cover',
                   width: '100%',
                   height: '100%',
                   top: 0,
@@ -102,6 +101,7 @@ const Hero = () => {
                   backfaceVisibility: 'hidden',
                   transform: 'rotateY(180deg)',
                   position: 'absolute',
+                  objectFit: 'cover',
                   width: '100%',
                   height: '100%',
                   top: 0,
