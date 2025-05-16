@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p className="description-font">&copy; {new Date().getFullYear()} BEREKOUTOU Boniface. {t('footer.rights')}</p>
+          <p className="text-sm">&copy; {new Date().getFullYear()} BEREKOUTOU Boniface. {t('footer.rights')}</p>
         </div>
       </div>
     </footer>

@@ -45,6 +45,7 @@
 
   "projectsSection": {
     "title": "My Projects",
+    "details": "Here are some of the recent projects I've worked on. For more projects, check out my GitHub profile.",
     "projects": {
       "immobilier": {
         "title": "real estate rental",

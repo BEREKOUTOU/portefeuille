@@ -32,14 +32,14 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-gray-900 mr-4" />
                 <a
                   href="tel:+33777594411"
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-gray-600 hover:text-gray-900 description-font"
                 >
                   +33 07 75 95 44 11
                 </a>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-6 h-6 text-gray-900 mr-4" />
-                <span className="text-gray-600">Cherbourg-En-Cotentin, France</span>
+                <span className="text-gray-600 description-font">Cherbourg-En-Cotentin, France</span>
               </div>
             </div>
           </div>

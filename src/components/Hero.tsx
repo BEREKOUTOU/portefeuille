@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import laptopImg from '../assets/img/laptop.webp';
+import backImg from '../assets/img/Boniface.webp';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Hero = () => {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 animate-oaoFadeIn">
               {t('hero.title')}
             </h1>
-            <h2 className="text-2xl md:text-3xl text-gray-600">
+            <h2 className="text-2xl md:text-3xl text-gray-600 description-font">
               {t('hero.role')}
             </h2>
             <p className="text-lg text-gray-600 max-w-lg description-font">
@@ -38,19 +39,28 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="md:w-1/2 mt-12 md:mt-0">
-            <img
-              src={laptopImg}
-              loading="lazy"
-              decoding="async"
-              alt="Developer workspace"
-              className="rounded-lg shadow-2xl transition-transform duration-300 hover:scale-105"
-            />
+          <div className="md:w-1/2 mt-12 md:mt-0 h-80">
+              <img
+                src={laptopImg}
+                loading="lazy"
+                decoding="async"
+                alt="Laptop with code"
+                className="rounded-lg shadow-2xl w-full h-auto"
+                
+              />
+              <img
+                src={backImg}
+                loading="lazy"
+                decoding="async"
+                alt="Back of laptop"
+                className="rounded-lg shadow-2xl w-full h-auto padding-4"
+                
+              />
+            </div>
           </div>
         </div>
-      </div>
+      
     </section>
   );
 };
-
 export default Hero;

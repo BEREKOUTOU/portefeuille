@@ -39,7 +39,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">{t('projectsSection.title')}</h2>
-        
+        <p className="text-gray-600 leading-relaxed text-center description-font">{t('projectsSection.details')}</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.title} className="bg-gray-50 rounded-lg overflow-hidden">
