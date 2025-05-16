@@ -39,14 +39,49 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="md:w-1/2 mt-12 md:mt-0 h-80">
+          <div
+            className="md:w-1/2 mt-12 md:mt-0 h-80"
+            style={{
+              perspective: '1000px',
+              position: 'relative',
+              width: '700px',
+              height: '400px',
+              overflow: 'visible',
+             transformStyle: 'preserve-3d',
+            }}
+          >
+            <div
+              className="flip-card-inner"
+              style={{
+                position: 'relative',
+                width: '100%',
+                height: '100%',
+                textAlign: 'center',
+                transition: 'transform 0.8s',
+                transformStyle: 'preserve-3d',
+                boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+              }}
+              onMouseEnter={e => {
+                (e.currentTarget as HTMLDivElement).style.transform = 'rotateY(180deg)';
+              }}
+              onMouseLeave={e => {
+                (e.currentTarget as HTMLDivElement).style.transform = 'rotateY(0deg)';
+              }}
+            >
               <img
                 src={laptopImg}
                 loading="lazy"
                 decoding="async"
                 alt="Laptop with code"
                 className="rounded-lg shadow-2xl w-full h-auto"
-                
+                style={{
+                  backfaceVisibility: 'hidden',
+                  position: 'absolute',
+                  width: '100%',
+                  height: '100%',
+                  top: 0,
+                  left: 0,
+                }}
               />
               <img
                 src={backImg}
@@ -54,12 +89,20 @@ const Hero = () => {
                 decoding="async"
                 alt="Back of laptop"
                 className="rounded-lg shadow-2xl w-full h-auto padding-4"
-                
+                style={{
+                  backfaceVisibility: 'hidden',
+                  transform: 'rotateY(180deg)',
+                  position: 'absolute',
+                  width: '100%',
+                  height: '100%',
+                  top: 0,
+                  left: 0,
+                }}
               />
             </div>
           </div>
         </div>
-      
+      </div>
     </section>
   );
 };
