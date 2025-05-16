@@ -44,9 +44,18 @@ const Hero = () => {
             style={{
               perspective: '1000px',
               position: 'relative',
-              width: '700px',
-              height: '400px',
-              overflow: 'visible',
+              width: '100%',
+              maxWidth: '800px',
+              margin: '0 auto',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              backgroundColor: 'transparent',
+              borderRadius: '20px',
+              boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+              height: '500px',
+              overflow: 'hidden',
+              
              transformStyle: 'preserve-3d',
             }}
           >
