@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import '../index.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -32,10 +33,10 @@ const Header = () => {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('about')}</a>
-            <a href="#skills" className="text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('skills')}</a>
-            <a href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('projects')}</a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('contact')}</a>
+            <a href="#about" className="link text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('about')}</a>
+            <a href="#skills" className="link text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('skills')}</a>
+            <a href="#projects" className="link text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('projects')}</a>
+            <a href="#contact" className="link text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('contact')}</a>
 
             <div className="relative group">
               <button className="flex items-center space-x-1 text-gray-600 hover:text-gray-900">
@@ -85,10 +86,10 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg">
             <div className="flex flex-col p-4 space-y-4">
-              <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('about')}</a>
-              <a href="#skills" className="text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('skills')}</a>
-              <a href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('projects')}</a>
-              <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('contact')}</a>
+              <a href="#about" className="link text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('about')}</a>
+              <a href="#skills" className="link text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('skills')}</a>
+              <a href="#projects" className="link text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('projects')}</a>
+              <a href="#contact" className="link text-gray-600 hover:text-gray-900 transition-colors duration-300" onClick={handleNavClick}>{t('contact')}</a>
               
               <div className="border-t pt-4">
                 <p className="text-sm text-gray-500 mb-2">{t('selectLanguage')}</p>
