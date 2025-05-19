@@ -78,7 +78,7 @@ const Contact = () => {
                 htmlFor="message"
                 className="block text-sm font-medium text-gray-700 mb-1"
               >
-                {t('contactSection.form.email')}
+                {t('contactSection.form.message')}
               </label>
               <textarea
                 id="message"

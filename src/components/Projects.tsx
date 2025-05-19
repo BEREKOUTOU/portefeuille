@@ -14,7 +14,7 @@ const Projects = () => {
       description: t('projectsSection.projects.immobilier.description'),
       image: kasaImg,
       technologies: ["React", "Next.js", "Tailwind CSS", "Stripe"],
-      githubLink: "#",
+      githubLink: "https://github.com/BEREKOUTOU/Kasa__Fr",
       liveLink: "#"
     },
     {
@@ -22,7 +22,7 @@ const Projects = () => {
       description: t('projectsSection.projects.bank.description'),
       image: argentBankImg,
       technologies: ["React", "TypeScript", "D3.js", "Material-UI"],
-      githubLink: "#",
+      githubLink: "https://github.com/BEREKOUTOU/ArgentBank",
       liveLink: "#"
     },
     {
@@ -30,8 +30,8 @@ const Projects = () => {
       description: t('projectsSection.projects.restaurant.description'),
       image: bonifacesImg,
       technologies: ["React", "Firebase", "Tailwind CSS", "Redux"],
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/BEREKOUTOU/Ohmyfood",
+      liveLink: "https://berekoutou.github.io/Ohmyfood/"
     }
   ];
 
