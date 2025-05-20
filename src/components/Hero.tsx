@@ -1,10 +1,46 @@
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useEffect, useRef } from 'react';
 import laptopImg from '../assets/img/laptop.webp';
 import backImg from '../assets/img/Boniface.webp';
 
 const Hero = () => {
   const { t } = useTranslation();
+  const containerRef = useRef<HTMLDivElement>(null);
+  const frontImageRef = useRef<HTMLImageElement>(null);
+  const backImageRef = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!containerRef.current || !frontImageRef.current || !backImageRef.current) return;
+      // Get the current scroll position and viewport height
+      // Get the top position of the element relative to the viewport
+      const scrollTop = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const elementTop = containerRef.current.getBoundingClientRect().top + scrollTop;
+      const elementHeight = containerRef.current.offsetHeight;
+
+      // Calculate the scroll progress of the element in viewport (0 to 1)
+      const progress = Math.min(Math.max((scrollTop + windowHeight - elementTop) / (windowHeight + elementHeight), 0), 1);
+
+      // Parallax effect values
+      const frontTranslateY = progress * 30; // front image moves down up to 30px
+      const backTranslateY = progress * 15;  // back image moves down up to 15px
+
+      // Apply smooth transform with requestAnimationFrame
+      frontImageRef.current.style.transform = `translateY(${frontTranslateY}px)`;
+      backImageRef.current.style.transform = `translateY(${backTranslateY}px) rotateY(180deg)`;
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    // Initial call to set position
+    handleScroll();
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <section
@@ -40,6 +76,7 @@ const Hero = () => {
             </div>
           </div>
           <div
+            ref={containerRef}
             className="md:w-1/2 mt-12 md:mt-0 h-80"
             style={{
               perspective: '1000px',
@@ -52,9 +89,14 @@ const Hero = () => {
               height: '500px',
               overflow: 'hidden',
               position: 'relative',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              transformStyle: 'preserve-3d',
               marginTop: '20px',
               marginBottom: '20px',
-             transformStyle: 'preserve-3d',
+              marginRight: '20px',
+              marginLeft: '20px',
             }}
           >
             <div
@@ -63,7 +105,6 @@ const Hero = () => {
                 position: 'relative',
                 width: '100%',
                 height: '100%',
-                textAlign: 'center',
                 transition: 'transform 0.8s',
                 transformStyle: 'preserve-3d',
                 boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
@@ -76,6 +117,7 @@ const Hero = () => {
               }}
             >
               <img
+                ref={frontImageRef}
                 src={laptopImg}
                 loading="lazy"
                 decoding="async"
@@ -87,16 +129,19 @@ const Hero = () => {
                   objectFit: 'cover',
                   width: '100%',
                   height: '100%',
-                  top: 0,
+                  top: -15,
                   left: 0,
+                  transition: 'transform 0.3s ease-out',
+                  willChange: 'transform',
                 }}
               />
               <img
+                ref={backImageRef}
                 src={backImg}
                 loading="lazy"
                 decoding="async"
-                alt="Back of laptop"
-                className="rounded-lg shadow-2xl w-full h-auto padding-4"
+                alt="Boniface"
+                className="rounded-lg shadow-2xl w-full h-auto padding-14"
                 style={{
                   backfaceVisibility: 'hidden',
                   transform: 'rotateY(180deg)',
@@ -104,8 +149,10 @@ const Hero = () => {
                   objectFit: 'cover',
                   width: '100%',
                   height: '100%',
-                  top: 0,
+                  top: -8,
                   left: 0,
+                  transition: 'transform 0.3s ease-out',
+                  willChange: 'transform',
                 }}
               />
             </div>

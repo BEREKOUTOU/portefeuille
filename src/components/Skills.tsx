@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useEffect, useRef, useState } from 'react';import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -62,12 +61,12 @@ const Skills = () => {
       observer.observe(skillsRef.current);
     }
 
+    const currentRef = skillsRef.current;
     return () => {
-      if (skillsRef.current) {
-        observer.unobserve(skillsRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
-    };
-  }, []);
+    };  }, []);
 
   return (
     <section id="skills" className="py-20 bg-gray-50">

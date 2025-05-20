@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import kasaImg from '../assets/img/kasa.webp';
 import argentBankImg from '../assets/img/argentBank.webp';
-import bonifacesImg from '../assets/img/Omyfood.webp';
+import bonifacesImg from '../assets/img/Ohmyfood.webp';
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -39,7 +39,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">{t('projectsSection.title')}</h2>
-        <p className="text-gray-600 leading-relaxed text-center description-font">{t('projectsSection.details')}</p>
+        <p className="text-gray-600 leading-relaxed text-center description-font pb-8">{t('projectsSection.details')}</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.title} className="bg-gray-50 rounded-lg overflow-hidden">
