@@ -72,7 +72,11 @@
       "fullName": "Full Name",
       "email": "Email",
       "message": "Message",
-      "send": "Send Message"
+      "send": "Send Message",
+      "success": "Thank you!",
+      "successMessage": "Your message has been sent successfully. I will reply to you as soon as possible.",
+      "errorFillAllFields": "Oops!",
+      "description": "An error occurred while sending your message. Please try again later."
     }
   },
 

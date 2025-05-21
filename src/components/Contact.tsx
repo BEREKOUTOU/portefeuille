@@ -1,8 +1,41 @@
+import { useState } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
   const { t } = useTranslation();
+
+  const [fullName, setFullName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log('Form submitted with:', { fullName, email, message });
+    if (!fullName.trim() || !email.trim() || !message.trim())  {
+      console.log('Validation failed: missing fields');
+      setErrorMessage('Please fill all fields.');
+      setSuccessMessage('');
+      return;
+    }
+    // Simulate form submission success
+    const isSuccess = true; // Replace with actual submission logic
+
+    if (isSuccess) {
+      console.log('Form submission success');
+      setSuccessMessage('Thank you! Your message has been sent successfully. I will reply to you as soon as possible.');
+      setErrorMessage('');
+      setFullName('');
+      setEmail('');
+      setMessage('');
+    } else {
+      console.log('Form submission error');
+      setErrorMessage('Oops! An error occurred while sending your message. Please try again later.');
+      setSuccessMessage('');
+    }
+  };
 
   return (
     <section id="contact" className="py-20 bg-gray-50">
@@ -44,7 +77,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <form className="space-y-6">
+          <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label
                 htmlFor="name"
@@ -55,6 +88,8 @@ const Contact = () => {
               <input
                 type="text"
                 id="name"
+                value={fullName}
+                onChange={(e) => setFullName(e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
               />
             </div>
@@ -69,6 +104,8 @@ const Contact = () => {
               <input
                 type="email"
                 id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
               />
             </div>
@@ -83,9 +120,18 @@ const Contact = () => {
               <textarea
                 id="message"
                 rows={4}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
               ></textarea>
             </div>
+
+            {errorMessage && (
+              <p className="text-red-600 text-sm font-medium">{errorMessage}</p>
+            )}
+            {successMessage && (
+              <p className="text-green-600 text-sm font-medium">{successMessage}</p>
+            )}
 
             <button
               type="submit"
