@@ -70,7 +70,11 @@
       "fullName": "이름",
       "email": "이메일 주소",
       "message": "메시지",
-      "send": "보내기"
+      "send": "보내기",
+      "success": "메시지를 보내려가요!",
+      "successMessage": "메시지를 보내신 이메일 주소로 전송하려가요.",
+      "error": "오류!",
+      "errorFillAllFields": "메시지를 보내는 중에 오류가 발생해피요. 다시 시도해 주시기 바로."
     }
   },
   "footer": {

@@ -70,7 +70,11 @@
 "fullName": "Nombre completo",
 "email": "Correo electrónico",
 "message": "Mensaje",
-"send": "Enviar"
+"send": "Enviar",
+"success": "Gracias!",
+"successMessage": "Tu mensaje ha sido enviado con éxito. Te responderé lo antes posible.",
+"error": "Oops!",
+"errorFillAllFields": "Ocurrio un error al enviar tu mensaje. Por favor, intenta nuevamente mas tarde."
 }
 },
 "footer": {

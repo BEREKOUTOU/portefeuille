@@ -70,7 +70,11 @@
       "fullName": "名前",
       "email": "メールアドレス",
       "message": "メッセージ",
-      "send": "送信"
+      "send": "送信",
+      "success": "メッセージを送信しました。",
+      "successMessage": "メッセージは正常に送信されました。最速で返信します。",
+      "error": "エラー!",
+      "errorFillAllFields": "メッセージの送信中にエラーが発生しました。後ほど再試行してください。"
     }
   },
   "footer": {

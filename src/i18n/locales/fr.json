@@ -75,8 +75,8 @@
       "send": "Envoyer le message",
       "success": "Merci !",
       "successMessage": "Votre message a été envoyé avec succès. Je vous répondrai dès que possible.",
-      "errorFillAllFields": "Oups !",
-      "description": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
+      "error": "Oups !",
+      "errorFillAllFields": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
     }
   },
 

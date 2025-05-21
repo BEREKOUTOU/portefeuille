@@ -16,7 +16,10 @@ const Contact = () => {
     console.log('Form submitted with:', { fullName, email, message });
     if (!fullName.trim() || !email.trim() || !message.trim())  {
       console.log('Validation failed: missing fields');
-      setErrorMessage('Please fill all fields.');
+      setErrorMessage(
+        (t('contactSection.form.error') || '') + ' ' +
+        (t('contactSection.form.errorFillAllFields'))
+      );
       setSuccessMessage('');
       return;
     }
@@ -25,14 +28,17 @@ const Contact = () => {
 
     if (isSuccess) {
       console.log('Form submission success');
-      setSuccessMessage('Thank you! Your message has been sent successfully. I will reply to you as soon as possible.');
+      setSuccessMessage(
+        (t('contactSection.form.success') || '') + ' ' +
+        (t('contactSection.form.successMessage') )
+      );
       setErrorMessage('');
       setFullName('');
       setEmail('');
       setMessage('');
     } else {
       console.log('Form submission error');
-      setErrorMessage('Oops! An error occurred while sending your message. Please try again later.');
+      setErrorMessage(t('contactSection.form.description') );
       setSuccessMessage('');
     }
   };
