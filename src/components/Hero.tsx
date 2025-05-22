@@ -77,7 +77,7 @@ const Hero = () => {
           </div>
           <div
             ref={containerRef}
-            className="md:w-1/2 mt-12 md:mt-0 h-80"
+            className="md:w-1/2 mt-12 md:mt-0 h-80 md:ml-8 md:mt-4 md:mb-4"
             style={{
               perspective: '1000px',
               width: '100%',
