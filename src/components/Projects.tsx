@@ -15,7 +15,7 @@ const Projects = () => {
       image: kasaImg,
       technologies: ["React", "Next.js", "Tailwind CSS", "Stripe"],
       githubLink: "https://github.com/BEREKOUTOU/Kasa__Fr",
-      liveLink: "#"
+      liveLink: "https://kasa-fr-git-main-berekoutous-projects.vercel.app",
     },
     {
       title: t('projectsSection.projects.bank.title'),

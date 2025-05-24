@@ -9,11 +9,13 @@ import ScrollToTop from './components/ScrollToTop';
 import Loader from './components/Loader';
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Remove artificial loading delay to improve initial load time
-    setIsLoading(false);
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000)
+    return () => clearTimeout(timer);
   }, []);
 
   if (isLoading) {
