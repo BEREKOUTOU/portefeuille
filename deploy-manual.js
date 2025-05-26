@@ -1,0 +1,47 @@
+import { exec } from 'child_process';
+import path from 'path';
+
+const repoUrl = 'https://github.com/BEREKOUTOU/portefeuille.git';
+const distPath = path.resolve('dist');
+
+function runCommand(command) {
+  return new Promise((resolve, reject) => {
+    exec(command, (error, stdout, stderr) => {
+      if (error) {
+        reject(stderr || stdout || error.message);
+      } else {
+        resolve(stdout);
+      }
+    });
+  });
+}
+
+async function deploy() {
+  try {
+    // Clone the repo's gh-pages branch into a temp folder
+    await runCommand('git clone --branch gh-pages --single-branch ' + repoUrl + ' gh-pages-temp || git clone ' + repoUrl + ' gh-pages-temp');
+    process.chdir('gh-pages-temp');
+
+    // Remove all files except .git
+    await runCommand('git rm -r *');
+    
+    // Copy files from dist to current directory
+    await runCommand('xcopy /E /I /Y "' + distPath + '\\*" .');
+
+    // Add all files
+    await runCommand('git add .');
+
+    // Commit changes
+    await runCommand('git commit -m "Deploy to gh-pages"');
+
+    // Push to gh-pages branch
+    await runCommand('git push origin gh-pages');
+
+    console.log('Deploy successful!');
+  } catch (err) {
+    console.error('Deploy failed:', err);
+    process.exit(1);
+  }
+}
+
+deploy();
