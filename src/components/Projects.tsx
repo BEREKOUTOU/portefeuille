@@ -23,7 +23,7 @@ const Projects = () => {
       image: argentBankImg,
       technologies: ["React", "TypeScript", "D3.js", "Material-UI"],
       githubLink: "https://github.com/BEREKOUTOU/ArgentBank",
-      liveLink: "https://berekoutou.github.io/ArgentBank/"
+      liveLink: "https://berekoutou.github.io/ArgentBank/",
     },
     {
       title: t('projectsSection.projects.restaurant.title'),
@@ -31,7 +31,7 @@ const Projects = () => {
       image: bonifacesImg,
       technologies: ["React", "Firebase", "Tailwind CSS", "Redux"],
       githubLink: "https://github.com/BEREKOUTOU/Ohmyfood",
-      liveLink: "https://berekoutou.github.io/Ohmyfood/"
+      liveLink: "https://berekoutou.github.io/Ohmyfood/",
     }
   ];
 
