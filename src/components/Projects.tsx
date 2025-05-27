@@ -23,7 +23,7 @@ const Projects = () => {
       image: argentBankImg,
       technologies: ["React", "TypeScript", "D3.js", "Material-UI"],
       githubLink: "https://github.com/BEREKOUTOU/ArgentBank",
-      liveLink: "#"
+      liveLink: "https://berekoutou.github.io/ArgentBank/"
     },
     {
       title: t('projectsSection.projects.restaurant.title'),
