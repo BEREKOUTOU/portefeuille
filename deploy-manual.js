@@ -1,8 +1,10 @@
 import { exec } from 'child_process';
 import path from 'path';
+import fs from 'fs';
 
 const repoUrl = 'https://github.com/BEREKOUTOU/portefeuille.git';
 const distPath = path.resolve('dist');
+const tempDir = path.resolve('gh-pages-temp');
 
 function runCommand(command) {
   return new Promise((resolve, reject) => {
@@ -18,6 +20,11 @@ function runCommand(command) {
 
 async function deploy() {
   try {
+    // Delete gh-pages-temp directory if it exists
+    if (fs.existsSync(tempDir)) {
+      fs.rmSync(tempDir, { recursive: true, force: true });
+    }
+
     // Clone the repo's gh-pages branch into a temp folder
     await runCommand('git clone --branch gh-pages --single-branch ' + repoUrl + ' gh-pages-temp || git clone ' + repoUrl + ' gh-pages-temp');
     process.chdir('gh-pages-temp');
