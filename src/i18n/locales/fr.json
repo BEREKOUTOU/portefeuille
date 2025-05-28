@@ -49,15 +49,15 @@
     "projects": {
       "immobilier": {
         "title": "location immobilière",
-        "description": "Une plateforme de location immobilière moderne construite avec React et Next.js"
+        "description": "Application de gestion immobilière avec des fonctionnalités de consultation et de réservation de biens immobiliers"
       },
       "bank": {
         "title": "application bancaire",
-        "description": "Dashboard d'analyse de données avec visualisations interactives"
+        "description": "Application bancaire avec des fonctionnalités de gestion des comptes et des transactions"
       },
       "restaurant": {
         "title": "App Restaurant",
-        "description": "Application de réseau social avec fonctionnalités en temps réel"
+        "description": "Application Restaurant avec les fonctionnalités de commande en ligne et de réservation"
       }
     },
     "viewCode": "Code",
