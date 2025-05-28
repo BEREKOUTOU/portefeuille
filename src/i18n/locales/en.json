@@ -49,15 +49,15 @@
     "projects": {
       "immobilier": {
         "title": "real estate rental",
-        "description": "A modern e-commerce platform built with React and Next.js"
+        "description": "Property management application with property viewing and booking features"
       },
       "bank": {
         "title": "Banking application",
-        "description": "Analytics dashboard with interactive visualizations"
+        "description": "Banking application with account management and transaction features"
       },
       "restaurant": {
         "title": "APP Restaurant",
-        "description": "Social network application with real-time features"
+        "description": "Restaurant app with online ordering and reservation features"
       }
     },
     "viewCode": "Code",

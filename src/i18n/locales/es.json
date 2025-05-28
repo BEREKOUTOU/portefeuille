@@ -45,15 +45,15 @@
 "projects": {
 "immobilier": {
 "title": "Alquiler inmobiliario",
-"description": "Una plataforma de comercio electrónico moderna construida con React y Next.js"
+"description": "Aplicación de gestión inmobiliaria con funciones de visualización y reserva de propiedades"
 },
 "bank": {
 "title": "Aplicación bancaria",
-"description": "Panel de análisis con visualizaciones interactivas"
+"description": "Aplicación bancaria con funciones de gestión de cuentas y transacciones"
 },
 "restaurant": {
 "title": "APP Restaurante",
-"description": "Aplicación de red social con funciones en tiempo real"
+"description": "Aplicación de restaurante con funciones de pedidos en línea y reservas"
 }
 },
 "viewCode": "Código",

@@ -45,15 +45,15 @@
     "projects": {
       "immobilier": {
         "title": "부동산 임대",
-        "description": "React 및 Next.js로 구축된 현대적인 전자상거래 플랫폼"
+        "description": "부동산 관리 애플리케이션으로, 부동산 조회 및 예약 기능을 제공합니다."
       },
       "bank": {
         "title": "은행 애플리케이션",
-        "description": "대화형 시각화가 포함된 분석 대시보드"
+        "description": "계좌 관리 및 거래 기능을 갖춘 은행 애플리케이션입니다."
       },
       "restaurant": {
         "title": "레스토랑 앱",
-        "description": "실시간 기능이 있는 소셜 네트워크 애플리케이션"
+        "description": "온라인 주문 및 예약 기능을 갖춘 레스토랑 애플리케이션입니다."
       }
     },
     "viewCode": "코드",
