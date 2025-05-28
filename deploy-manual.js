@@ -22,7 +22,9 @@ async function deploy() {
   try {
     // Delete gh-pages-temp directory if it exists
     if (fs.existsSync(tempDir)) {
+      console.log('Removing directory:', tempDir);
       fs.rmSync(tempDir, { recursive: true, force: true });
+      console.log('Directory removed:', tempDir);
     }
 
     // Clone the repo's gh-pages branch into a temp folder
