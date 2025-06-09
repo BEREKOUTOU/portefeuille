@@ -29,6 +29,10 @@ async function deploy() {
 
     // Clone the repo's gh-pages branch into a temp folder
     await runCommand('git clone --branch gh-pages --single-branch ' + repoUrl + ' gh-pages-temp || git clone ' + repoUrl + ' gh-pages-temp');
+
+    // Add safe directory config to avoid dubious ownership error
+    await runCommand('git config --global --add safe.directory ' + tempDir);
+
     process.chdir('gh-pages-temp');
 
     // Remove all files except .git
