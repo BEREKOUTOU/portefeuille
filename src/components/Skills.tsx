@@ -11,8 +11,8 @@ const Skills = () => {
       items: [
         { name: "React", level: 90 },
         { name: "TypeScript", level: 85 },
-        { name: "Next.js", level: 80 },
-        { name: "Vue.js", level: 75 }
+        { name: "HTML", level: 95 },
+        { name: "JavaScript", level: 75 }
       ]
     },
     { 
