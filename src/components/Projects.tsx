@@ -66,7 +66,7 @@ const Projects = () => {
                 <div className="flex space-x-4">
                   <a 
                     href={project.githubLink}
-                    className="flex items-center text-gray-600 hover:text-gray-900"
+                    className="flex items-center text-gray-600 px-2 rounded-md hover:text-white hover:bg-blue-800 transition duration-300 ease-in-out"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -75,7 +75,7 @@ const Projects = () => {
                   </a>
                   <a 
                     href={project.liveLink}
-                    className="flex items-center text-gray-600 hover:text-gray-900"
+                    className="flex items-center text-gray-600 px-2 hover:text-white hover:bg-blue-800 rounded-md transition duration-300 ease-in-out"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -11,25 +11,36 @@ const Hero = () => {
   const backImageRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
       if (!containerRef.current || !frontImageRef.current || !backImageRef.current) return;
-      // Get the current scroll position and viewport height
-      // Get the top position of the element relative to the viewport
-      const scrollTop = window.scrollY;
-      const windowHeight = window.innerHeight;
-      const elementTop = containerRef.current.getBoundingClientRect().top + scrollTop;
-      const elementHeight = containerRef.current.offsetHeight;
 
-      // Calculate the scroll progress of the element in viewport (0 to 1)
-      const progress = Math.min(Math.max((scrollTop + windowHeight - elementTop) / (windowHeight + elementHeight), 0), 1);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          // Get the current scroll position and viewport height
+          // Get the top position of the element relative to the viewport
+          const scrollTop = window.scrollY;
+          const windowHeight = window.innerHeight;
+          const elementTop = containerRef.current!.getBoundingClientRect().top + scrollTop;
+          const elementHeight = containerRef.current!.offsetHeight;
 
-      // Parallax effect values
-      const frontTranslateY = progress * 30; // front image moves down up to 30px
-      const backTranslateY = progress * 15;  // back image moves down up to 15px
+          // Calculate the scroll progress of the element in viewport (0 to 1)
+          const progress = Math.min(Math.max((scrollTop + windowHeight - elementTop) / (windowHeight + elementHeight), 0), 1);
 
-      // Apply smooth transform with requestAnimationFrame
-      frontImageRef.current.style.transform = `translateY(${frontTranslateY}px)`;
-      backImageRef.current.style.transform = `translateY(${backTranslateY}px) rotateY(180deg)`;
+          // Parallax effect values
+          const frontTranslateY = progress * 30; // front image moves down up to 30px
+          const backTranslateY = progress * 15;  // back image moves down up to 15px
+
+          // Apply smooth transform
+          frontImageRef.current!.style.transform = `translateY(${frontTranslateY}px)`;
+          backImageRef.current!.style.transform = `translateY(${backTranslateY}px) rotateY(180deg)`;
+
+          ticking = false;
+        });
+
+        ticking = true;
+      }
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -41,6 +52,9 @@ const Hero = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  
+  // Note: This scroll-linked effect uses requestAnimationFrame to throttle updates for better performance and compatibility with asynchronous scrolling.
+  // For more details, see: https://firefox-source-docs.mozilla.org/performance/scroll-linked_effects.html
 
   return (
     <section
@@ -62,14 +76,14 @@ const Hero = () => {
             <div className="flex space-x-4">
               <a
                 href="#contact"
-                className="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-all duration-300"
+                className="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-blue-800 transition-all duration-300"
               >
                 {t('hero.contactButton')}
                 <ArrowRight className="ml-2" size={20} />
               </a>
               <a
                 href="#projects"
-                className="inline-flex items-center px-6 py-3 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-100 transition-all duration-300"
+                className="inline-flex items-center px-6 py-3 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-blue-800 hover:text-white hover:border-blue-800 transition-all duration-300"
               >
                 {t('hero.projectsButton')}
               </a>
