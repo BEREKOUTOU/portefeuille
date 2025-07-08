@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import Loader from './components/Loader';
+import SplashCursor from './components/SplashCursor/SplashCursor';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +35,7 @@ function App() {
       </main>
       <Footer />
       <ScrollToTop />
+      <SplashCursor />
     </div>
   );
 }
