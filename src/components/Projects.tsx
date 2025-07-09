@@ -5,8 +5,12 @@ import kasaImg from '../assets/img/kasa.webp';
 import argentBankImg from '../assets/img/argentBank.webp';
 import bonifacesImg from '../assets/img/Ohmyfood.webp';
 
+import { useEffect, useRef, useState } from 'react';
 const Projects = () => {
   const { t } = useTranslation();
+
+  const [isVisible, setIsVisible] = useState(false);
+  const projectsRef = useRef<HTMLElement>(null);
 
   const projects = [
     {
@@ -35,8 +39,42 @@ const Projects = () => {
     }
   ];
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.1
+      }
+    );
+
+    if (projectsRef.current) {
+      observer.observe(projectsRef.current);
+    }
+
+    const currentRef = projectsRef.current;
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, []);
+
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section
+      id="projects"
+      ref={projectsRef}
+      className="py-20 bg-white"
+      style={{
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
+        transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'
+      }}
+    >
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">{t('projectsSection.title')}</h2>
         <p className="text-gray-600 leading-relaxed text-center description-font pb-8">{t('projectsSection.details')}</p>

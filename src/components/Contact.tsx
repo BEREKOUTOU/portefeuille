@@ -1,7 +1,7 @@
-import { useState } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
+import { useEffect, useRef, useState } from 'react';
 const Contact = () => {
   const { t } = useTranslation();
 
@@ -10,6 +10,9 @@ const Contact = () => {
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
+
+  const [isVisible, setIsVisible] = useState(false);
+  const contactRef = useRef<HTMLElement>(null);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -43,8 +46,42 @@ const Contact = () => {
     }
   };
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.1
+      }
+    );
+
+    if (contactRef.current) {
+      observer.observe(contactRef.current);
+    }
+
+    const currentRef = contactRef.current;
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, []);
+
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section
+      id="contact"
+      ref={contactRef}
+      className="py-20 bg-gray-50"
+      style={{
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
+        transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'
+      }}
+    >
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">{t('contactSection.title')}</h2>
 
