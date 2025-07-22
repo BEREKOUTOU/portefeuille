@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useEffect, useRef } from 'react';
 import laptopImg from '../assets/img/laptop.webp';
 import backImg from '../assets/img/Boniface.webp';
+import BlurText from './SplashCursor/BlurText';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -64,9 +65,13 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 space-y-6">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 animate-oaoFadeIn">
-              {t('hero.title')}
-            </h1>
+            <BlurText 
+              text={t('hero.title')} 
+              delay={150} 
+              animateBy="words" 
+              direction="top" 
+              className="text-5xl md:text-6xl font-bold text-gray-900"
+            />
             <h2 className="text-2xl md:text-3xl text-gray-600 description-font">
               {t('hero.role')}
             </h2>
@@ -95,7 +100,7 @@ const Hero = () => {
             style={{
               perspective: '1000px',
               width: '100%',
-              maxWidth: '800px',
+              maxWidth: '750px',
               margin: '0 auto',
               backgroundColor: 'transparent',
               borderRadius: '20px',

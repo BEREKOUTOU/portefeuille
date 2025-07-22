@@ -6,8 +6,8 @@ ghpages.publish(
     branch: 'gh-pages',
     repo: 'https://github.com/BEREKOUTOU/portefeuille.git',
     user: {
-      name: 'Your Name',
-      email: 'your-email@example.com'
+      name: 'BEREKOUTOU Boniface',
+      email: 'berkoutouboniface@gmail.com',
     },
     dotfiles: true
   },
