@@ -58,10 +58,10 @@ const Header = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">
+            <a href="https://github.com/BEREKOUTOU" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">
+            <a href="https://www.linkedin.com/in/boniface-berekoutou-4b068a36a/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">
               <Linkedin size={20} />
             </a>
             <a href="mailto:contact@example.com" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">
