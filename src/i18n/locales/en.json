@@ -1,87 +1,155 @@
 {
+  "welcome": "Welcome",
+  "description": "This is the English translation",
+  "home": "Home",
   "about": "About",
-  "skills": "Skills",
   "projects": "Projects",
+  "skills": "Skills",
   "contact": "Contact",
-  "selectLanguage": "Select Language",
-  
-  "hero": {
-    "title": "BEREKOUTOU Boniface",
-    "role": "Frontend Developer",
-    "description": "Passionate about creating modern and intuitive web experiences. Specialized in React, TypeScript and UI/UX Design.",
-    "contactButton": "Contact Me",
-    "projectsButton": "View My Projects"
-  },
-
-  "aboutSection": {
+  "portfolio_home_title": "Portfolio | Home",
+  "portfolio_home_description": "Welcome to my portfolio website",
+  "welcome_message": "Welcome to my portfolio",
+  "greeting": "Hi, I am",
+  "typewriter_intro": "I am a",
+  "typewriter_word1": "Frontend Developer",
+  "typewriter_word2": "React Enthusiast",
+  "typewriter_word3": "UI/UX Designer",
+  "typewriter_word4": "Problem Solver",
+  "about_me_paragraph1": "Passionate about creating modern and intuitive web experiences. I create exceptional digital experiences with modern technologies. I focus on creating responsive, user-friendly, and visually appealing applications.",
+  "view_projects": "View Projects",
+  "contact_me": "Contact Me",
+  "scroll_down": "Scroll Down",
+  "about_me_title": "About Me",
+  "about_me_paragraph2": "I am a passionate developer with expertise in React, Tailwind CSS, and modern web technologies. I love building beautiful and functional interfaces that deliver exceptional user experiences.",
+  "learn_more": "Learn More",
+  "abouts": {
     "title": "About Me",
-    "frontend": {
-      "title": "Frontend Development",
-      "description": "Expertise in React, TypeScript and modern frameworks to create high-performance web applications."
-    },
-    "uiux": {
-      "title": "UI/UX Design",
-      "description": "Creation of intuitive and aesthetic user interfaces with attention to detail."
-    },
-    "responsive": {
-      "title": "Responsive Web",
-      "description": "Development of adaptive web applications for optimal experience across all devices."
-    },
-    "journey": {
-      "title": "My Journey",
-      "description": "With over 2 years of experience in web development, I specialize in creating modern and performant web applications. My passion for new technologies and attention to detail allow me to create exceptional user experiences. I constantly stay up to date with the best practices and tools in the market."
-    }
+    "description": "Learn more about my background, experience, and what drives me as a developer.",
+    "position": "Frontend Developer",
+    "greeting": "Hi!",
+    "introduction": "I'm a passionate developer with expertise in React, Tailwind CSS, and modern web technologies. I love building beautiful and functional interfaces that deliver exceptional user experiences.",
+    "approach": "My approach to development combines technical excellence with creative problem-solving. I believe that great software should not only function without defects but also surprise users with thoughtful interactions and visually appealing interfaces.",
+    "approach2": "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge with the developer community.",
+    "know": "Did you know that?",
+    "education": "Education",
+    "experience": "Experience",
+    "more": "More",
+    "skills": "Skills",
+    "values": "Values",
+    "interests": "Interests",
+    "values2": "I believe in creating software that is not only functional but also accessible, inclusive, and centered on the user. My core values include:",
+    "interests2": "Outside of coding, I enjoy:",
+    "values3": "Continuous learning and improvement",
+    "values4": "Attention to detail",
+    "values5": "Collaborative problem-solving",
+    "values6": "User-first thinking",
+    "values7": "Code quality and maintainability",
+    "interests3": "Photography and digital art",
+    "interests4": "Hiking and outdoor adventures",
+    "interests5": "Reading books on technology and design",
+    "interests6": "Chess and strategy games",
+    "interests7": "Contributing to open-source projects",
+    "slide1": "I have visited more than 20 countries",
+    "slide2": "I can solve a Rubik's cube in less than 2 minutes",
+    "slide3": "I am a certified coffee connoisseur",
+    "slide4": "I have coded for 24 hours straight",
+    "slide5": "I like to watch stars and astronomy photography",
+    "experience1": "2022-2023",
+    "experience2": "2021-2022",
+    "experience3": "2020-2021",
+    "experience4": "2019-2020",
+    "education1": "2022-2023",
+    "education2": "2021-2022",
+    "education3": "2020-2021",
+    "education4": "2019-2020",
+    "interaction":"University of Technology",
+    "interaction1":"Digital Innovation Institute",
+    "degree":"Bachelor of Computer Science",
+    "degree1":"Advanced Frontend Development Certificate",
+    "description0":"Specialized in web development and user interface design, focusing on modern JavaScript frameworks and reactive design principles.",
+    "description1":"Programme intensif couvrant React, state management, performance optimization and modern CSS frameworks.",
+    "company1":"Solutions innovatech",
+    "company2":"Studio WebCraft",
+    "company3":"DigitalEdge",
+    "position1":"Frontend Developer",
+    "position2":"Junior Web Developer",
+    "position3":"Web Development Intern",
+    "description2":"Developing and maintaining client-side websites using React, Next.js and Tailwind CSS. Collaborating with designers and backend developers to create fluid user experiences..",
+    "description3":"Building responsive websites and implementing UI components for various client projects. Working with JavaScript, HTML5 and CSS3.",
+    "description4":"Assistance in web application development and practical experience with modern web technologies." 
   },
-
-  "skillsSection": {
-    "title": "Skills",
-    "categories": {
-      "frontend": "Frontend",
-      "styling": "Styling",
-      "tools": "Tools",
-      "design": "Design"
-    }
+  "projects1":{
+    "title":"My Projects",
+    "description":"Here are some of the recent projects I've worked on. For more projects, check out my GitHub profile.",
+    "all":"All",
+    "timeline":"Timeline",
+    "demo":"Demo",
+    "code":"Code",
+    "clearFilter":"Clear Filter",
+    "noProjects":"No projects found with the selected filter.",
+    "title1":"App real estate rental",
+    "title2":"Banking application",
+    "title3":"Restaurant App",
+    "title4":"Social Media Dashboard",
+    "title5":"Recipe Search",
+    "title6":"Portfolio Website",
+    "description1":"Property management application with property viewing and booking features",
+    "description2":"Banking application with account and transaction management features, as well as an intuitive and easy-to-use user interface..",
+    "description3":"Restaurant app with online ordering and reservation features",
+    "description4":"A social media dashboard application for planning posts, analyzing engagement, and managing multiple accounts.",
+    "description5":"A recipe search application with ingredient filtering, dietary restrictions, and cooking time filtering.",
+    "description6":"A portfolio website showcasing my projects, skills, and experience with smooth animations and interactive features."
   },
-
-  "projectsSection": {
-    "title": "My Projects",
-    "details": "Here are some of the recent projects I've worked on. For more projects, check out my GitHub profile.",
-    "projects": {
-      "immobilier": {
-        "title": "real estate rental",
-        "description": "Property management application with property viewing and booking features"
-      },
-      "bank": {
-        "title": "Banking application",
-        "description": "Banking application with account management and transaction features"
-      },
-      "restaurant": {
-        "title": "APP Restaurant",
-        "description": "Restaurant app with online ordering and reservation features"
-      }
-    },
-    "viewCode": "Code",
-    "viewDemo": "Demo"
+  "skills1":{
+    "title":"Skills",
+    "description":"An overview of my technical skills and professional competence level.",
+    "title1":"Frontend",
+    "title2":"Backend & Tools",
+    "title3":"Soft Skills",
+    "technicalSkills":"Technical Skills",
+    "softSkills":"Soft Skills",
+    "ProblemSolving":"Problem Solving",
+    "Communication":"Communication",
+    "Teamwork":"Teamwork",
+    "Adaptability":"Adaptability",
+    "TimeManagement":"Time Management",
+    "Debugging":"Debugging",
+    "CardDescription":"Some of the technologies, frameworks and methodologies that I specialize in",
+    "quizTitle":"Skills Quiz",
+    "quizDescription":"Test your knowledge on web development technologies",
+    "quizComplete":"Quiz Complete!",
+    "quizScore":"You scored {{score}} out of {{total}}",
+    "question":"Question",
+    "score":"Score",
+    "backToQuiz":"Back to Quiz",
+    "question1":"Which of these options is used for styling in React?",
+    "question2":"What does JSX stand for?",
+    "question3":"Which utility-first CSS framework is known for its responsive design?",
+    "question4":"Which tool is commonly used for version control?",
+    "question5":"Which is NOT a JavaScript framework?"
+   
   },
-
-  "contactSection": {
-    "title": "Contact Me",
-    "subtitle": "Let's talk about your project",
-    "description": "I'm always open to new opportunities and interesting projects. Don't hesitate to contact me to discuss your project or just say hello!",
-    "form": {
-      "fullName": "Full Name",
-      "email": "Email",
-      "message": "Message",
-      "send": "Send Message",
-      "success": "Thank you!",
-      "successMessage": "Your message has been sent successfully. I will reply to you as soon as possible.",
-      "error": "Oops!",
-      "errorFillAllFields": "An error occurred while sending your message. Please try again later."
-    }
+  "contact1":{
+    "title":"Contact Me",
+    "description":"Have a project in mind or want to collaborate? Feel free to reach out!",
+    "informations":"Let's talk about your project",
+    "description2":"I am always open to new opportunities and interesting projects. Don't hesitate to contact me to discuss your project or just say hello!",
+    "email":"Email",
+    "location":"Location",
+    "connect":"Connect with me",
+    "send":"Send Message",
+    "cardescription":"Fill out the form below and I will contact you as soon as possible.",
+    "name":" Your name",
+    "name1":" Full Name",
+    "email1":"Your email address",
+    "subject":"Subject (Optional)",
+    "subject1":"What is this regarding?",
+    "message":"Message",
+    "message1":"Your message",
+    "success":"Message sent successfully!"
   },
-
-  "footer": {
-    "role": "Frontend Developer",
-    "rights": "All rights reserved."
+  "footer1":{
+    "title":"Footer",
+    "description":"All rights reserved."
   }
 }

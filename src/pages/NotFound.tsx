@@ -1,0 +1,85 @@
+import { motion } from 'framer-motion';
+import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+import { FiHome, FiArrowLeft } from 'react-icons/fi';
+
+export default function NotFound() {
+  // Animation variants
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1,
+      transition: { 
+        staggerChildren: 0.2
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: { duration: 0.5 }
+    }
+  };
+
+  return (
+    <>
+      <Helmet>
+        <title>404 - Page Not Found</title>
+        <meta name="description" content="The page you're looking for doesn't exist" />
+      </Helmet>
+      
+      <div className="min-h-screen flex items-center justify-center px-4">
+        <motion.div
+          className="text-center"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          <motion.div 
+            variants={itemVariants}
+            className="relative mb-8"
+          >
+            <div className="text-9xl font-bold text-primary opacity-10">404</div>
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="text-4xl font-bold">Oops!</div>
+            </div>
+          </motion.div>
+          
+          <motion.h1 
+            variants={itemVariants}
+            className="text-3xl font-bold mb-4"
+          >
+            Page not found
+          </motion.h1>
+          
+          <motion.p 
+            variants={itemVariants}
+            className="text-muted-foreground mb-8 max-w-md mx-auto"
+          >
+            The page you're looking for doesn't exist or has been moved.
+          </motion.p>
+          
+          <motion.div 
+            variants={itemVariants}
+            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          >
+            <Button asChild>
+              <Link to="/">
+                <FiHome className="mr-2" /> Go to Homepage
+              </Link>
+            </Button>
+            <Button variant="outline" asChild>
+              <Link to="javascript:history.back()">
+                <FiArrowLeft className="mr-2" /> Go Back
+              </Link>
+            </Button>
+          </motion.div>
+        </motion.div>
+      </div>
+    </>
+  );
+}

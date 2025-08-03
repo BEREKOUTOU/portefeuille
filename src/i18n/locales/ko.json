@@ -1,86 +1,156 @@
 {
+  "welcome": "환영합니다",
+  "description": "이것은 한국어 번역입니다.",
+  "home": "홈",
   "about": "소개",
-  "skills": "기술",
   "projects": "프로젝트",
+  "skills": "기술",
   "contact": "연락처",
-  "selectLanguage": "언어 선택",
-  "hero": {
-    "title": "BEREKOUTOU Boniface",
-    "role": "프론트엔드 개발자",
-    "description": "현대적이고 직관적인 웹 경험을 만드는 데 열정을 가진 프론트엔드 개발자입니다. React, TypeScript 및 UI/UX 디자인에 전문화되어 있습니다.",
-    "contactButton": "연락하기",
-    "projectsButton": "내 프로젝트 보기"
+  "portfolio_home_title": "프로젝트 | 홈",
+  "portfolio_home_description": "프로젝트 웹사이트에 위kommen",
+  "welcome_message": "프로젝트 웹사이트에 위kommen",
+  "greeting": "안녕하셨요, 미나는",
+  "typewriter_intro": "미나는",
+  "typewriter_word1": "front-end developer",
+  "typewriter_word2": "React Enthusiast",
+  "typewriter_word3": "UI/UX Designer",
+  "typewriter_word4": "Problem Solver",
+  "about_me_paragraph1": "현대적이고 직관적인 웹 경험을 만드는 데 열정을 가지고 있습니다. 최신 기술을 활용하여 탁월한 디지털 경험을 창조합니다. 반응형, 사용자 친화적, 시각적으로 매력적인 애플리케이션을 만드는 데 집중합니다.",
+  "view_projects": "프로젝트 보기",
+  "contact_me": "연락하고",
+  "scroll_down": "아래로 스크롤",
+  "about_me_title": "나에 대해",
+  "about_me_paragraph2": "저는 React, Tailwind CSS 및 최신 웹 기술에 대한 전문 지식을 가진 열정적인 개발자입니다. 시각적으로 매력적이고 기능적인 인터페이스를 구축하는 것을 좋아하며, 탁월한 사용자 경험을 제공합니다.",
+  "learn_more": "더 알아보기",
+  "abouts": {
+    "title": "나에 대해",
+    "description": "나의 배경, 경험 및 개발자로서의 동기에 대해 더 알아보세요.",
+    "position": "프론트엔드 개발자",
+    "greeting": "안녕하셨요!",
+    "introduction": "나는 React, Tailwind CSS 및 최신 웹 기술에 대한 전문 지식을 가진 열정적인 개발자입니다. 시각적으로 매력적이고 기능적인 인터페이스를 구축하는 것을 좋아하며, 탁월한 사용자 경험을 제공합니다.",
+    "approach": "나의 개발 접근 방식은 기술적 탁월함과 창의적인 문제 해결을 결합합니다. 나는 나쁜 소프트웨어가 없이도 사용자와 상호작용하고 시각적으로 매력적인 인터페이스를 제공하는 소프트웨어를 만들고 싶습니다.",
+    "approach2": "나는 코딩이 아닌 시간을 새로운 기술을 탐구하거나 오픈소스 프로젝트에 기여하거나 개발자 커뮤니티와 지식을 공유하는 것을 찾을 수 있습니다.",
+    "know": "알려드릴게요!",
+    "education": "교육",
+    "experience": "경험",
+    "more": "더 알아보기",
+    "skills": "기술",
+    "values": "내 가치관",
+    "interests": "내 관심사",
+    "values2": "나는 소프트웨어를 만들고 싶습니다. 그것은 기능적이며 사용자 친화적이며 사용자와 상호작용하고 시각적으로 매력적인 인터페이스를 제공하는 소프트웨어를 만들고 싶습니다.",
+    "interests2": "나는 코딩이 아닌 시간을 새로운 기술을 탐구하거나 오픈소스 프로젝트에 기여하거나 개발자 커뮤니티와 지식을 공유하는 것을 찾을 수 있습니다.",
+    "values3": "계속 학습과 개선",
+    "values4": "세부사항에 대한 주의",
+    "values5": "협업적 문제 해결",
+    "values6": "사용자 중심 생각",
+    "values7": "코드 품질과 유지 관리",
+    "interests3": "사진과 디지털 아트",
+    "interests4": "산책과 외출 모험",
+    "interests5": "기술 및 디자인에 대한 책 읽기",
+    "interests6": "체스와 전략 게임",
+    "interests7": "오픈소스 프로젝트 기여",
+    "slide1": "나는 20개 이상의 나라를 방문했습니다",
+    "slide2": "나는 Rubik's cube를 2분 이내에 해결할 수 있습니다",
+    "slide3": "나는 인증된 커피 컨소니스트입니다",
+    "slide4": "나는 24시간 연속으로 코딩했습니다",
+    "slide5": "나는 별을 보고 천문학 사진을 보는 것을 좋아합니다",
+    "experience1": "2022-2023",
+    "experience2": "2021-2022",
+    "experience3": "2020-2021",
+    "experience4": "2019-2020",
+    "education1": "2022-2023",
+    "education2": "2021-2022",
+    "education3": "2020-2021",
+    "education4": "2019-2020",
+    "interaction":"기술대학교",
+    "interaction1":"디지털 혁신 인스턴트",
+    "degree":"컴퓨터 과학 학사",
+    "degree1":"프론트엔드 개발자",
+    "description0":"웹 개발과 사용자 인터페이스 디자인에 전문적으로 특화되어 있으며, 최신 JavaScript 프레임워크와 반응형 디자인 원칙에 중점을 둡니다.",
+    "description1":"",
+    "company1":"솔루션 인노베치",
+    "company2":"스튜디오 웹크раф트",
+    "company3":"디지털 에지",
+    "position1":"프론트엔드 개발자",
+    "position2":"junior 웹 개발자",
+    "position3":"웹 개발 인턴",
+    "description2":"React, Next.js 및 Tailwind CSS를 사용하여 클라이언트 사이드 웹사이트를 개발하고 유지 관리합니다. 디자이너와 백엔드 개발자와 협업하여 유연한 사용자 경험을 생성합니다.",
+    "description3":"다양한 고객 프로젝트를 위한 반응형 웹사이트 구축 및 UI 구성 요소 구현. JavaScript, HTML5, CSS3 활용.",
+    "description4":"웹 애플리케이션 개발 지원 및 최신 웹 기술의 실용적인 경험." 
   },
-  "aboutSection": {
-    "title": "내 소개",
-    "frontend": {
-      "title": "프론트엔드 개발",
-      "description": "React, TypeScript 및 최신 프레임워크를 사용하여 고성능 웹 애플리케이션을 만드는 전문 지식."
-    },
-    "uiux": {
-      "title": "UI/UX 디자인",
-      "description": "세심한 주의를 기울여 직관적이고 미학적인 사용자 인터페이스를 만듭니다."
-    },
-    "responsive": {
-      "title": "반응형 웹",
-      "description": "모든 장치에서 최적의 경험을 제공하는 적응형 웹 애플리케이션 개발."
-    },
-    "journey": {
-      "title": "나의 여정",
-      "description": "2년 이상의 웹 개발 경험을 바탕으로 현대적이고 성능이 뛰어난 웹 애플리케이션을 만드는 데 전문화되어 있습니다. 새로운 기술에 대한 열정과 세부 사항에 대한 관심 덕분에 탁월한 사용자 경험을 창출할 수 있습니다. 시장의 모범 사례와 도구를 지속적으로 최신 상태로 유지합니다."
-    }
+  "projects1":{
+    "title":"내 프로젝트",
+    "description":"최근에 수행한 프로젝트 중 일부를 소개합니다. 더 많은 프로젝트를 보시려면 GitHub 프로필을 확인해 주세요.",
+    "all":"모두",
+    "timeline":"타임라인",
+    "demo":"데모",
+    "code":"코드",
+    "clearFilter":"필터 초기화",
+    "noProjects":"선택된 필터와 일치하는 프로젝트를 찾을 수 없습니다.",
+    "title1":"부동산 임대",
+    "title2":"은행 애플리케이션",
+    "title3":"레스토랑 앱",
+    "title4":"소셜 미디어 대시보드",
+    "title5":"레시피 검색",
+    "title6":"포트폴리오 웹사이트",
+    "description1":"부동산 관리 애플리케이션으로, 부동산 조회 및 예약 기능을 제공합니다.",
+    "description2":"계좌 관리 및 거래 기능을 갖춘 은행 애플리케이션입니다.",
+    "description3":"온라인 주문 및 예약 기능을 갖춘 레스토랑 애플리케이션입니다.",
+    "description4":"계획 게시글, 참여도 분석 및 여러 계정 관리를 위한 소셜 미디어 대시보드 애플리케이션.",
+    "description5":"재료 필터링, 식단 제한 및 요리 시간 필터링을 위한 레시피 검색 애플리케이션.",
+    "description6":"平화로운 애니메이션과 상호작용적인 기능으로 프로젝트, 기술 및 경험을 보여주는 포트폴리오 웹사이트."
   },
-  "skillsSection": {
-    "title": "기술",
-    "categories": {
-      "frontend": "프론트엔드",
-      "styling": "스타일링",
-      "tools": "도구",
-      "design": "디자인"
-    }
+  "skills1":{
+    "title":"기술",
+    "description":"기술적 기술과 전문적 수준의 개요.",
+    "title1":"Frontend",
+    "title2":"Backend & Tools",
+    "title3":"Soft Skills",
+    "technicalSkills":"기술적 기술",
+    "softSkills":"Soft Skills",
+    "ProblemSolving":"문제 해결",
+    "Communication":"커뮤니케이션",
+    "Teamwork":"팀워크",
+    "Adaptability":"대응성",
+    "TimeManagement":"시간 관리",
+    "Debugging":"디버깅",
+    "CardDescription":"나가 전문적으로 특화된 기술, 프레임워크 및 방법론",
+    "quizTitle":"기술 퀴즈",
+    "quizDescription":"Web 개발 기술에 대한 지식을 테스트하세요.",
+    "quizComplete":"퀴즈 완료!",
+    "quizScore":"당신이 {{score}}를 {{total}}에서 받았습니다.",
+    "question":"질문",
+    "score":"점수",
+    "backToQuiz":"퀴즈로 돌아가기",
+    "question1":"React에서 스타일링에 사용되는 옵션 중 하나는 무엇인가요?",
+    "question2":"JSX는 무엇을 의미하는가요?",
+    "question3":"반응형 디자인을 위한 유용한 CSS 프레임워크는 무엇인가요?",
+    "question4":"버전 관리에 사용되는 일반적인 도구는 무엇인가요?",
+    "question5":"JavaScript 프레임워크가 아닌 것은 무엇인가요?"
+   
   },
-  "projectsSection": {
-    "title": "내 프로젝트",
-    "details": "내가 최근에 작업한 프로젝트 중 일부입니다. 더 많은 프로젝트는 내 GitHub 프로필을 확인하세요.",
-    "projects": {
-      "immobilier": {
-        "title": "부동산 임대",
-        "description": "부동산 관리 애플리케이션으로, 부동산 조회 및 예약 기능을 제공합니다."
-      },
-      "bank": {
-        "title": "은행 애플리케이션",
-        "description": "계좌 관리 및 거래 기능을 갖춘 은행 애플리케이션입니다."
-      },
-      "restaurant": {
-        "title": "레스토랑 앱",
-        "description": "온라인 주문 및 예약 기능을 갖춘 레스토랑 애플리케이션입니다."
-      }
-    },
-    "viewCode": "코드",
-    "viewDemo": "데모"
+  "contact1":{
+    "title":"연락하기",
+    "description":"함께 하고 싶은 프로젝트가 있거나 협업하고 싶으신가요? 언제든지 연락 주세요!",
+    "informations":"당신의 프로젝트에 대해 이야기합시다.",
+    "description2":"저는 항상 새로운 기회와 흥미로운 프로젝트에 열려 있습니다. 프로젝트에 대해 이야기하거나 인사하기 위해 언제든지 연락해 주세요.",
+    "email":"이메일",
+    "email1":"당신의 이메일 주소",
+    "location":"위치",
+    "connect":"나와 연결하세요",
+    "send":"메시지 보내기",
+    "cardescription":"아래 양식을 작성하시면 최대한 빨리 연락드리겠습니다.",
+    "name":"이름",
+    "name1":"전체 이름",
+    "subject":"제목",
+    "subject1":"메시지 제목",
+    "message":"메시지",
+    "message1":"당신의 메시지",
+    "success":"메시지가 성공적으로 전송되었습니다!"
   },
-  "contactSection": {
-    "title": "연락처",
-    "subtitle": "당신의 프로젝트에 대해 이야기합시다",
-    "description": "저는 항상 새로운 기회와 흥미로운 프로젝트에 열려 있습니다. 프로젝트에 대해 이야기하거나 인사하기 위해 언제든지 연락해 주세요.",
-    "email": "이메일",
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "form": {
-      "fullName": "이름",
-      "email": "이메일 주소",
-      "message": "메시지",
-      "send": "보내기",
-      "success": "감사해요 !",
-      "successMessage": "메시지가 성공적으로 전송되었습니다. 최대한 빨리 답변드리겠습니다.",
-      "error": "오류!",
-      "errorFillAllFields": "메시지를 보내는 중에 오류가 발생해피요. 다시 시도해 주시기 바로."
-    }
-  },
-  "footer": {
-    "role": "프론트엔드 개발자",
-    "rights": "모든 권리 보유.",
-    "text": "© 2023 BEREKOUTOU Boniface. 모든 권리 보유.",
-    "rightsReserved": "모든 권리 보유."
+  "footer1":{
+    "title":"푸터",
+    "description":"모든 권리 보유."
   }
+  
 }

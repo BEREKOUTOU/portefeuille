@@ -1,95 +1,156 @@
 {
-  "about": "について",
-  "skills": "スキル",
+  "welcome": "ようこそ",
+  "description": "これは日本語の翻訳です。",
+  "home": "ホーム",
+  "about": "約",
   "projects": "プロジェクト",
-  "contact": "お問い合わせ",
-  "selectLanguage": "言語を選択",
-  "hero": {
-    "title": "BEREKOUTOU Boniface",
-    "role": "フロントエンド開発者",
-    "description": "モダンで直感的なウェブ体験を作ることに情熱を注いでいるフロントエンド開発者です。React、TypeScript、UI/UXデザインに特化しています。",
-    "contactButton": "お問い合わせ",
-    "projectsButton": "私のプロジェクトを見る"
-  },
-  "aboutSection": {
+  "skills": "スキル",
+  "contact": "連絡先",
+  "portfolio_home_title": "ポートフォリオ | ホーム",
+  "portfolio_home_description": "私のポートフォリオサイトへようこそ",
+  "welcome_message": "私のポートフォリオへようこそ",
+  "greeting": "こんにちは、私は",
+  "typewriter_intro": "私は",
+  "typewriter_word1": "フロントエンド開発者",
+  "typewriter_word2": "React 熱心家",
+  "typewriter_word3": "UI/UXデザイナー",
+  "typewriter_word4": "問題解決者",
+  "about_me_paragraph1": "モダンで直感的なWebエクスペリエンスの創造に情熱を注いでいます。最新技術を駆使し、卓越したデジタルエクスペリエンスを創造します。レスポンシブでユーザーフレンドリー、そして視覚的に魅力的なアプリケーションの開発に注力しています。",
+  "view_projects": "プロジェクトを見る",
+  "contact_me": "私に連絡する",
+  "scroll_down": "下へスクロール",
+  "about_me_title": "私について",
+  "about_me_paragraph2": "私はReact、Tailwind CSS、最新のウェブ技術に精通した情熱的な開発者です。視覚的に魅力的で機能的なインターフェースを構築することが大好きで、優れたユーザー体験を提供します。",
+  "learn_more": "もっと知る",
+  "abouts": {
     "title": "私について",
-    "frontend": {
-      "title": "フロントエンド開発",
-      "description": "React、TypeScript、最新のフレームワークを使用して高性能なウェブアプリケーションを作成する専門知識。"
-    },
-    "uiux": {
-      "title": "UI/UXデザイン",
-      "description": "細部にわたる注意を払って直感的で美しいユーザーインターフェースを作成します。"
-    },
-    "responsive": {
-      "title": "レスポンシブウェブ",
-      "description": "すべてのデバイスで最適な体験を提供する適応型ウェブアプリケーションの開発。"
-    },
-    "journey": {
-      "title": "私の旅",
-      "description": "2年以上のウェブ開発経験を持ち、モダンでパフォーマンスに優れたウェブアプリケーションを作成することに特化しています。新しい技術への情熱と細部へのこだわりのおかげで、卓越したユーザー体験を生み出すことができます。市場のベストプラクティスとツールを常に最新の状態に保っています。"
-    }
+    "description": "私の背景、経験、そして開発者としてのモチベーションについてもっと知る",
+    "position": "フロントエンド開発者",
+    "greeting": "こんにちは！",
+    "introduction": "私はReact、Tailwind CSS、最新のウェブ技術に精通した情熱的な開発者です。視覚的に魅力的で機能的なインターフェースを構築することが大好きで、優れたユーザー体験を提供します。",
+    "approach": "私の開発方法は技術的優れた開発と創造的な問題解決を組み合わせています。私は、優れたソフトウェアが欠陥なく機能するだけでなく、思考深いインタラクションと視覚的に魅力的なインターフェースでユーザーを驚かせるべきであると考えています。",
+    "approach2": "私がコーディングしていないときは、新しい技術を探したり、オープンソースプロジェクトに貢献したり、開発コミュニティと知識を共有したりすることができます。",
+    "know": "知りませんでしたか？",
+    "education": "教育",
+    "experience": "経験",
+    "more": "もっと見る",
+    "skills": "スキル",
+    "values": "価値観",
+    "interests": "趣味",
+    "values2": "私は、優れたソフトウェアが欠陥なく機能するだけでなく、思考深いインタラクションと視覚的に魅力的なインターフェースでユーザーを驚かせるべきであると考えています。私の核心価値観には以下が含まれます：",
+    "interests2": "コーディング以外、私は楽しむこと：",
+    "values3": "継続的な学習と改善",
+    "values4": "詳細への注意",
+    "values5": "協力的な問題解決",
+    "values6": "ユーザー中心の思考",
+    "values7": "コード品質と保守性",
+    "interests3": "写真とデジタルアート",
+    "interests4": "ハイキングとアウトドア冒険",
+    "interests5": "テクノロジーとデザインに関する本を読む",
+    "interests6": "チェスと戦略ゲーム",
+    "interests7": "オープンソースプロジェクトに貢献する",
+    "slide1": "私は20以上の国を訪れました",
+    "slide2": "私は2分未満でルビックキューブを解くことができます",
+    "slide3": "私は認定コーヒー愛好家です",
+    "slide4": "私は24時間連続でコーディングしました",
+    "slide5": "私は星を眺めたり、天文写真を撮影したりするのが好きです",
+    "experience1": "2022-2023",
+    "experience2": "2021-2022",
+    "experience3": "2020-2021",
+    "experience4": "2019-2020",
+    "education1": "2022-2023",
+    "education2": "2021-2022",
+    "education3": "2020-2021",
+    "education4": "2019-2020",
+    "interaction":"大学",
+    "interaction1":"デジタル革新研究所",
+    "degree":"コンピュータサイエンス学士",
+    "degree1":"フロントエンド開発者",
+    "description0":"Web開発とユーザインターフェースデザインに専門的で、現代のJavaScriptフレームワークとリアクティブデザイン原則に焦点を当てています。",
+    "description1":"React、状態管理、パフォーマンス最適化、現代のCSSフレームワークをカバーする強化プログラム。",
+    "company1":"Solutions innovatech",
+    "company2":"Studio WebCraft",
+    "company3":"DigitalEdge",
+    "position1":"フロントエンド開発者",
+    "position2":"junior Web Developer",
+    "position3":"Web開発インターン",
+    "description2":"React、Next.js、Tailwind CSSを使用してクライアントサイドウェブサイトを開発および保守します。デザイナーとバックエンド開発者と協力して、流暢なユーザー体験を創造します。",
+    "description3":"さまざまなクライアントプロジェクト用のレスポンシブウェブサイトを構築し、UIコンポーネントを実装します。JavaScript、HTML5、CSS3を使用して作業します。",
+    "description4":"現代のウェブ技術でのウェブアプリケーション開発の支援と現代のウェブ技術での実践的な経験。" 
   },
-  "skillsSection": {
-    "title": "スキル",
-    "categories": {
-      "frontend": "フロントエンド",
-      "styling": "スタイリング",
-      "tools": "ツール",
-      "design": "デザイン"
-    }
+  "projects1":{
+    "title":"私のプロジェクト",
+    "description":"最近のプロジェクトをいくつか紹介します。より多くのプロジェクトについては、私のGitHubプロフィールをご覧ください。",
+    "all":"すべて",
+    "timeline":"タイムライン",
+    "demo":"デモ",
+    "code":"コード",
+    "clearFilter":"フィルターをクリア",
+    "noProjects":"選択したフィルターでプロジェクトが見つかりませんでした。",
+    "title1":"不動産賃貸",
+    "title2":"銀行アプリケーション",
+    "title3":"レストランアプリ",
+    "title4":"ソーシャルメディアダッシュボード",
+    "title5":"レシピ検索",
+    "title6":"ポートフォリオウェブサイト",
+    "description1":"物件閲覧・予約機能を備えた不動産管理アプリケーション。",
+    "description2":"口座および取引管理機能を備えた銀行アプリケーション。",
+    "description3":"オンライン注文と予約機能を備えたレストランアプリ。",
+    "description4":"投稿計画、エンゲージメント分析、複数のアカウント管理を含むソーシャルメディアダッシュボードアプリケーション。",
+    "description5":"成分フィルタリング、食生活制限、調理時間フィルタリングを含むレシピ検索アプリケーション。",
+    "description6":"私のプロジェクト、スキル、経験を示すポートフォリオウェブサイト。スムーズなアニメーションとインタラクティブな機能。"
   },
-  "projectsSection": {
-    "title": "私のプロジェクト",
-    "details": "私が最近取り組んだプロジェクトのいくつかを紹介します。さらに多くのプロジェクトについては、私のGitHubプロフィールをご覧ください。",
-    "projects": {
-      "immobilier": {
-        "title": "不動産賃貸",
-        "description": "物件閲覧・予約機能を備えた不動産管理アプリケーション"
-      },
-      "bank": {
-        "title": "銀行アプリケーション",
-        "description": "口座および取引管理機能を備えた銀行アプリケーション"
-      },
-      "restaurant": {
-        "title": "レストランアプリ",
-        "description": "オンライン注文と予約機能を備えたレストランアプリ"
-      }
-    },
-    "viewCode": "コード",
-    "viewDemo": "デモ"
+  "skills1":{
+    "title":"スキル",
+    "description":"私の技術スキルと専門性レベルの概要。",
+    "title1":"フロントエンド",
+    "title2":"バックエンド & Tools",
+    "title3":"Soft Skills",
+    "ProblemSolving":"問題解決",
+    "Communication":"コミュニケーション",
+    "Teamwork":"チームワーク",
+    "Adaptability":"適応性",
+    "TimeManagement":"時間管理",
+    "Debugging":"デバッグ",
+    "technicalSkills":"技術スキル",
+    "softSkills":"Soft Skills",
+    "CardDescription":"私が専門とする技術、フレームワーク、そして手法の一部",
+    "quizTitle":"スキルクイズ",
+    "quizDescription":"Web開発技術に関する知識をテストする",
+    "quizComplete":"クイズ完了！",
+    "quizScore":"得点しました {{score}} out of {{total}}",
+    "question":"質問",
+    "score":"得点",
+    "backToQuiz":"Quizに戻る",
+    "question1":"これらのオプションのうち、Reactでスタイルを適用するために使用されますか？",
+    "question2":"JSXは何を表しますか？",
+    "question3":"レスポンシブデザインを得意とするユーティリティファーストCSSフレームワークは？",
+    "question4":"バージョン管理に一般的に使用されるツールは？",
+    "question5":"JavaScriptフレームワークではありませんか？"
+   
   },
-  "contactSection": {
-    "title": "お問い合わせ",
-    "subtitle": "あなたのプロジェクトについて話しましょう",
-    "description": "私に連絡するには、以下の方法でご連絡ください。",
-    "email": "メール",
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "form": {
-      "fullName": "名前",
-      "email": "メールアドレス",
-      "message": "メッセージ",
-      "send": "送信",
-      "success": "ありがとう ！",
-      "successMessage": "メッセージは正常に送信されました。最速で返信します。",
-      "error": "エラー!",
-      "errorFillAllFields": "メッセージの送信中にエラーが発生しました。後ほど再試行してください。"
-    }
+  "contact1":{
+    "title":"私と連絡を取り合う",
+    "description":"プロジェクトの構想をお持ちですか？または、コラボレーションをご希望ですか？お気軽にお問い合わせください。",
+    "informations":"あなたのプロジェクトについて話しましょう",
+    "description2":"私は常に新しい機会と興味深いプロジェクトにオープンです。あなたのプロジェクトについて話し合うか、ただ挨拶をするために、遠慮なく私に連絡してください！",
+    "email":"メール",
+    "email1":"あなたのメールアドレス",
+    "location":"場所",
+    "connect":"私と連絡を取り合う",
+    "send":"メッセージを送信する",
+    "cardescription":"以下のフォームを埋めて、できるだけ早く私に連絡させていただきます。",
+    "name":"名前",
+    "name1":"フルネーム",
+    "subject":"件名",
+    "subject1":"これは何に関するものですか？",
+    "message":"メッセージ",
+    "message1":"あなたのメッセージ",
+    "success":"メッセージを送信しました！"
   },
-  "footer": {
-    "role": "フロントエンド開発者",
-    "rights": "全著作権所有",
-    "description": "© 2023 BEREKOUTOU Boniface. All rights reserved.",
-    "privacyPolicy": "プライバシーポリシー",
-    "termsOfService": "利用規約"
-  },
-  "rightsReserved": "全著作権所有",
-  "allRightsReserved": "全著作権所有",
-  "contactForm": {
-    "name": "名前",
-    "email": "メールアドレス",
-    "message": "メッセージ",
-    "sendButton": "送信"
+  "footer1":{
+    "title":"フッター",
+    "description":"すべての権利を保有します。"
   }
+ 
 }

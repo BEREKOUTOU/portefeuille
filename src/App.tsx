@@ -1,43 +1,43 @@
-import { useState, useEffect } from 'react';import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
-import Loader from './components/Loader';
-import SplashCursor from './components/SplashCursor/SplashCursor';
+import { Toaster } from '@/components/ui/sonner';
+import { TooltipProvider } from '@/components/ui/tooltip';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from '@/components/layout/ThemeProvider';
+import { HelmetProvider } from 'react-helmet-async';
+import Layout from '@/components/layout/Layout';
+import SplashCursor from '@/components/layout/SplashCursor';
+import Home from '@/pages/Home';
+import About from '@/pages/About';
+import Projects from '@/pages/Projects';
+import Skills from '@/pages/Skills';
+import Contact from '@/pages/Contact';
+import NotFound from './pages/NotFound';
 
-function App() {
-  const [isLoading, setIsLoading] = useState(true);
+const queryClient = new QueryClient();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000)
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (isLoading) {
-    return <Loader />;
-  }
-
-  return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <main className="relative">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollToTop />
-      <SplashCursor />
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <QueryClientProvider client={queryClient}>
+      <HelmetProvider>
+        <ThemeProvider defaultTheme="system" storageKey="portfolio-theme">
+          <TooltipProvider>
+            <Toaster />
+            <Routes>
+              <Route path="/" element={<Layout />}>
+                <Route index element={<Home />} />
+                <Route path="about" element={<About />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="skills" element={<Skills />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="*" element={<NotFound />} />
+              </Route>
+            </Routes>
+          </TooltipProvider>
+        </ThemeProvider>
+      </HelmetProvider>
+    </QueryClientProvider>
+    <SplashCursor />
+  </>
+);
 
 export default App;
