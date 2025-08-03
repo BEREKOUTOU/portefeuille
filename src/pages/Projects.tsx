@@ -79,7 +79,6 @@ const allTags = [...new Set(projects.flatMap(project => project.tags))];
 export default function Projects() {
   const [isTimelineMode, setIsTimelineMode] = useState(false);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
-  const [selectedProject, setSelectedProject] = useState<number | null>(null);
   
   // Filter projects by tag
   const filteredProjects = selectedTag 
@@ -266,8 +265,6 @@ export default function Projects() {
                       key={project.id}
                       variants={itemVariants}
                       whileHover={{ y: -5 }}
-                      onHoverStart={() => setSelectedProject(project.id)}
-                      onHoverEnd={() => setSelectedProject(null)}
                     >
                       <Card className="h-full overflow-hidden shadow-md hover:shadow-lg transition-shadow">
                         <div className="h-48 overflow-hidden relative">
