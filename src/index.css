@@ -70,7 +70,7 @@
 
 @layer base {
   * {
-    /* Removed invalid class 'border-border' */
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
