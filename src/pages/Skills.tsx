@@ -228,7 +228,7 @@ export default function Skills() {
             <motion.div variants={itemVariants} className="mb-16">
               <Tabs defaultValue="frontend" className="w-full">
                 <div className="flex justify-center mb-8">
-                  <TabsList className="grid min-w-[400px] grid-cols-3">
+                  <TabsList className="grid min-w-[321px] grid-cols-3">
                     {skillCategories.map((category) => (
                       <TabsTrigger key={category.name} value={category.name.toLowerCase().replace(/\s+/g, '')}>
                         <span className="flex items-center">
