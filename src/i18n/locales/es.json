@@ -142,7 +142,8 @@
     "subject1":"¿De qué se trata?",
     "message":"Mensaje",
     "message1":"Tu mensaje",
-    "success":"Mensaje enviado con éxito!"
+    "success":"¡Tu mensaje se ha enviado correctamente!",
+    "successDescription":"Gracias por tu mensaje. Te responderé lo antes posible."
   },
   "footer1":{
     "title":"Footer",

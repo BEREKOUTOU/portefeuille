@@ -96,8 +96,8 @@ export default function Contact() {
       await new Promise(resolve => setTimeout(resolve, 1500));
       
       setIsSubmitted(true);
-      toast.success('Your message has been sent!', {
-        description: 'Thank you for reaching out. I will get back to you soon.',
+      toast.success(t('contact1.success'), {
+        description: t('contact1.successDescription'),
         position: 'top-center',
       });
       
