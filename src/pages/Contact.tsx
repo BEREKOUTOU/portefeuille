@@ -99,6 +99,7 @@ export default function Contact() {
       toast.success(t('contact1.success'), {
         description: t('contact1.successDescription'),
         position: 'top-center',
+        style: { marginTop: '80%' },
       });
       
       // Reset form
@@ -116,6 +117,7 @@ export default function Contact() {
       toast.error('Failed to send message', {
         description: 'Please try again or contact me directly.',
         position: 'top-center',
+        style: { marginTop: '80%' },
       });
       console.error('Error sending email:', error);
     } finally {
