@@ -18,7 +18,7 @@ const projects = [
     image: "https://berekoutou.github.io/portefeuille/assets/kasa-BPNeYbDR.webp",
     demoUrl: "https://kasa-fr-git-main-berekoutous-projects.vercel.app",
     githubUrl: "https://github.com/BEREKOUTOU/Kasa__Fr",
-    date: "2023-06",
+    date: "2025-02",
     tags: ["React", "Redux", "Tailwind CSS", "SCSS Modules"]
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     image: "https://berekoutou.github.io/portefeuille/assets/argentBank-2sVx8w7B.webp",
     demoUrl: "https://berekoutou.github.io/ArgentBank/",
     githubUrl: "https://github.com/BEREKOUTOU/ArgentBank",
-    date: "2023-04",
+    date: "2025-04",
     tags: ["React", "TypeScript", "Firebase", "Material UI"]
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     image: "https://berekoutou.github.io/portefeuille/assets/Ohmyfood-CQPX9ybN.webp",
     demoUrl: "https://berekoutou.github.io/Ohmyfood/",
     githubUrl: "https://github.com/BEREKOUTOU/Ohmyfood",
-    date: "2023-02",
+    date: "2025-05",
     tags: ["React", "OpenWeatherAPI", "CSS Modules", "Axios"]
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
     demoUrl: "#",
     githubUrl: "#",
-    date: "2022-11",
+    date: "2025-11",
     tags: ["React", "NextJS", "Tailwind CSS", "OAuth"]
   },
   {
@@ -58,7 +58,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80",
     demoUrl: "#",
     githubUrl: "#",
-    date: "2022-09",
+    date: "2025-09",
     tags: ["React", "Food API", "Styled Components"]
   },
   {
@@ -66,9 +66,9 @@ const projects = [
     title: t('projects1.title6'),
     description: t('projects1.description6'),
     image: "https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    demoUrl: "#",
-    githubUrl: "#",
-    date: "2022-07",
+    demoUrl: "https://berekoutou.github.io/portefeuille/",
+    githubUrl: "https://github.com/BEREKOUTOU/portefeuille.git",
+    date: "2024-11",
     tags: ["React", "Framer Motion", "Tailwind CSS"]
   }
 ];
