@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { FiBookmark, FiBriefcase, FiCoffee, } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
-const Boniface = '/portefeuille/images/Boniface.webp';
+const Boniface = '/portefeuille/assets/images/Boniface.webp';
 
 export default function About() {
   // Removed unused activeTab state

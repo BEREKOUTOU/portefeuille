@@ -40,7 +40,7 @@ const projects = [
     demoUrl: "https://berekoutou.github.io/Ohmyfood/",
     githubUrl: "https://github.com/BEREKOUTOU/Ohmyfood",
     date: "2025-05",
-    tags: ["React", "OpenWeatherAPI", "CSS Modules", "Axios"]
+    tags: ["HTML5", "animations CSS", "SCSS", "Responsive Design"]
   },
   {
     id: 4,
