@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import { Switch } from '@/components/ui/switch';
 import { FiExternalLink, FiGithub, FiTag } from 'react-icons/fi';
+const images = import.meta.glob<string>('@/assets/images/*.webp', { eager: true, import: 'default' });
 import { t } from 'i18next';
 
 // Project data
@@ -15,7 +16,7 @@ const projects = [
     id: 1,
     title: t('projects1.title1'),
     description: t('projects1.description1'),
-    image: "https://berekoutou.github.io/portefeuille/assets/kasa-BPNeYbDR.webp",
+    image: images['@/assets/images/kasa.webp'] || '/portefeuille/assets/images/kasa.webp',
     demoUrl: "https://kasa-fr-git-main-berekoutous-projects.vercel.app",
     githubUrl: "https://github.com/BEREKOUTOU/Kasa__Fr",
     date: "2025-02",
@@ -25,7 +26,7 @@ const projects = [
     id: 2,
     title: t('projects1.title2'),
     description: t('projects1.description2'),
-    image: "https://berekoutou.github.io/portefeuille/assets/argentBank-2sVx8w7B.webp",
+    image: images['@/assets/images/argentBank.webp'] || '/portefeuille/assets/images/argentBank.webp',
     demoUrl: "https://berekoutou.github.io/ArgentBank/",
     githubUrl: "https://github.com/BEREKOUTOU/ArgentBank",
     date: "2025-04",
@@ -35,7 +36,7 @@ const projects = [
     id: 3,
     title: t('projects1.title3'),
     description: t('projects1.description3'),
-    image: "https://berekoutou.github.io/portefeuille/assets/Ohmyfood-CQPX9ybN.webp",
+    image: images['@/assets/images/Ohmyfood.webp'] || '/portefeuille/assets/images/Ohmyfood.webp',
     demoUrl: "https://berekoutou.github.io/Ohmyfood/",
     githubUrl: "https://github.com/BEREKOUTOU/Ohmyfood",
     date: "2025-05",
