@@ -12,7 +12,6 @@ function Typewriter({ words = ['Developer', 'Designer', 'Creator'], delay = 150,
   const [currentText, setCurrentText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const { t } = useTranslation();
   
   useEffect(() => {
     const currentWord = words[currentWordIndex];
