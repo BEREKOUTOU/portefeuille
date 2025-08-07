@@ -8,78 +8,81 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 import { Switch } from '@/components/ui/switch';
 import { FiExternalLink, FiGithub, FiTag } from 'react-icons/fi';
 const images = import.meta.glob<string>('@/assets/images/*.webp', { eager: true, import: 'default' });
-import { t } from 'i18next';
-
-// Project data
-const projects = [
-  {
-    id: 1,
-    title: t('projects1.title1'),
-    description: t('projects1.description1'),
-    image: images['@/assets/images/kasa.webp'] || '/portefeuille/assets/images/kasa.webp',
-    demoUrl: "https://kasa-fr-git-main-berekoutous-projects.vercel.app",
-    githubUrl: "https://github.com/BEREKOUTOU/Kasa__Fr",
-    date: "2025-02",
-    tags: ["React", "Redux", "Tailwind CSS", "SCSS Modules"]
-  },
-  {
-    id: 2,
-    title: t('projects1.title2'),
-    description: t('projects1.description2'),
-    image: images['@/assets/images/argentBank.webp'] || '/portefeuille/assets/images/argentBank.webp',
-    demoUrl: "https://berekoutou.github.io/ArgentBank/",
-    githubUrl: "https://github.com/BEREKOUTOU/ArgentBank",
-    date: "2025-04",
-    tags: ["React", "TypeScript", "Firebase", "Material UI"]
-  },
-  {
-    id: 3,
-    title: t('projects1.title3'),
-    description: t('projects1.description3'),
-    image: images['@/assets/images/Ohmyfood.webp'] || '/portefeuille/assets/images/Ohmyfood.webp',
-    demoUrl: "https://berekoutou.github.io/Ohmyfood/",
-    githubUrl: "https://github.com/BEREKOUTOU/Ohmyfood",
-    date: "2025-05",
-    tags: ["HTML5", "animations CSS", "SCSS", "Responsive Design"]
-  },
-  {
-    id: 4,
-    title: t('projects1.title4'),
-    description:  t('projects1.description4'),
-    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
-    demoUrl: "#",
-    githubUrl: "#",
-    date: "2025-11",
-    tags: ["React", "NextJS", "Tailwind CSS", "OAuth"]
-  },
-  {
-    id: 5,
-    title: t('projects1.title5'),
-    description: t('projects1.description5'),
-    image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80",
-    demoUrl: "#",
-    githubUrl: "#",
-    date: "2025-09",
-    tags: ["React", "Food API", "Styled Components"]
-  },
-  {
-    id: 6,
-    title: t('projects1.title6'),
-    description: t('projects1.description6'),
-    image: "https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    demoUrl: "https://berekoutou.github.io/portefeuille/",
-    githubUrl: "https://github.com/BEREKOUTOU/portefeuille.git",
-    date: "2024-11",
-    tags: ["React", "Framer Motion", "Tailwind CSS"]
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 // Get all unique tags
-const allTags = [...new Set(projects.flatMap(project => project.tags))];
+const getAllTags = (projects: any[]) => [...new Set(projects.flatMap(project => project.tags))];
 
 export default function Projects() {
+  const { t } = useTranslation();
   const [isTimelineMode, setIsTimelineMode] = useState(false);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
+
+  // Project data - moved inside component to use translation hook
+  const projects = [
+    {
+      id: 1,
+      title: t('projects1.title1'),
+      description: t('projects1.description1'),
+      image: images['@/assets/images/kasa.webp'] || '/portefeuille/assets/images/kasa.webp',
+      demoUrl: "https://kasa-fr-git-main-berekoutous-projects.vercel.app",
+      githubUrl: "https://github.com/BEREKOUTOU/Kasa__Fr",
+      date: "2025-02",
+      tags: ["React", "Redux", "Tailwind CSS", "SCSS Modules"]
+    },
+    {
+      id: 2,
+      title: t('projects1.title2'),
+      description: t('projects1.description2'),
+      image: images['@/assets/images/argentBank.webp'] || '/portefeuille/assets/images/argentBank.webp',
+      demoUrl: "https://berekoutou.github.io/ArgentBank/",
+      githubUrl: "https://github.com/BEREKOUTOU/ArgentBank",
+      date: "2025-04",
+      tags: ["React", "TypeScript", "Firebase", "Material UI"]
+    },
+    {
+      id: 3,
+      title: t('projects1.title3'),
+      description: t('projects1.description3'),
+      image: images['@/assets/images/Ohmyfood.webp'] || '/portefeuille/assets/images/Ohmyfood.webp',
+      demoUrl: "https://berekoutou.github.io/Ohmyfood/",
+      githubUrl: "https://github.com/BEREKOUTOU/Ohmyfood",
+      date: "2025-05",
+      tags: ["HTML5", "animations CSS", "SCSS", "Responsive Design"]
+    },
+    {
+      id: 4,
+      title: t('projects1.title4'),
+      description:  t('projects1.description4'),
+      image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
+      demoUrl: "#",
+      githubUrl: "#",
+      date: "2025-11",
+      tags: ["React", "NextJS", "Tailwind CSS", "OAuth"]
+    },
+    {
+      id: 5,
+      title: t('projects1.title5'),
+      description: t('projects1.description5'),
+      image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80",
+      demoUrl: "#",
+      githubUrl: "#",
+      date: "2025-09",
+      tags: ["React", "Food API", "Styled Components"]
+    },
+    {
+      id: 6,
+      title: t('projects1.title6'),
+      description: t('projects1.description6'),
+      image: "https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      demoUrl: "https://berekoutou.github.io/portefeuille/",
+      githubUrl: "https://github.com/BEREKOUTOU/portefeuille.git",
+      date: "2024-11",
+      tags: ["React", "Framer Motion", "Tailwind CSS"]
+    }
+  ];
+
+  const allTags = getAllTags(projects);
   
   // Filter projects by tag
   const filteredProjects = selectedTag 

@@ -6,12 +6,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { FiCode, FiLayers, FiTool, FiCheck, FiX } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 import { 
   SiReact, SiJavascript, SiTypescript, SiTailwindcss, SiHtml5, 
   SiCss3, SiNodedotjs, SiNextdotjs, SiGit, SiFigma, 
   SiVite, SiSass, SiJest
 } from 'react-icons/si';
-import { t } from 'i18next';
 
 // Types
 interface Skill {
@@ -36,6 +36,7 @@ interface QuizQuestion {
 }
 
 export default function Skills() {
+   const { t } = useTranslation();
   // Refs for animations
   const controls = useAnimation();
   const [ref, inView] = useInView({
