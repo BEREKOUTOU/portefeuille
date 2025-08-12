@@ -149,5 +149,18 @@
   "footer1":{
     "title":"Footer",
     "description":"All rights reserved."
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "title1": "Professional CV",
+    "subtitle": "Download my professional CV in PDF format",
+    "download": "Download PDF",
+    "summary": "Professional Summary",
+    "experience": "Work Experience",
+    "education": "Education",
+    "skills": "Skills & Expertise",
+    "technical": "Technical Skills",
+    "languages": "Languages",
+    "certifications": "Certifications"
   }
 }

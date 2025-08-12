@@ -1,0 +1,159 @@
+// CV Data Structure
+export interface CVData {
+  personal: {
+    name: string;
+    title: string;
+    email: string;
+    phone: string;
+    location: string;
+    linkedin: string;
+    github: string;
+    website: string;
+  };
+  summary: string;
+  experience: Experience[];
+  education: Education[];
+  skills: {
+    technical: string[];
+    soft: string[];
+    languages: Language[];
+  };
+  certifications: Certification[];
+}
+
+export interface Experience {
+  id: number;
+  company: string;
+  position: string;
+  duration: string;
+  location: string;
+  description: string[];
+  technologies: string[];
+}
+
+export interface Education {
+  id: number;
+  institution: string;
+  degree: string;
+  duration: string;
+  description: string;
+}
+
+export interface Language {
+  name: string;
+  level: string;
+}
+
+export interface Certification {
+  name: string;
+  issuer: string;
+  date: string;
+}
+
+export const cvData: CVData = {
+  personal: {
+    name: "BEREKOUTOU Boniface",
+    title: "Frontend Developer",
+    email: "allahtoralphdjamel@gmail.com",
+    phone: "+33 07 75 95 44 11",
+    location: "Cherbourg-en-Cotentin, France",
+    linkedin: "linkedin.com/in/bboniface",
+    github: "github.com/bboniface",
+    website: "bboniface.dev"
+  },
+  summary: "Passionate Frontend Developer with expertise in React, TypeScript, and modern web technologies. Experienced in creating responsive, user-friendly applications with a focus on performance and accessibility. Strong background in UI/UX design principles and collaborative development.",
+  experience: [
+    {
+      id: 1,
+      company: "Solutions Innovatech",
+      position: "Frontend Developer",
+      duration: "2024 - Present",
+      location: "Paris, France",
+      description: [
+        "Developed and maintained client-side websites using React, Next.js and TypeScript",
+        "Collaborated with designers and backend developers to create fluid user experiences",
+        "Implemented responsive design principles ensuring optimal performance across devices",
+        "Optimized application performance and improved loading times by 40%"
+      ],
+      technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Node.js"]
+    },
+    {
+      id: 2,
+      company: "Studio WebCraft",
+      position: "Junior Web Developer",
+      duration: "2023 - 2024",
+      location: "Lyon, France",
+      description: [
+        "Built responsive websites and implemented UI components for client projects",
+        "Worked with JavaScript, HTML5 and CSS3 to create modern web applications",
+        "Participated in code reviews and contributed to team knowledge sharing",
+        "Assisted in migrating legacy applications to modern React architecture"
+      ],
+      technologies: ["JavaScript", "React", "CSS3", "Git", "Figma"]
+    },
+    {
+      id: 3,
+      company: "DigitalEdge",
+      position: "Web Development Intern",
+      duration: "2022 - 2023",
+      location: "Remote",
+      description: [
+        "Assisted in web application development using modern technologies",
+        "Gained practical experience with React ecosystem and best practices",
+        "Contributed to open-source projects and documentation",
+        "Participated in agile development processes and daily standups"
+      ],
+      technologies: ["React", "JavaScript", "Git", "Agile", "Jest"]
+    }
+  ],
+  education: [
+    {
+      id: 1,
+      institution: "University of Technology",
+      degree: "Bachelor of Computer Science",
+      duration: "2020 - 2024",
+      description: "Specialized in web development and user interface design, focusing on modern JavaScript frameworks and reactive design principles."
+    },
+    {
+      id: 2,
+      institution: "Digital Innovation Institute",
+      degree: "Advanced Frontend Development Certificate",
+      duration: "2023",
+      description: "Intensive program covering React, state management, performance optimization and modern CSS frameworks."
+    }
+  ],
+  skills: {
+    technical: [
+      "React", "TypeScript", "JavaScript", "Next.js", "Vue.js",
+      "HTML5", "CSS3", "Tailwind CSS", "SCSS", "Responsive Design",
+      "Git", "Webpack", "Vite", "Node.js", "REST APIs",
+      "GraphQL", "Jest", "Cypress", "Figma", "Adobe XD"
+    ],
+    soft: [
+      "Problem Solving", "Communication", "Teamwork", "Adaptability",
+      "Time Management", "Attention to Detail", "Creative Thinking"
+    ],
+    languages: [
+      { name: "French", level: "Native" },
+      { name: "English", level: "Professional" },
+      { name: "Spanish", level: "Intermediate" }
+    ]
+  },
+  certifications: [
+    {
+      name: "React Developer Certification",
+      issuer: "Meta",
+      date: "2024"
+    },
+    {
+      name: "TypeScript Fundamentals",
+      issuer: "Microsoft",
+      date: "2023"
+    },
+    {
+      name: "Frontend Developer Certificate",
+      issuer: "freeCodeCamp",
+      date: "2023"
+    }
+  ]
+};

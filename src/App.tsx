@@ -12,6 +12,7 @@ import Projects from '@/pages/Projects';
 import Skills from '@/pages/Skills';
 import Contact from '@/pages/Contact';
 import NotFound from './pages/NotFound';
+import CV from '@/pages/CV';
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
                 <Route path="projects" element={<Projects />} />
                 <Route path="skills" element={<Skills />} />
                 <Route path="contact" element={<Contact />} />
+                <Route path="cv" element={<CV />} />
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>

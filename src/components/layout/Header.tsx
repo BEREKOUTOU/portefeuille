@@ -29,7 +29,8 @@ export default function Header() {
     { name: t('about'), path: '/about' },
     { name: t('projects'), path: '/projects' },
     { name: t('skills'), path: '/skills' },
-    { name: t('contact'), path: '/contact' }
+    { name: t('contact'), path: '/contact' },
+    { name: t('cv.title'), path: '/cv' }
   ];
 
   useEffect(() => {
