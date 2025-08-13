@@ -156,11 +156,21 @@
     "subtitle": "Download my professional CV in PDF format",
     "download": "Download PDF",
     "summary": "Professional Summary",
+    "summaryText": "I am a dedicated and passionate developer with a focus on creating modern, responsive, and user-friendly web applications. My expertise lies in frontend development using React, Tailwind CSS, and other modern technologies. I am committed to delivering high-quality code and exceptional user experiences.",
     "experience": "Work Experience",
+    "position":"Frontend Developer",
     "education": "Education",
     "skills": "Skills & Expertise",
     "technical": "Technical Skills",
     "languages": "Languages",
     "certifications": "Certifications"
+  },
+  "exp": {
+    "title": "Frontend Developer",
+    "company": "Solutions Innovatech",
+    "duration": "2024 - Present",
+    "location": "Cherbourg-en-Cotentin, France",
+    "description": "Job Description",
+    "technologies": "Technologies Used"
   }
 }

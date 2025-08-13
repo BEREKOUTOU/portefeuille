@@ -1,11 +1,19 @@
-import { useRef } from 'react';
-import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet-async';
-import { useTranslation } from 'react-i18next';
-import { useReactToPrint } from 'react-to-print';
-import { Button } from '@/components/ui/button';
-import { FiDownload, FiMail, FiPhone, FiMapPin, FiLinkedin, FiGithub, FiGlobe } from 'react-icons/fi';
-import { cvData } from '@/data/cvData';
+import { useRef } from "react";
+import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
+import { useReactToPrint } from "react-to-print";
+import { Button } from "@/components/ui/button";
+import {
+  FiDownload,
+  FiMail,
+  FiPhone,
+  FiMapPin,
+  FiLinkedin,
+  FiGithub,
+  FiGlobe,
+} from "react-icons/fi";
+import { cvData } from "@/data/cvData";
 
 export default function CV() {
   const { t } = useTranslation();
@@ -25,7 +33,7 @@ export default function CV() {
           print-color-adjust: exact;
         }
       }
-    `
+    `,
   });
 
   const containerVariants = {
@@ -50,8 +58,11 @@ export default function CV() {
   return (
     <>
       <Helmet>
-        <title>Portfolio | CV  </title>
-        <meta name="description" content={`Professional CV of ${cvData.personal.name}, ${cvData.personal.title}`} />
+        <title>Portfolio | CV </title>
+        <meta
+          name="description"
+          content={`Professional CV of ${cvData.personal.name}, ${cvData.personal.title}`}
+        />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -61,11 +72,15 @@ export default function CV() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-8"
           >
-            <h1 className="text-4xl font-bold mb-4">{t('cv.title1')}</h1>
-            <p className="text-muted-foreground mb-6">{t('cv.subtitle')}</p>
-            <Button onClick={() => handlePrint()} size="lg" className="print:hidden">
+            <h1 className="text-4xl font-bold mb-4">{t("cv.title1")}</h1>
+            <p className="text-muted-foreground mb-6">{t("cv.subtitle")}</p>
+            <Button
+              onClick={() => handlePrint()}
+              size="lg"
+              className="print:hidden"
+            >
               <FiDownload className="mr-2" />
-              {t('cv.download')}
+              {t("cv.download")}
             </Button>
           </motion.div>
 
@@ -83,19 +98,26 @@ export default function CV() {
             >
               <div className="flex flex-col md:flex-row items-center gap-6">
                 <div className="flex-shrink-0">
-                  <img 
-                    src={cvData.personal.photo} 
+                  <img
+                    src={cvData.personal.photo}
                     alt={cvData.personal.name}
                     className="w-32 h-32 rounded-full object-cover border-4 border-primary/20"
                   />
                 </div>
-                
+
                 <div className="flex-1 text-center md:text-left">
-                  <h2 className="text-3xl font-bold mb-2">{cvData.personal.name}</h2>
-                  <p className="text-xl text-primary mb-4">{cvData.personal.title}</p>
-                  
+                  <h2 className="text-3xl font-bold mb-2">
+                    {cvData.personal.name}
+                  </h2>
+                  <p className="text-xl text-primary mb-4">
+                    {cvData.personal.title}
+                  </p>
+
                   <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-muted-foreground">
-                    <a href={`mailto:${cvData.personal.email}`} className="flex items-center hover:text-primary">
+                    <a
+                      href={`mailto:${cvData.personal.email}`}
+                      className="flex items-center hover:text-primary"
+                    >
                       <FiMail className="mr-1" /> {cvData.personal.email}
                     </a>
                     <span className="flex items-center">
@@ -105,15 +127,30 @@ export default function CV() {
                       <FiMapPin className="mr-1" /> {cvData.personal.location}
                     </span>
                   </div>
-                  
+
                   <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-muted-foreground mt-2">
-                    <a href={`https://${cvData.personal.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
+                    <a
+                      href={`https://${cvData.personal.linkedin}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center hover:text-primary"
+                    >
                       <FiLinkedin className="mr-1" /> LinkedIn
                     </a>
-                    <a href={`https://${cvData.personal.github}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
+                    <a
+                      href={`https://${cvData.personal.github}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center hover:text-primary"
+                    >
                       <FiGithub className="mr-1" /> GitHub
                     </a>
-                    <a href={`https://${cvData.personal.website}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
+                    <a
+                      href={`https://${cvData.personal.website}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center hover:text-primary"
+                    >
                       <FiGlobe className="mr-1" /> Portfolio
                     </a>
                   </div>
@@ -124,24 +161,39 @@ export default function CV() {
             <div className="p-8 space-y-8">
               {/* Summary Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">{t('cv.summary')}</h3>
-                <p className="text-muted-foreground leading-relaxed">{cvData.summary}</p>
+                <h3 className="text-2xl font-bold mb-4 text-primary">
+                  {t("cv.summary")}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {cvData.summary}
+                </p>
               </motion.section>
 
               {/* Experience Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">{t('cv.experience')}</h3>
+                <h3 className="text-2xl font-bold mb-4 text-primary">
+                  {t("cv.experience")}
+                </h3>
                 <div className="space-y-6">
                   {cvData.experience.map((exp) => (
-                    <div key={exp.id} className="border-l-2 border-primary/20 pl-4">
+                    <div
+                      key={exp.id}
+                      className="border-l-2 border-primary/20 pl-4"
+                    >
                       <div className="flex justify-between items-start mb-2">
                         <div>
-                          <h4 className="text-lg font-semibold">{exp.position}</h4>
+                          <h4 className="text-lg font-semibold">
+                            {exp.position}
+                          </h4>
                           <p className="text-primary">{exp.company}</p>
                         </div>
                         <div className="text-right">
-                          <p className="text-sm text-muted-foreground">{exp.duration}</p>
-                          <p className="text-sm text-muted-foreground">{exp.location}</p>
+                          <p className="text-sm text-muted-foreground">
+                            {exp.duration}
+                          </p>
+                          <p className="text-sm text-muted-foreground">
+                            {exp.location}
+                          </p>
                         </div>
                       </div>
                       <ul className="list-disc list-inside space-y-1 text-sm text-muted-foreground mb-3">
@@ -166,18 +218,29 @@ export default function CV() {
 
               {/* Education Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">{t('cv.education')}</h3>
+                <h3 className="text-2xl font-bold mb-4 text-primary">
+                  {t("cv.education")}
+                </h3>
                 <div className="space-y-4">
                   {cvData.education.map((edu) => (
-                    <div key={edu.id} className="border-l-2 border-primary/20 pl-4">
+                    <div
+                      key={edu.id}
+                      className="border-l-2 border-primary/20 pl-4"
+                    >
                       <div className="flex justify-between items-start">
                         <div>
-                          <h4 className="text-lg font-semibold">{edu.degree}</h4>
+                          <h4 className="text-lg font-semibold">
+                            {edu.degree}
+                          </h4>
                           <p className="text-primary">{edu.institution}</p>
                         </div>
-                        <p className="text-sm text-muted-foreground">{edu.duration}</p>
+                        <p className="text-sm text-muted-foreground">
+                          {edu.duration}
+                        </p>
                       </div>
-                      <p className="text-sm text-muted-foreground mt-2">{edu.description}</p>
+                      <p className="text-sm text-muted-foreground mt-2">
+                        {edu.description}
+                      </p>
                     </div>
                   ))}
                 </div>
@@ -185,10 +248,12 @@ export default function CV() {
 
               {/* Skills Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">{t('cv.skills')}</h3>
+                <h3 className="text-2xl font-bold mb-4 text-primary">
+                  {t("cv.skills")}
+                </h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-semibold mb-3">{t('cv.technical')}</h4>
+                    <h4 className="font-semibold mb-3">{t("cv.technical")}</h4>
                     <div className="flex flex-wrap gap-2">
                       {cvData.skills.technical.map((skill) => (
                         <span
@@ -201,12 +266,14 @@ export default function CV() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-3">{t('cv.languages')}</h4>
+                    <h4 className="font-semibold mb-3">{t("cv.languages")}</h4>
                     <div className="space-y-2">
                       {cvData.skills.languages.map((lang) => (
                         <div key={lang.name} className="flex justify-between">
                           <span>{lang.name}</span>
-                          <span className="text-muted-foreground">{lang.level}</span>
+                          <span className="text-muted-foreground">
+                            {lang.level}
+                          </span>
                         </div>
                       ))}
                     </div>
@@ -216,15 +283,24 @@ export default function CV() {
 
               {/* Certifications Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">{t('cv.certifications')}</h3>
+                <h3 className="text-2xl font-bold mb-4 text-primary">
+                  {t("cv.certifications")}
+                </h3>
                 <div className="space-y-3">
                   {cvData.certifications.map((cert) => (
-                    <div key={cert.name} className="flex justify-between items-center">
+                    <div
+                      key={cert.name}
+                      className="flex justify-between items-center"
+                    >
                       <div>
                         <h4 className="font-semibold">{cert.name}</h4>
-                        <p className="text-sm text-muted-foreground">{cert.issuer}</p>
+                        <p className="text-sm text-muted-foreground">
+                          {cert.issuer}
+                        </p>
                       </div>
-                      <span className="text-sm text-muted-foreground">{cert.date}</span>
+                      <span className="text-sm text-muted-foreground">
+                        {cert.date}
+                      </span>
                     </div>
                   ))}
                 </div>
