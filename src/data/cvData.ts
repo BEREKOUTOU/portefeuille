@@ -9,6 +9,7 @@ export interface CVData {
     linkedin: string;
     github: string;
     website: string;
+    photo: string;
   };
   summary: string;
   experience: Experience[];
@@ -57,9 +58,10 @@ export const cvData: CVData = {
     email: "allahtoralphdjamel@gmail.com",
     phone: "+33 07 75 95 44 11",
     location: "Cherbourg-en-Cotentin, France",
-    linkedin: "linkedin.com/in/bboniface",
-    github: "github.com/bboniface",
-    website: "bboniface.dev"
+    linkedin: "www.linkedin.com/in/boniface-berekoutou-4b068a36a/",
+    github: "github.com/BEREKOUTOU",
+    website: "berekoutou.github.io/portefeuille/",
+    photo: "/portefeuille/assets/images/Boniface.webp"
   },
   summary: "Passionate Frontend Developer with expertise in React, TypeScript, and modern web technologies. Experienced in creating responsive, user-friendly applications with a focus on performance and accessibility. Strong background in UI/UX design principles and collaborative development.",
   experience: [

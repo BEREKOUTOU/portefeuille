@@ -149,6 +149,18 @@
   "footer1":{
     "title":"푸터",
     "description":"모든 권리 보유."
+  },
+  "cv": {
+    "title": "이력서",
+    "title1": "전문 이력서",
+    "subtitle": "PDF 형식으로 전문 이력서를 다운로드",
+    "download": "PDF 다운로드",
+    "summary": "전문 요약",
+    "experience": "경력",
+    "education": "학력",
+    "skills": "기술 및 전문성",
+    "technical": "기술적 기술",
+    "languages": "언어",
+    "certifications": "자격증"
   }
-  
 }

@@ -50,7 +50,7 @@ export default function CV() {
   return (
     <>
       <Helmet>
-        <title>Portfolio | CV - {cvData.personal.name}</title>
+        <title>Portfolio | CV  </title>
         <meta name="description" content={`Professional CV of ${cvData.personal.name}, ${cvData.personal.title}`} />
       </Helmet>
 
@@ -81,32 +81,42 @@ export default function CV() {
               variants={itemVariants}
               className="bg-primary/10 p-8 border-b"
             >
-              <div className="text-center">
-                <h2 className="text-3xl font-bold mb-2">{cvData.personal.name}</h2>
-                <p className="text-xl text-primary mb-4">{cvData.personal.title}</p>
-                
-                <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
-                  <a href={`mailto:${cvData.personal.email}`} className="flex items-center hover:text-primary">
-                    <FiMail className="mr-1" /> {cvData.personal.email}
-                  </a>
-                  <span className="flex items-center">
-                    <FiPhone className="mr-1" /> {cvData.personal.phone}
-                  </span>
-                  <span className="flex items-center">
-                    <FiMapPin className="mr-1" /> {cvData.personal.location}
-                  </span>
+              <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="flex-shrink-0">
+                  <img 
+                    src={cvData.personal.photo} 
+                    alt={cvData.personal.name}
+                    className="w-32 h-32 rounded-full object-cover border-4 border-primary/20"
+                  />
                 </div>
                 
-                <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground mt-2">
-                  <a href={`https://${cvData.personal.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
-                    <FiLinkedin className="mr-1" /> LinkedIn
-                  </a>
-                  <a href={`https://${cvData.personal.github}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
-                    <FiGithub className="mr-1" /> GitHub
-                  </a>
-                  <a href={`https://${cvData.personal.website}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
-                    <FiGlobe className="mr-1" /> Portfolio
-                  </a>
+                <div className="flex-1 text-center md:text-left">
+                  <h2 className="text-3xl font-bold mb-2">{cvData.personal.name}</h2>
+                  <p className="text-xl text-primary mb-4">{cvData.personal.title}</p>
+                  
+                  <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-muted-foreground">
+                    <a href={`mailto:${cvData.personal.email}`} className="flex items-center hover:text-primary">
+                      <FiMail className="mr-1" /> {cvData.personal.email}
+                    </a>
+                    <span className="flex items-center">
+                      <FiPhone className="mr-1" /> {cvData.personal.phone}
+                    </span>
+                    <span className="flex items-center">
+                      <FiMapPin className="mr-1" /> {cvData.personal.location}
+                    </span>
+                  </div>
+                  
+                  <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-muted-foreground mt-2">
+                    <a href={`https://${cvData.personal.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
+                      <FiLinkedin className="mr-1" /> LinkedIn
+                    </a>
+                    <a href={`https://${cvData.personal.github}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
+                      <FiGithub className="mr-1" /> GitHub
+                    </a>
+                    <a href={`https://${cvData.personal.website}`} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-primary">
+                      <FiGlobe className="mr-1" /> Portfolio
+                    </a>
+                  </div>
                 </div>
               </div>
             </motion.div>

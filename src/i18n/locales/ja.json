@@ -149,6 +149,18 @@
   "footer1":{
     "title":"フッター",
     "description":"すべての権利を保有します。"
+  },
+  "cv": {
+    "title": "履歴書",
+    "title1": "プロフェッショナルCV",
+    "subtitle": "PDF形式で私のプロフェッショナルCVをダウンロード",
+    "download": "PDFをダウンロード",
+    "summary": "プロフェッショナルサマリー",
+    "experience": "職務経験",
+    "education": "学歴",
+    "skills": "スキルと専門知識",
+    "technical": "技術スキル",
+    "languages": "言語",
+    "certifications": "資格"
   }
- 
 }
