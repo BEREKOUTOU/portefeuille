@@ -13,11 +13,55 @@ import {
   FiGithub,
   FiGlobe,
 } from "react-icons/fi";
-import { cvData } from "@/data/cvData";
+
+interface CVData {
+  personal: {
+    name: string;
+    title: string;
+    email: string;
+    phone: string;
+    location: string;
+    linkedin: string;
+    github: string;
+    website: string;
+    photo: string;
+  };
+  summary: string;
+  experience: Array<{
+    id: number;
+    company: string;
+    position: string;
+    duration: string;
+    location: string;
+    description: string[];
+    technologies: string[];
+  }>;
+  education: Array<{
+    id: number;
+    institution: string;
+    degree: string;
+    duration: string;
+    description: string;
+  }>;
+  skills: {
+    technical: string[];
+    soft: string[];
+    languages: Array<{
+      name: string;
+      level: string;
+    }>;
+  };
+  certifications: Array<{
+    name: string;
+    issuer: string;
+    date: string;
+  }>;
+}
 
 export default function CV() {
   const { t } = useTranslation();
   const cvRef = useRef<HTMLDivElement>(null);
+  const cvData = t("cvData", { returnObjects: true }) as CVData;
 
   const handlePrint = useReactToPrint({
     contentRef: cvRef,
@@ -197,12 +241,12 @@ export default function CV() {
                         </div>
                       </div>
                       <ul className="list-disc list-inside space-y-1 text-sm text-muted-foreground mb-3">
-                        {exp.description.map((desc, index) => (
+                        {exp.description.map((desc: string, index: number) => (
                           <li key={index}>{desc}</li>
                         ))}
                       </ul>
                       <div className="flex flex-wrap gap-2">
-                        {exp.technologies.map((tech) => (
+                        {exp.technologies.map((tech: string) => (
                           <span
                             key={tech}
                             className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full"
@@ -255,7 +299,7 @@ export default function CV() {
                   <div>
                     <h4 className="font-semibold mb-3">{t("cv.technical")}</h4>
                     <div className="flex flex-wrap gap-2">
-                      {cvData.skills.technical.map((skill) => (
+                      {cvData.skills.technical.map((skill: string) => (
                         <span
                           key={skill}
                           className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full"
@@ -268,14 +312,16 @@ export default function CV() {
                   <div>
                     <h4 className="font-semibold mb-3">{t("cv.languages")}</h4>
                     <div className="space-y-2">
-                      {cvData.skills.languages.map((lang) => (
-                        <div key={lang.name} className="flex justify-between">
-                          <span>{lang.name}</span>
-                          <span className="text-muted-foreground">
-                            {lang.level}
-                          </span>
-                        </div>
-                      ))}
+                      {cvData.skills.languages.map(
+                        (lang: { name: string; level: string }) => (
+                          <div key={lang.name} className="flex justify-between">
+                            <span>{lang.name}</span>
+                            <span className="text-muted-foreground">
+                              {lang.level}
+                            </span>
+                          </div>
+                        )
+                      )}
                     </div>
                   </div>
                 </div>
@@ -287,22 +333,24 @@ export default function CV() {
                   {t("cv.certifications")}
                 </h3>
                 <div className="space-y-3">
-                  {cvData.certifications.map((cert) => (
-                    <div
-                      key={cert.name}
-                      className="flex justify-between items-center"
-                    >
-                      <div>
-                        <h4 className="font-semibold">{cert.name}</h4>
-                        <p className="text-sm text-muted-foreground">
-                          {cert.issuer}
-                        </p>
+                  {cvData.certifications.map(
+                    (cert: { name: string; issuer: string; date: string }) => (
+                      <div
+                        key={cert.name}
+                        className="flex justify-between items-center"
+                      >
+                        <div>
+                          <h4 className="font-semibold">{cert.name}</h4>
+                          <p className="text-sm text-muted-foreground">
+                            {cert.issuer}
+                          </p>
+                        </div>
+                        <span className="text-sm text-muted-foreground">
+                          {cert.date}
+                        </span>
                       </div>
-                      <span className="text-sm text-muted-foreground">
-                        {cert.date}
-                      </span>
-                    </div>
-                  ))}
+                    )
+                  )}
                 </div>
               </motion.section>
             </div>

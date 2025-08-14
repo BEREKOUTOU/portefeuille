@@ -1,0 +1,158 @@
+{
+    "cvData": {
+        "personal": {
+            "name": "BEREKOUTOU Boniface",
+            "title": "Desarrollador Frontend",
+            "email": "allahtoralphdjamel@gmail.com",
+            "phone": "+33 07 75 95 44 11",
+            "location": "Cherbourg-en-Cotentin, Francia",
+            "linkedin": "www.linkedin.com/in/boniface-berekoutou-4b068a36a/",
+            "github": "github.com/BEREKOUTOU",
+            "website": "berekoutou.github.io/portefeuille/",
+            "photo": "/portefeuille/assets/images/Boniface.webp"
+        },
+        "summary": "Desarrollador Frontend apasionado con experiencia en React, TypeScript y tecnologías web modernas. Experimentado en la creación de aplicaciones responsivas y amigables para el usuario con enfoque en el rendimiento y la accesibilidad. Sólida experiencia en principios de diseño UI/UX y desarrollo colaborativo.",
+        "experience": [
+            {
+                "id": 1,
+                "company": "Solutions Innovatech",
+                "position": "Desarrollador Frontend",
+                "duration": "2024 - Presente",
+                "location": "París, Francia",
+                "description": [
+                    "Desarrollo y mantenimiento de sitios web del lado del cliente utilizando React, Next.js y TypeScript",
+                    "Colaboración con diseñadores y desarrolladores backend para crear experiencias de usuario fluidas",
+                    "Implementación de principios de diseño responsivo asegurando un rendimiento óptimo en todos los dispositivos",
+                    "Optimización del rendimiento de la aplicación y mejora de los tiempos de carga en un 40%"
+                ],
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Node.js"
+                ]
+            },
+            {
+                "id": 2,
+                "company": "Studio WebCraft",
+                "position": "Desarrollador Web Junior",
+                "duration": "2023 - 2024",
+                "location": "Lyon, Francia",
+                "description": [
+                    "Construcción de sitios web responsivos e implementación de componentes UI para proyectos de clientes",
+                    "Trabajo con JavaScript, HTML5 y CSS3 para crear aplicaciones web modernas",
+                    "Participación en revisiones de código y contribución al intercambio de conocimientos del equipo",
+                    "Asistencia en la migración de aplicaciones legacy a la arquitectura moderna de React"
+                ],
+                "technologies": [
+                    "JavaScript",
+                    "React",
+                    "CSS3",
+                    "Git",
+                    "Figma"
+                ]
+            },
+            {
+                "id": 3,
+                "company": "DigitalEdge",
+                "position": "Pasante en Desarrollo Web",
+                "duration": "2022 - 2023",
+                "location": "Remoto",
+                "description": [
+                    "Asistencia en el desarrollo de aplicaciones web utilizando tecnologías modernas",
+                    "Adquisición de experiencia práctica con el ecosistema React y las mejores prácticas",
+                    "Contribución a proyectos de código abierto y documentación",
+                    "Participación en procesos de desarrollo ágil y reuniones diarias"
+                ],
+                "technologies": [
+                    "React",
+                    "JavaScript",
+                    "Git",
+                    "Agile",
+                    "Jest"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "institution": "Universidad de Tecnología",
+                "degree": "Grado en Ciencias de la Computación",
+                "duration": "2020 - 2024",
+                "description": "Especializado en desarrollo web y diseño de interfaces de usuario, enfocándose en frameworks JavaScript modernos y principios de diseño reactivo."
+            },
+            {
+                "id": 2,
+                "institution": "Instituto de Innovación Digital",
+                "degree": "Certificado Avanzado en Desarrollo Frontend",
+                "duration": "2023",
+                "description": "Programa intensivo que cubre React, gestión de estado, optimización de rendimiento y frameworks CSS modernos."
+            }
+        ],
+        "skills": {
+            "technical": [
+                "React",
+                "TypeScript",
+                "JavaScript",
+                "Next.js",
+                "Vue.js",
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "SCSS",
+                "Diseño Responsivo",
+                "Git",
+                "Webpack",
+                "Vite",
+                "Node.js",
+                "APIs REST",
+                "GraphQL",
+                "Jest",
+                "Cypress",
+                "Figma",
+                "Adobe XD"
+            ],
+            "soft": [
+                "Resolución de Problemas",
+                "Comunicación",
+                "Trabajo en Equipo",
+                "Adaptabilidad",
+                "Gestión del Tiempo",
+                "Atención al Detalle",
+                "Pensamiento Creativo"
+            ],
+            "languages": [
+                {
+                    "name": "Francés",
+                    "level": "Nativo"
+                },
+                {
+                    "name": "Inglés",
+                    "level": "Profesional"
+                },
+                {
+                    "name": "Español",
+                    "level": "Intermedio"
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Certificación de Desarrollador React",
+                "issuer": "Meta",
+                "date": "2024"
+            },
+            {
+                "name": "Fundamentos de TypeScript",
+                "issuer": "Microsoft",
+                "date": "2023"
+            },
+            {
+                "name": "Certificado de Desarrollador Frontend",
+                "issuer": "freeCodeCamp",
+                "date": "2023"
+            }
+        ]
+    }
+}

@@ -1,0 +1,158 @@
+{
+  "cvData": {
+    "personal": {
+      "name": "BEREKOUTOU Boniface",
+      "title": "Développeur Frontend",
+      "email": "allahtoralphdjamel@gmail.com",
+      "phone": "+33 07 75 95 44 11",
+      "location": "Cherbourg-en-Cotentin, France",
+      "linkedin": "www.linkedin.com/in/boniface-berekoutou-4b068a36a/",
+      "github": "github.com/BEREKOUTOU",
+      "website": "berekoutou.github.io/portefeuille/",
+      "photo": "/portefeuille/assets/images/Boniface.webp"
+    },
+    "summary": "Développeur Frontend passionné avec une expertise en React, TypeScript et technologies web modernes. Expérimenté dans la création d'applications réactives et conviviales avec un focus sur la performance et l'accessibilité. Solide expérience en principes de design UI/UX et développement collaboratif.",
+    "experience": [
+      {
+        "id": 1,
+        "company": "Solutions Innovatech",
+        "position": "Développeur Frontend",
+        "duration": "2024 - Présent",
+        "location": "Paris, France",
+        "description": [
+          "Développement et maintenance de sites web côté client en utilisant React, Next.js et TypeScript",
+          "Collaboration avec designers et développeurs backend pour créer des expériences utilisateur fluides",
+          "Implémentation de principes de design réactif assurant des performances optimales sur tous les appareils",
+          "Optimisation des performances de l'application et amélioration des temps de chargement de 40%"
+        ],
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Next.js",
+          "Tailwind CSS",
+          "Node.js"
+        ]
+      },
+      {
+        "id": 2,
+        "company": "Studio WebCraft",
+        "position": "Développeur Web Junior",
+        "duration": "2023 - 2024",
+        "location": "Lyon, France",
+        "description": [
+          "Construction de sites web réactifs et implémentation de composants UI pour projets clients",
+          "Travail avec JavaScript, HTML5 et CSS3 pour créer des applications web modernes",
+          "Participation aux revues de code et contribution au partage de connaissances en équipe",
+          "Assistance à la migration d'applications legacy vers l'architecture React moderne"
+        ],
+        "technologies": [
+          "JavaScript",
+          "React",
+          "CSS3",
+          "Git",
+          "Figma"
+        ]
+      },
+      {
+        "id": 3,
+        "company": "DigitalEdge",
+        "position": "Stagiaire en Développement Web",
+        "duration": "2022 - 2023",
+        "location": "Télétravail",
+        "description": [
+          "Assistance au développement d'applications web en utilisant des technologies modernes",
+          "Acquisition d'expérience pratique avec l'écosystème React et les meilleures pratiques",
+          "Contribution à des projets open-source et documentation",
+          "Participation aux processus de développement agile et standups quotidiens"
+        ],
+        "technologies": [
+          "React",
+          "JavaScript",
+          "Git",
+          "Agile",
+          "Jest"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "institution": "Université de Technologie",
+        "degree": "Licence en Informatique",
+        "duration": "2020 - 2024",
+        "description": "Spécialisé en développement web et en design d'interfaces utilisateur, en se concentrant sur les frameworks JavaScript modernes et les principes de design réactifs."
+      },
+      {
+        "id": 2,
+        "institution": "Institut d'Innovation Digitale",
+        "degree": "Certificat Avancé en Développement Frontend",
+        "duration": "2023",
+        "description": "Programme intensif couvrant React, la gestion d'état, l'optimisation des performances et les frameworks CSS modernes."
+      }
+    ],
+    "skills": {
+      "technical": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Vue.js",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "SCSS",
+        "Design Réactif",
+        "Git",
+        "Webpack",
+        "Vite",
+        "Node.js",
+        "APIs REST",
+        "GraphQL",
+        "Jest",
+        "Cypress",
+        "Figma",
+        "Adobe XD"
+      ],
+      "soft": [
+        "Résolution de Problèmes",
+        "Communication",
+        "Travail d'Équipe",
+        "Adaptabilité",
+        "Gestion du Temps",
+        "Attention aux Détails",
+        "Pensée Créative"
+      ],
+      "languages": [
+        {
+          "name": "Français",
+          "level": "Natif"
+        },
+        {
+          "name": "Anglais",
+          "level": "Professionnel"
+        },
+        {
+          "name": "Espagnol",
+          "level": "Intermédiaire"
+        }
+      ]
+    },
+    "certifications": [
+      {
+        "name": "Certification Développeur React",
+        "issuer": "Meta",
+        "date": "2024"
+      },
+      {
+        "name": "Fondamentaux TypeScript",
+        "issuer": "Microsoft",
+        "date": "2023"
+      },
+      {
+        "name": "Certificat Développeur Frontend",
+        "issuer": "freeCodeCamp",
+        "date": "2023"
+      }
+    ]
+  }
+}
