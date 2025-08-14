@@ -162,7 +162,11 @@
     "skills": "Habilidades y Experiencia",
     "technical": "Habilidades Técnicas",
     "languages": "Idiomas",
-    "certifications": "Certificaciones"
+    "certifications": "Certificaciones",
+    "interests": "Intereses",
+    "travel": "Viajar",
+    "music": "Música",
+    "reading": "Lectura"
   }
  
 }

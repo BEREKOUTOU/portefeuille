@@ -162,6 +162,10 @@
     "skills": "기술 및 전문성",
     "technical": "기술적 기술",
     "languages": "언어",
-    "certifications": "자격증"
+    "certifications": "자격증",
+    "interests": "관심사",
+    "travel": "여행",
+    "music": "음악",
+    "reading": "책"
   }
 }

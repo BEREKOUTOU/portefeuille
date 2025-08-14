@@ -162,6 +162,10 @@
     "skills": "ทักษะและความเชี่ยวชาญ",
     "technical": "ทักษะทางเทคนิค",
     "languages": "ภาษา",
-    "certifications": "ใบรับรอง"
+    "certifications": "ใบรับรอง",
+    "interests": "ความสนใจ",
+    "travel": "ท่องเที่ยว",
+    "music": "เพลง",
+    "reading": "อ่าน"
   }
 }

@@ -162,6 +162,10 @@
     "skills": "スキルと専門知識",
     "technical": "技術スキル",
     "languages": "言語",
-    "certifications": "資格"
+    "certifications": "資格",
+    "interests": "興味",
+    "travel": "旅行",
+    "music": " 音楽",
+    "reading": " 読書"
   }
 }

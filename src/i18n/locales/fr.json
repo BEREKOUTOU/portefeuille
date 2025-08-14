@@ -162,7 +162,11 @@
     "skills": "Compétences & Expertise",
     "technical": "Compétences Techniques",
     "languages": "Langues",
-    "certifications": "Certifications"
+    "certifications": "Certifications",
+    "interests": "Centres d'Intérêt",
+    "travel": "Voyage",
+    "music": "Musique",
+    "reading": "Lecture"
   },
   "exp": {
     "title": "Développeur Frontend",

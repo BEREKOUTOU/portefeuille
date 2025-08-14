@@ -163,7 +163,11 @@
     "skills": "Skills & Expertise",
     "technical": "Technical Skills",
     "languages": "Languages",
-    "certifications": "Certifications"
+    "certifications": "Certifications",
+    "interests": "Interests",
+    "travel": "Travel",
+    "music": "Music",
+    "reading": "Reading"
   },
   "exp": {
     "title": "Frontend Developer",
