@@ -12,7 +12,10 @@ import {
   FiLinkedin,
   FiGithub,
   FiGlobe,
+  FiMusic,
+  FiBookOpen,
 } from "react-icons/fi";
+import { GiCommercialAirplane } from "react-icons/gi";
 
 interface CVData {
   personal: {
@@ -351,6 +354,29 @@ export default function CV() {
                       </div>
                     )
                   )}
+                </div>
+              </motion.section>
+
+              {/* Interests Section */}
+              <motion.section variants={itemVariants}>
+                <h3 className="text-2xl font-bold mb-4 text-primary">
+                  Interests
+                </h3>
+                <div className="flex flex-wrap gap-6 items-center">
+                  <div className="flex items-center gap-2">
+                    <GiCommercialAirplane className="w-5 h-5 text-primary" />
+                    <span className="text-muted-foreground">Travel</span>
+                  </div>
+                  
+                  <div className="flex items-center gap-2">
+                    <FiMusic className="w-5 h-5 text-primary" />
+                    <span className="text-muted-foreground">Music</span>
+                  </div>
+                  
+                  <div className="flex items-center gap-2">
+                    <FiBookOpen className="w-5 h-5 text-primary" />
+                    <span className="text-muted-foreground">Reading</span>
+                  </div>
                 </div>
               </motion.section>
             </div>
