@@ -167,13 +167,5 @@
     "travel": "Voyage",
     "music": "Musique",
     "reading": "Lecture"
-  },
-  "exp": {
-    "title": "Développeur Frontend",
-    "company": "Solutions Innovatech",
-    "duration": "2024 - Présent",
-    "location": "Cherbourg-en-Cotentin, France",
-    "description": "Développement d'applications web modernes et réactives en utilisant React et Tailwind CSS. Collaboration avec les équipes de conception et de backend pour créer des expériences utilisateur fluides.",
-    "technologies": "Technologies Utilisées"
   }
 }

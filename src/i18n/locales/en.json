@@ -168,13 +168,5 @@
     "travel": "Travel",
     "music": "Music",
     "reading": "Reading"
-  },
-  "exp": {
-    "title": "Frontend Developer",
-    "company": "Solutions Innovatech",
-    "duration": "2024 - Present",
-    "location": "Cherbourg-en-Cotentin, France",
-    "description": "Job Description",
-    "technologies": "Technologies Used"
   }
 }
