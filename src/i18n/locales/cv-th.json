@@ -1,0 +1,158 @@
+{
+    "cvData": {
+        "personal": {
+            "name": "BEREKOUTOU Boniface",
+            "title": "นักพัฒนา Frontend",
+            "email": "allahtoralphdjamel@gmail.com",
+            "phone": "+33 07 75 95 44 11",
+            "location": "Cherbourg-en-Cotentin, ฝรั่งเศส",
+            "linkedin": "www.linkedin.com/in/boniface-berekoutou-4b068a36a/",
+            "github": "github.com/BEREKOUTOU",
+            "website": "berekoutou.github.io/portefeuille/",
+            "photo": "/portefeuille/assets/images/Boniface.webp"
+        },
+        "summary": "นักพัฒนา Frontend ที่หลงใหลในด้านเทคโนโลยี มีความเชี่ยวชาญใน React, TypeScript และเทคโนโลยีเว็บสมัยใหม่ มีประสบการณ์ในการสร้างแอปพลิเคชันที่ตอบสนองต่อผู้ใช้และใช้งานง่าย โดยมุ่งเน้นที่ประสิทธิภาพและการเข้าถึง มีพื้นหลังที่แข็งแกร่งในหลักการออกแบบ UI/UX และการพัฒนาแบบทีม",
+        "experience": [
+            {
+                "id": 1,
+                "company": "Solutions Innovatech",
+                "position": "นักพัฒนา Frontend",
+                "duration": "2024 - ปัจจุบัน",
+                "location": "ปารีส, ฝรั่งเศส",
+                "description": [
+                    "พัฒนาและดูแลเว็บไซต์ฝั่งไคลเอนต์โดยใช้ React, Next.js และ TypeScript",
+                    "ทำงานร่วมกับนักออกแบบและนักพัฒนาแบ็กเอนด์เพื่อสร้างประสบการณ์ผู้ใช้ที่ลื่นไหล",
+                    "ใช้หลักการออกแบบที่ตอบสนองต่ออุปกรณ์ต่างๆ เพื่อประสิทธิภาพที่เหมาะสม",
+                    "ปรับปรุงประสิทธิภาพแอปพลิเคชันและลดเวลาโหลดลง 40%"
+                ],
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Node.js"
+                ]
+            },
+            {
+                "id": 2,
+                "company": "Studio WebCraft",
+                "position": "นักพัฒนาเว็บระดับจูเนียร์",
+                "duration": "2023 - 2024",
+                "location": "ลียง, ฝรั่งเศส",
+                "description": [
+                    "สร้างเว็บไซต์ที่ตอบสนองต่ออุปกรณ์และใช้ UI components สำหรับโปรเจ็คลูกค้า",
+                    "ทำงานกับ JavaScript, HTML5 และ CSS3 เพื่อสร้างแอปพลิเคชันเว็บสมัยใหม่",
+                    "เข้าร่วมการตรวจโค้ดและแบ่งปันความรู้กับทีม",
+                    "ช่วยในการย้ายแอปพลิเคชันเก่าไปยัง React architecture ใหม่"
+                ],
+                "technologies": [
+                    "JavaScript",
+                    "React",
+                    "CSS3",
+                    "Git",
+                    "Figma"
+                ]
+            },
+            {
+                "id": 3,
+                "company": "DigitalEdge",
+                "position": "ฝึกงานพัฒนาเว็บ",
+                "duration": "2022 - 2023",
+                "location": "ระยะไกล",
+                "description": [
+                    "ช่วยในการพัฒนาแอปพลิเคชันเว็บโดยใช้เทคโนโลยีสมัยใหม่",
+                    "ได้รับประสบการณ์จริงกับ React ecosystem และแนวปฏิบัติที่ดี",
+                    "มีส่วนร่วมในโปรเจ็ค open-source และเอกสาร",
+                    "เข้าร่วมกระบวนการพัฒนาแบบ Agile และการประชุมประจำวัน"
+                ],
+                "technologies": [
+                    "React",
+                    "JavaScript",
+                    "Git",
+                    "Agile",
+                    "Jest"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "institution": "University of Technology",
+                "degree": "ปริญญาตรีวิทยาการคอมพิวเตอร์",
+                "duration": "2020 - 2024",
+                "description": "เชี่ยวชาญด้านการพัฒนาเว็บและการออกแบบส่วนติดต่อผู้ใช้ มุ่งเน้นที่เฟรมเวิร์ก JavaScript สมัยใหม่และหลักการออกแบบเชิงตอบสนอง"
+            },
+            {
+                "id": 2,
+                "institution": "Digital Innovation Institute",
+                "degree": "ประกาศนียบัตรการพัฒนา Frontend ขั้นสูง",
+                "duration": "2023",
+                "description": "โปรแกรมเข้มข้นที่ครอบคลุม React, state management, การปรับปรุงประสิทธิภาพ และเฟรมเวิร์ก CSS สมัยใหม่"
+            }
+        ],
+        "skills": {
+            "technical": [
+                "React",
+                "TypeScript",
+                "JavaScript",
+                "Next.js",
+                "Vue.js",
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "SCSS",
+                "การออกแบบตอบสนอง",
+                "Git",
+                "Webpack",
+                "Vite",
+                "Node.js",
+                "REST APIs",
+                "GraphQL",
+                "Jest",
+                "Cypress",
+                "Figma",
+                "Adobe XD"
+            ],
+            "soft": [
+                "การแก้ปัญหา",
+                "การสื่อสาร",
+                "การทำงานเป็นทีม",
+                "ความยืดหยุ่น",
+                "การจัดการเวลา",
+                "ความใส่ใจในรายละเอียด",
+                "การคิดเชิงสร้างสรรค์"
+            ],
+            "languages": [
+                {
+                    "name": "ฝรั่งเศส",
+                    "level": "เจ้าของภาษา"
+                },
+                {
+                    "name": "อังกฤษ",
+                    "level": "มืออาชีพ"
+                },
+                {
+                    "name": "สเปน",
+                    "level": "ระดับกลาง"
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "name": "ใบรับรองนักพัฒนา React",
+                "issuer": "Meta",
+                "date": "2024"
+            },
+            {
+                "name": "พื้นฐาน TypeScript",
+                "issuer": "Microsoft",
+                "date": "2023"
+            },
+            {
+                "name": "ใบรับรองนักพัฒนา Frontend",
+                "issuer": "freeCodeCamp",
+                "date": "2023"
+            }
+        ]
+    }
+}

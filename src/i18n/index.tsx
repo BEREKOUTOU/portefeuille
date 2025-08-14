@@ -13,7 +13,9 @@ import translationKO from "./locales/ko.json";
 import cvEN from "./locales/cv-en.json";
 import cvFR from "./locales/cv-fr.json";
 import cvES from "./locales/cv-es.json";
-
+import cvKO from "./locales/cv-ko.json";
+import cvJA from "./locales/cv-ja.json";
+import cvTH from "./locales/cv-th.json";
 const resources = {
   en: {
     // Merge cv-en.json into the main translation namespace so t('cvData.*') works
@@ -23,16 +25,16 @@ const resources = {
     translation: { ...translationFR, ...cvFR },
   },
   th: {
-    translation: translationTH,
+    translation: { ...translationTH, ...cvTH },
   },
   ja: {
-    translation: translationJA,
+    translation: { ...translationJA, ...cvJA },
   },
   es: {
     translation: { ...translationES, ...cvES },
   },
   ko: {
-    translation: translationKO,
+    translation: { ...translationKO, ...cvKO },
   },
 };
 
