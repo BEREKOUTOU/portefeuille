@@ -298,11 +298,24 @@ export default function CV() {
                 <h3 className="text-2xl font-bold mb-4 text-primary">
                   {t("cv.skills")}
                 </h3>
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-3 gap-6">
                   <div>
                     <h4 className="font-semibold mb-3">{t("cv.technical")}</h4>
                     <div className="flex flex-wrap gap-2">
                       {cvData.skills.technical.map((skill: string) => (
+                        <span
+                          key={skill}
+                          className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3">{t("cv.soft")}</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {cvData.skills.soft.map((skill: string) => (
                         <span
                           key={skill}
                           className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full"

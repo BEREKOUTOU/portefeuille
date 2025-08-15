@@ -81,31 +81,32 @@ export const cvData: CVData = {
     },
     {
       id: 2,
-      company: "Studio WebCraft",
-      position: "Junior Web Developer",
-      duration: "2023 - 2024",
-      location: "Lyon, France",
+      company: "Secretariat Général",
+      position: "Agent Administratif",
+      duration: "2017 - 2019",
+      location: "Yaoudé, Cameroun",
       description: [
-        "Built responsive websites and implemented UI components for client projects",
-        "Worked with JavaScript, HTML5 and CSS3 to create modern web applications",
-        "Participated in code reviews and contributed to team knowledge sharing",
-        "Assisted in migrating legacy applications to modern React architecture"
+        "Création de contenu graphique",
+        "Recherches sur internet",
+        "Saisie de documents",
+        "Mise à disposition outils de communication"
       ],
-      technologies: ["JavaScript", "React", "CSS3", "Git", "Figma"]
+      technologies: ["Word", "Excel", "PowerPoint", "Outlook", "Internet"]
     },
     {
       id: 3,
-      company: "DigitalEdge",
-      position: "Web Development Intern",
-      duration: "2022 - 2023",
-      location: "Remote",
+      company: "DAK Sécurités",
+      position: "Agent de Sécurités ",
+      duration: "2015 - 2017",
+      location: "Yaoudé, Cameroun",
       description: [
-        "Assisted in web application development using modern technologies",
-        "Gained practical experience with React ecosystem and best practices",
-        "Contributed to open-source projects and documentation",
-        "Participated in agile development processes and daily standups"
+        "Veiller à la sécurité des biens et des personnes en tant qu'agent de Sécurités",
+        "Intervenir lors d'un incident pour assurer la sécurité des lieux et des personnes",
+        "Prendre les mesures qui s'imposent pour prévenir les risques et Garder les accès sécurisés",
+        "Effectuer des rondes,Contrôler les allées et venues des personnes et des véhicules",
+        "Contrôler le fonctionnement des différents dispositifs de sécurité et Rédiger des rapports d'incidents et de sécurité"
       ],
-      technologies: ["React", "JavaScript", "Git", "Agile", "Jest"]
+      technologies: ["Le Tonfa", "Le talkie-walkie", "La lampe torche", "La tenue de secours", "Le sifflet"]
     }
   ],
   education: [
