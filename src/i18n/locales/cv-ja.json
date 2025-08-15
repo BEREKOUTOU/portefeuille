@@ -125,21 +125,17 @@
             "languages": [
                 {
                     "name": "Français",
-                    "level": "Natif"
+                    "level": "流暢"
                 },
                 {
                     "name": "Anglais",
-                    "level": "Professionnel"
-                },
-                {
-                    "name": "Espagnol",
-                    "level": "Intermédiaire"
+                    "level": "初心者"
                 }
             ]
         },
         "certifications": [
             {
-                "name": "Certification Développeur React",
+                "name": "React開発者認定",
                 "issuer": "Meta",
                 "date": "2024"
             },
@@ -149,7 +145,7 @@
                 "date": "2023"
             },
             {
-                "name": "Certificat Développeur Frontend",
+                "name": "フロントエンド開発者認定",
                 "issuer": "freeCodeCamp",
                 "date": "2023"
             }

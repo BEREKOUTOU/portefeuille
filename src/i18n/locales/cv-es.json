@@ -125,15 +125,11 @@
             "languages": [
                 {
                     "name": "Francés",
-                    "level": "Nativo"
+                    "level": "Fluido"
                 },
                 {
                     "name": "Inglés",
-                    "level": "Profesional"
-                },
-                {
-                    "name": "Español",
-                    "level": "Intermedio"
+                    "level": "Principiante"
                 }
             ]
         },
