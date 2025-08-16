@@ -74,10 +74,11 @@ const { t } = useTranslation();
                 <FiHome className="mr-2" />{t('go_to_homepage')} 
               </Link>
             </Button>
-            <Button variant="outline" asChild>
-              <Link to="javascript:history.back()">
-                <FiArrowLeft className="mr-2" /> {t('go_back')} 
-              </Link>
+            <Button 
+              variant="outline" 
+              onClick={() => window.history.back()}
+            >
+              <FiArrowLeft className="mr-2" /> {t('go_back')} 
             </Button>
           </motion.div>
         </motion.div>
