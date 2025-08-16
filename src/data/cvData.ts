@@ -114,7 +114,7 @@ export const cvData: CVData = {
       id: 1,
       institution: "University of Technology",
       degree: "Bachelor of Computer Science",
-      duration: "2020 - 2024",
+      duration: "2024 - 2025",
       description: "Specialized in web development and user interface design, focusing on modern JavaScript frameworks and reactive design principles."
     },
     {
@@ -137,26 +137,26 @@ export const cvData: CVData = {
       "Time Management", "Attention to Detail", "Creative Thinking"
     ],
     languages: [
-      { name: "French", level: "Native" },
-      { name: "English", level: "Professional" },
+      { name: "French", level: "Courant" },
+      { name: "English", level: "Débutant" },
       { name: "Spanish", level: "Intermediate" }
     ]
   },
   certifications: [
     {
       name: "React Developer Certification",
-      issuer: "Meta",
-      date: "2024"
+      issuer: "OpenClassrooms",
+      date: "2025"
     },
     {
-      name: "TypeScript Fundamentals",
-      issuer: "Microsoft",
-      date: "2023"
+      name: "DÉVELOPPEMENT D’APPLICATIONS WEB",
+      issuer: "POWERBACHE",
+      date: "2020"
     },
     {
-      name: "Frontend Developer Certificate",
-      issuer: "freeCodeCamp",
-      date: "2023"
+      name: "Secrétariat et Gestion Administrative",
+      issuer: "POWERBACHE",
+      date: "2015"
     }
   ]
 };

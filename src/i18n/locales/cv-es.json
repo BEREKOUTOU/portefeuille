@@ -136,18 +136,18 @@
         "certifications": [
             {
                 "name": "Certificación de Desarrollador React",
-                "issuer": "Meta",
-                "date": "2024"
+                "issuer": "OpenClassrooms",
+                "date": "2025"
             },
             {
-                "name": "Fundamentos de TypeScript",
-                "issuer": "Microsoft",
-                "date": "2023"
+                "name": "Desarrollo de Aplicaciones Web",
+                "issuer": "PowerBache",
+                "date": "2020"
             },
             {
-                "name": "Certificado de Desarrollador Frontend",
-                "issuer": "freeCodeCamp",
-                "date": "2023"
+                "name": "Secretariado y Gestión Administrativa",
+                "issuer": "PowerBache",
+                "date": "2015"
             }
         ]
     }

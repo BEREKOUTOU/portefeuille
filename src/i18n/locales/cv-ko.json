@@ -136,18 +136,18 @@
         "certifications": [
             {
                 "name": "React 개발자 인증",
-                "issuer": "Meta",
-                "date": "2024"
+                "issuer": "OpenClassrooms",
+                "date": "2025"
             },
             {
-                "name": "TypeScript 기초",
-                "issuer": "Microsoft",
-                "date": "2023"
+                "name": "웹 애플리케이션 개발자",
+                "issuer": "PowerBache",
+                "date": "2020"
             },
             {
-                "name": "프론트엔드 개발자 인증서",
-                "issuer": "freeCodeCamp",
-                "date": "2023"
+                "name": "비서 및 행정 관리",
+                "issuer": "PowerBache",
+                "date": "2015"
             }
         ]
     }

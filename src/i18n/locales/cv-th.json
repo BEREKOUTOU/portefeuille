@@ -136,18 +136,18 @@
         "certifications": [
             {
                 "name": "ใบรับรองนักพัฒนา React",
-                "issuer": "Meta",
-                "date": "2024"
+                "issuer": "OpenClassrooms",
+                "date": "2025"
             },
             {
-                "name": "พื้นฐาน TypeScript",
-                "issuer": "Microsoft",
-                "date": "2023"
+                "name": "พนักพัฒนาเว็บแอปพลิเคชัน",
+                "issuer": "PowerBache",
+                "date": "2020"
             },
             {
-                "name": "ใบรับรองนักพัฒนา Frontend",
-                "issuer": "freeCodeCamp",
-                "date": "2023"
+                "name": "การจัดการและการบริหารงานเลขานุการ",
+                "issuer": "PowerBache",
+                "date": "2015"
             }
         ]
     }
