@@ -22,6 +22,10 @@
   "about_me_title": "À propos de moi",
   "about_me_paragraph2": "Je suis un développeur passionné avec une expertise dans React, Tailwind CSS et les technologies web modernes. J'adore construire des interfaces visuellement attrayantes et fonctionnelles qui offrent des expériences utilisateur  intuitives et esthétiques avec une attention particulière aux détails.",
   "learn_more": "En savoir plus",
+   "page_not_found": "Page non trouvée",
+  "page_not_found_message": "La page que vous cherchez n'existe pas ou a été transférée.",
+  "go_to_homepage": "Aller à la page d'accueil",
+  "go_back": "Retourner en arriere",
   "abouts": {
     "title": "À propos de moi",
     "description": "En savoir plus sur mon parcours, mon expérience et ce qui me motive en tant que développeur.",

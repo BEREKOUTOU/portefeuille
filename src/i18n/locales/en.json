@@ -22,6 +22,10 @@
   "about_me_title": "About Me",
   "about_me_paragraph2": "I'm a passionate developer with expertise in React, Tailwind CSS, and modern web technologies. I love building visually appealing and functional interfaces that deliver intuitive and aesthetic user experiences with careful attention to detail.",
   "learn_more": "Learn More",
+  "page_not_found": "Page Not Found",
+  "page_not_found_message": "The page you're looking for doesn't exist or has been moved.",
+  "go_to_homepage": "Go to Homepage",
+  "go_back": "Go Back",
   "abouts": {
     "title": "About Me",
     "description": "Learn more about my background, experience, and what drives me as a developer.",

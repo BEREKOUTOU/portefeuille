@@ -3,8 +3,10 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { FiHome, FiArrowLeft } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 
 export default function NotFound() {
+const { t } = useTranslation();
   // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -28,7 +30,7 @@ export default function NotFound() {
   return (
     <>
       <Helmet>
-        <title>404 - Page Not Found</title>
+        <title>Portfolio | 404 - Page Not Found</title>
         <meta name="description" content="The page you're looking for doesn't exist" />
       </Helmet>
       
@@ -53,14 +55,14 @@ export default function NotFound() {
             variants={itemVariants}
             className="text-3xl font-bold mb-4"
           >
-            Page not found
+           [{t('page_not_found')}] 
           </motion.h1>
           
           <motion.p 
             variants={itemVariants}
             className="text-muted-foreground mb-8 max-w-md mx-auto"
           >
-            The page you're looking for doesn't exist or has been moved.
+            {t('page_not_found_message')}
           </motion.p>
           
           <motion.div 
@@ -69,12 +71,12 @@ export default function NotFound() {
           >
             <Button asChild>
               <Link to="/">
-                <FiHome className="mr-2" /> Go to Homepage
+                <FiHome className="mr-2" />{t('go_to_homepage')} 
               </Link>
             </Button>
             <Button variant="outline" asChild>
               <Link to="javascript:history.back()">
-                <FiArrowLeft className="mr-2" /> Go Back
+                <FiArrowLeft className="mr-2" /> {t('go_back')} 
               </Link>
             </Button>
           </motion.div>
