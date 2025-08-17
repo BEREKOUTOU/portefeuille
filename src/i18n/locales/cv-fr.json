@@ -35,42 +35,43 @@
       },
       {
         "id": 2,
-        "company": "Studio WebCraft",
-        "position": "Développeur Web Junior",
-        "duration": "2023 - 2024",
-        "location": "Lyon, France",
+        "company": "Secretariat Général",
+        "position": "Agent Administratif",
+        "duration": "2017 - 2019",
+        "location": "Yaoundé, Cameroun",
         "description": [
-          "Construction de sites web réactifs et implémentation de composants UI pour projets clients",
-          "Travail avec JavaScript, HTML5 et CSS3 pour créer des applications web modernes",
-          "Participation aux revues de code et contribution au partage de connaissances en équipe",
-          "Assistance à la migration d'applications legacy vers l'architecture React moderne"
+          "Création de contenu graphique et de documents administratifs en utilisant des outils numériques",
+          "Recherches sur internet pour la collecte d'informations et la rédaction de rapports",
+          "Saisie de documents et gestion de bases de données",
+          "Mise à disposition outils de communication et de collaboration pour l'équipe"
         ],
         "technologies": [
-          "JavaScript",
-          "React",
-          "CSS3",
-          "Git",
-          "Figma"
+          "Word",
+          "Excel",
+          "PowerPoint",
+          "Outlook",
+          "Internet"
         ]
       },
       {
         "id": 3,
-        "company": "DigitalEdge",
-        "position": "Stagiaire en Développement Web",
-        "duration": "2022 - 2023",
-        "location": "Télétravail",
+        "company": "DAK Sécurités",
+        "position": "Agent de Sécurités",
+        "duration": "2015 - 2017",
+        "location": "Yaoudé, Cameroun",
         "description": [
-          "Assistance au développement d'applications web en utilisant des technologies modernes",
-          "Acquisition d'expérience pratique avec l'écosystème React et les meilleures pratiques",
-          "Contribution à des projets open-source et documentation",
-          "Participation aux processus de développement agile et standups quotidiens"
+          "Veiller à la sécurité des biens et des personnes en tant qu'agent de Sécurités",
+          "Intervenir lors d'un incident pour assurer la sécurité des lieux et des personnes",
+          "Prendre les mesures qui s'imposent pour prévenir les risques et Garder les accès sécurisés",
+          "Effectuer des rondes,Contrôler les allées et venues des personnes et des véhicules",
+          " Rédiger des rapports d'incidents et de sécurité"
         ],
         "technologies": [
-          "React",
-          "JavaScript",
-          "Git",
-          "Agile",
-          "Jest"
+          "Le Tonfa",
+          "Le talkie-walkie",
+          "La lampe torche",
+          "La tenue de secours",
+          "Le sifflet"
         ]
       }
     ],

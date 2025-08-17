@@ -35,42 +35,43 @@
             },
             {
                 "id": 2,
-                "company": "Studio WebCraft",
-                "position": "Desarrollador Web Junior",
-                "duration": "2023 - 2024",
-                "location": "Lyon, Francia",
+                "company": "Secretaría General",
+                "position": "Agente administrativo",
+                "duration": "2017 - 2019",
+                "location": "Yaoundé, Cameroun",
                 "description": [
-                    "Construcción de sitios web responsivos e implementación de componentes UI para proyectos de clientes",
-                    "Trabajo con JavaScript, HTML5 y CSS3 para crear aplicaciones web modernas",
-                    "Participación en revisiones de código y contribución al intercambio de conocimientos del equipo",
-                    "Asistencia en la migración de aplicaciones legacy a la arquitectura moderna de React"
+                    "Creación de contenido gráfico y documentos administrativos mediante herramientas digitales",
+                    "Búsqueda en internet para la recopilación de información y redacción de informes",
+                    "Ingreso de documentos y gestión de bases de datos",
+                    "Disponibilidad de herramientas de comunicación y colaboración para el equipo"
                 ],
                 "technologies": [
-                    "JavaScript",
-                    "React",
-                    "CSS3",
-                    "Git",
-                    "Figma"
+                    "Word",
+                    "Excel",
+                    "PowerPoint",
+                    "Outlook",
+                    "Internet"
                 ]
             },
             {
                 "id": 3,
-                "company": "DigitalEdge",
-                "position": "Pasante en Desarrollo Web",
-                "duration": "2022 - 2023",
-                "location": "Remoto",
+                "company": "DAK Sécurités",
+                "position": "Agente de Seguridad",
+                "duration": "2015 - 2017",
+                "location": "Yaoundé, Cameroun",
                 "description": [
-                    "Asistencia en el desarrollo de aplicaciones web utilizando tecnologías modernas",
-                    "Adquisición de experiencia práctica con el ecosistema React y las mejores prácticas",
-                    "Contribución a proyectos de código abierto y documentación",
-                    "Participación en procesos de desarrollo ágil y reuniones diarias"
+                    "Veiller à la sécurité des biens et des personnes en tant qu'agent de Sécurités",
+                    "Intervenir lors d'un incident pour assurer la sécurité des lieux et des personnes",
+                    "Prendre les mesures qui s'imposent pour prévenir les risques et Garder les accès sécurisés",
+                    "Effectuer des rondes,Contrôler les allées et venues des personnes et des véhicules",
+                    "Rédiger des rapports d'incidents et de sécurité"
                 ],
                 "technologies": [
-                    "React",
-                    "JavaScript",
-                    "Git",
-                    "Agile",
-                    "Jest"
+                    "La tonfa",
+                    "El walkie-talkie",
+                    "la linterna",
+                    "El equipo de emergencia",
+                    "El sifflet"
                 ]
             }
         ],

@@ -35,42 +35,43 @@
             },
             {
                 "id": 2,
-                "company": "Studio WebCraft",
-                "position": "Junior Web Developer",
-                "duration": "2023 - 2024",
-                "location": "Lyon, France",
+                "company": "General Secretariat",
+                "position": "Administrative Agent",
+                "duration": "2017 - 2019",
+                "location": "Yaounde, Cameroon",
                 "description": [
-                    "Built responsive websites and implemented UI components for client projects",
-                    "Worked with JavaScript, HTML5 and CSS3 to create modern web applications",
-                    "Participated in code reviews and contributed to team knowledge sharing",
-                    "Assisted in migrating legacy applications to modern React architecture"
+                    "Creating graphic content and administrative documents using digital tools",
+                    "Conducting internet research to gather information and write reports",
+                    "Entry of documents and database management",
+                    "Providing communication and collaboration tools for the team"
                 ],
                 "technologies": [
-                    "JavaScript",
-                    "React",
-                    "CSS3",
-                    "Git",
-                    "Figma"
+                    "Word",
+                    "Excel",
+                    "PowerPoint",
+                    "Outlook",
+                    "Internet"
                 ]
             },
             {
                 "id": 3,
-                "company": "DigitalEdge",
-                "position": "Web Development Intern",
-                "duration": "2022 - 2023",
-                "location": "Remote",
+                "company": "DAK Security",
+                "position": "Security Agent",
+                "duration": "2015 - 2017",
+                "location": "Yaounde, Cameroon",
                 "description": [
-                    "Assisted in web application development using modern technologies",
-                    "Gained practical experience with React ecosystem and best practices",
-                    "Contributed to open-source projects and documentation",
-                    "Participated in agile development processes and daily standups"
+                    "Ensure the safety of property and people as a security officer",
+                    "Intervene during an incident to ensure the safety of premises and people",
+                    "Take the necessary measures to prevent risks and maintain secure access",
+                    "Carry out patrols, monitor the comings and goings of people and vehicles",
+                    "Write incident and security reports"
                 ],
                 "technologies": [
-                    "React",
-                    "JavaScript",
-                    "Git",
-                    "Agile",
-                    "Jest"
+                    "The Tonfa",
+                    "The Walkie-Talkie",
+                    "The Flashlight",
+                    "The Emergency Suit",
+                    "The Whistle"
                 ]
             }
         ],
