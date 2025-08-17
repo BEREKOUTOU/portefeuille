@@ -15,26 +15,6 @@
     "experience": [
       {
         "id": 1,
-        "company": "Solutions Innovatech",
-        "position": "Développeur Frontend",
-        "duration": "2024 - Présent",
-        "location": "Paris, France",
-        "description": [
-          "Développement et maintenance de sites web côté client en utilisant React, Next.js et TypeScript",
-          "Collaboration avec designers et développeurs backend pour créer des expériences utilisateur fluides",
-          "Implémentation de principes de design réactif assurant des performances optimales sur tous les appareils",
-          "Optimisation des performances de l'application et amélioration des temps de chargement de 40%"
-        ],
-        "technologies": [
-          "React",
-          "TypeScript",
-          "Next.js",
-          "Tailwind CSS",
-          "Node.js"
-        ]
-      },
-      {
-        "id": 2,
         "company": "Secretariat Général",
         "position": "Agent Administratif",
         "duration": "2017 - 2019",
@@ -54,7 +34,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 2,
         "company": "DAK Sécurités",
         "position": "Agent de Sécurités",
         "duration": "2015 - 2017",
@@ -78,26 +58,31 @@
     "education": [
       {
         "id": 1,
-        "institution": "Université de Technologie",
-        "degree": "Licence en Informatique",
-        "duration": "2020 - 2024",
+        "institution": "Institut Universitaire de Technologie",
+        "degree": "BTS en Informatique",
+        "duration": "2024 - 2025",
         "description": "Spécialisé en développement web et en design d'interfaces utilisateur, en se concentrant sur les frameworks JavaScript modernes et les principes de design réactifs."
       },
       {
         "id": 2,
-        "institution": "Institut d'Innovation Digitale",
-        "degree": "Certificat Avancé en Développement Frontend",
-        "duration": "2023",
-        "description": "Programme intensif couvrant React, la gestion d'état, l'optimisation des performances et les frameworks CSS modernes."
-      }
+        "institution": "CITISFORMATION PowrBache",
+        "degree": "Certificat  en Développement d'Application",
+        "duration": "2020 - 2021",
+        "description": "Expert en développement backend PHP/MySQL, spécialisé dans la conception et l’optimisation de bases de données relationnelles haute performance."
+      },
+      {
+        "id": 3,
+        "institution":"CITISFORMATION PowrBache",
+        "degree":"Certificat  en sécretariat Bureautique",
+        "duration":"2015 ",
+        "description": "Création de contenu graphique et de documents administratifs en utilisant des outils numériques"
+      }    
     ],
     "skills": {
       "technical": [
         "React",
         "TypeScript",
         "JavaScript",
-        "Next.js",
-        "Vue.js",
         "HTML5",
         "CSS3",
         "Tailwind CSS",
@@ -108,11 +93,8 @@
         "Vite",
         "Node.js",
         "APIs REST",
-        "GraphQL",
         "Jest",
-        "Cypress",
-        "Figma",
-        "Adobe XD"
+        "Figma"        
       ],
       "soft": [
         "Résolution de Problèmes",
@@ -121,7 +103,8 @@
         "Adaptabilité",
         "Gestion du Temps",
         "Attention aux Détails",
-        "Pensée Créative"
+        "Pensée Créative",
+        "Autonomie"
       ],
       "languages": [
         {

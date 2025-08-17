@@ -15,26 +15,6 @@
         "experience": [
             {
                 "id": 1,
-                "company": "Solutions Innovatech",
-                "position": "Desarrollador Frontend",
-                "duration": "2024 - Presente",
-                "location": "París, Francia",
-                "description": [
-                    "Desarrollo y mantenimiento de sitios web del lado del cliente utilizando React, Next.js y TypeScript",
-                    "Colaboración con diseñadores y desarrolladores backend para crear experiencias de usuario fluidas",
-                    "Implementación de principios de diseño responsivo asegurando un rendimiento óptimo en todos los dispositivos",
-                    "Optimización del rendimiento de la aplicación y mejora de los tiempos de carga en un 40%"
-                ],
-                "technologies": [
-                    "React",
-                    "TypeScript",
-                    "Next.js",
-                    "Tailwind CSS",
-                    "Node.js"
-                ]
-            },
-            {
-                "id": 2,
                 "company": "Secretaría General",
                 "position": "Agente administrativo",
                 "duration": "2017 - 2019",
@@ -54,7 +34,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 2,
                 "company": "DAK Sécurités",
                 "position": "Agente de Seguridad",
                 "duration": "2015 - 2017",
@@ -78,17 +58,24 @@
         "education": [
             {
                 "id": 1,
-                "institution": "Universidad de Tecnología",
-                "degree": "Grado en Ciencias de la Computación",
-                "duration": "2020 - 2024",
-                "description": "Especializado en desarrollo web y diseño de interfaces de usuario, enfocándose en frameworks JavaScript modernos y principios de diseño reactivo."
-            },
-            {
+                "institution": "Instituto Universitario de Tecnología",
+                "degree": "BTS en Ciencias de la Computación",
+                "duration": "2024 - 2025",
+                "description": "Especializado en desarrollo web y diseño de interfaces de usuario, con enfoque en frameworks JavaScript modernos y principios de diseño responsivo."
+                },
+                {
                 "id": 2,
-                "institution": "Instituto de Innovación Digital",
-                "degree": "Certificado Avanzado en Desarrollo Frontend",
-                "duration": "2023",
-                "description": "Programa intensivo que cubre React, gestión de estado, optimización de rendimiento y frameworks CSS modernos."
+                "institution": "CITISFORMATION PowrBache",
+                "degree": "Certificado en Desarrollo de Aplicaciones",
+                "duration": "2020 - 2021",
+                "description": "Experto en desarrollo backend PHP/MySQL, especializado en el diseño y optimización de bases de datos relacionales de alto rendimiento."
+                },
+            {
+                "id": 3,
+                "institution":"CITISFORMATION PowrBache",
+                "degree":"Certificado en Ofimática y Secretariado",
+                "duration":"2015",
+                "description": "Creación de contenido gráfico y documentos administrativos mediante herramientas digitales"
             }
         ],
         "skills": {
@@ -96,8 +83,6 @@
                 "React",
                 "TypeScript",
                 "JavaScript",
-                "Next.js",
-                "Vue.js",
                 "HTML5",
                 "CSS3",
                 "Tailwind CSS",
@@ -108,11 +93,8 @@
                 "Vite",
                 "Node.js",
                 "APIs REST",
-                "GraphQL",
                 "Jest",
-                "Cypress",
-                "Figma",
-                "Adobe XD"
+                "Figma"
             ],
             "soft": [
                 "Resolución de Problemas",
@@ -121,7 +103,8 @@
                 "Adaptabilidad",
                 "Gestión del Tiempo",
                 "Atención al Detalle",
-                "Pensamiento Creativo"
+                "Pensamiento Creativo",
+                "Autonomía"
             ],
             "languages": [
                 {

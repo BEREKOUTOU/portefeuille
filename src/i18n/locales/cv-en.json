@@ -15,26 +15,6 @@
         "experience": [
             {
                 "id": 1,
-                "company": "Solutions Innovatech",
-                "position": "Frontend Developer",
-                "duration": "2024 - Present",
-                "location": "Paris, France",
-                "description": [
-                    "Developed and maintained client-side websites using React, Next.js and TypeScript",
-                    "Collaborated with designers and backend developers to create fluid user experiences",
-                    "Implemented responsive design principles ensuring optimal performance across devices",
-                    "Optimized application performance and improved loading times by 40%"
-                ],
-                "technologies": [
-                    "React",
-                    "TypeScript",
-                    "Next.js",
-                    "Tailwind CSS",
-                    "Node.js"
-                ]
-            },
-            {
-                "id": 2,
                 "company": "General Secretariat",
                 "position": "Administrative Agent",
                 "duration": "2017 - 2019",
@@ -54,7 +34,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 2,
                 "company": "DAK Security",
                 "position": "Security Agent",
                 "duration": "2015 - 2017",
@@ -78,17 +58,24 @@
         "education": [
             {
                 "id": 1,
-                "institution": "University of Technology",
-                "degree": "Bachelor of Computer Science",
-                "duration": "2020 - 2024",
+                "institution": "University Institute of Technology",
+                "degree": "BTS in Computer Science",
+                "duration": "2024 - 2025",
                 "description": "Specialized in web development and user interface design, focusing on modern JavaScript frameworks and reactive design principles."
             },
             {
                 "id": 2,
-                "institution": "Digital Innovation Institute",
-                "degree": "Advanced Frontend Development Certificate",
-                "duration": "2023",
-                "description": "Intensive program covering React, state management, performance optimization and modern CSS frameworks."
+                "institution": "CITISFORMATION PowrBache",
+                "degree": "Certificate in Application Development",
+                "duration": "2020 - 2021",
+                "description": "PHP/MySQL backend development expert, specializing in the design and optimization of high-performance relational databases."
+            },
+            {
+                "id": 3,
+                "institution":"CITISFORMATION PowrBache",
+                "degree":"Certificate in Office Automation and Secretarial Services",
+                "duration": "2015",
+                "description": "Creation of graphic content and administrative documents using digital tools"
             }
         ],
         "skills": {
@@ -96,23 +83,18 @@
                 "React",
                 "TypeScript",
                 "JavaScript",
-                "Next.js",
-                "Vue.js",
                 "HTML5",
                 "CSS3",
                 "Tailwind CSS",
                 "SCSS",
-                "Responsive Design",
+                "Design Réactif",
                 "Git",
                 "Webpack",
                 "Vite",
                 "Node.js",
-                "REST APIs",
-                "GraphQL",
+                "APIs REST",
                 "Jest",
-                "Cypress",
-                "Figma",
-                "Adobe XD"
+                "Figma"     
             ],
             "soft": [
                 "Problem Solving",
@@ -121,7 +103,8 @@
                 "Adaptability",
                 "Time Management",
                 "Attention to Detail",
-                "Creative Thinking"
+                "Creative Thinking",
+                "Autonomy"
             ],
             "languages": [
                 {

@@ -15,26 +15,6 @@
         "experience": [
             {
                 "id": 1,
-                "company": "Solutions Innovatech",
-                "position": "フロントエンド開発者",
-                "duration": "2024 - 現在",
-                "location": "パリ、フランス",
-                "description": [
-                    "React、Next.js、TypeScript を使用したクライアントサイドの Web サイト開発とメンテナンス",
-                    "デザイナーやバックエンド開発者との協力によるシームレスなユーザー体験の創出",
-                    "すべてのデバイスで最適なパフォーマンスを確保するためのレスポンシブデザイン原則の実装",
-                    "アプリケーションのパフォーマンス最適化と読み込み時間の40%改善"
-                ],
-                "technologies": [
-                    "React",
-                    "TypeScript",
-                    "Next.js",
-                    "Tailwind CSS",
-                    "Node.js"
-                ]
-            },
-            {
-                "id": 2,
                 "company": "事務総局",
                 "position": "行政代理人",
                 "duration": "2017 - 2019",
@@ -54,7 +34,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 2,
                 "company": "DAKセキュリティ",
                 "position": "保安代理人",
                 "duration": "2015 - 2017",
@@ -78,17 +58,24 @@
         "education": [
             {
                 "id": 1,
-                "institution": "工科大学 (Université des Sciences et de Technologie)",
-                "degree": "コンピュータサイエンス学士",
-                "duration": "2020 - 2024",
-                "description": "最新の JavaScript フレームワークとレスポンシブ デザインの原則に重点を置いた、Web 開発とユーザー インターフェイス デザインを専門としています。"
+                "institution": "大学工科大学",
+                "degree": "コンピュータサイエンスのBTS",
+                "duration": "2024 - 2025",
+                "description": "Web開発とユーザーインターフェースデザインを専門とし、最新のJavaScriptフレームワークとレスポンシブデザインの原則に重点を置いています。"
             },
             {
                 "id": 2,
-                "institution": "Institut d'Innovation Digitale",
-                "degree": "フロントエンド開発の上級認定",
-                "duration": "2023",
-                "description": "React、状態管理、パフォーマンス最適化、最新の CSS フレームワークを網羅した集中プログラム。"
+                "institution": "CITISFORMATION PowrBache",
+                "degree": "Certificate in Application Development",
+                "duration": "2020 - 2021",
+                "description": "PHP/MySQLバックエンド開発の専門家。高性能リレーショナルデータベースの設計と最適化を専門としています。"
+            },
+            {
+                "id": 3,
+                "institution":"CITISFORMATION PowrBache",
+                "degree":"オフィスオートメーション秘書サービス認定証",
+                "duration":"2015",
+                "description": "デジタルツールを用いたグラフィックコンテンツおよび管理文書の作成"
             }
         ],
         "skills": {
@@ -96,8 +83,6 @@
                 "React",
                 "TypeScript",
                 "JavaScript",
-                "Next.js",
-                "Vue.js",
                 "HTML5",
                 "CSS3",
                 "Tailwind CSS",
@@ -108,11 +93,8 @@
                 "Vite",
                 "Node.js",
                 "APIs REST",
-                "GraphQL",
                 "Jest",
-                "Cypress",
-                "Figma",
-                "Adobe XD"
+                "Figma"
             ],
             "soft": [
                 "問題解決力",
@@ -121,7 +103,8 @@
                 "適応力",
                 "時間管理",
                 "細部への注意",
-                "創造的思考"
+                "創造的思考",
+                "自律性"
             ],
             "languages": [
                 {
