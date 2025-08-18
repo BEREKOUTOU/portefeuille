@@ -11,7 +11,7 @@
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "Passionate Frontend Developer with expertise in React, TypeScript, and modern web technologies. Experienced in creating responsive, user-friendly applications with a focus on performance and accessibility. Strong background in UI/UX design principles and collaborative development.",
+        "summary": "Passionate Frontend Developer with expertise in React, TypeScript, and modern web technologies. Experienced in creating responsive, user-friendly applications with a focus on performance and accessibility. Strong background in UI/UX design principles and integration of Figma mockups into collaborative development.",
         "experience": [
             {
                 "id": 1,
@@ -72,8 +72,8 @@
             },
             {
                 "id": 3,
-                "institution":"CITISFORMATION PowrBache",
-                "degree":"Certificate in Office Automation and Secretarial Services",
+                "institution": "CITISFORMATION PowrBache",
+                "degree": "Certificate in Office Automation and Secretarial Services",
                 "duration": "2015",
                 "description": "Creation of graphic content and administrative documents using digital tools"
             }
@@ -87,14 +87,17 @@
                 "CSS3",
                 "Tailwind CSS",
                 "SCSS",
-                "Design Réactif",
+                "Reactive (responsive) design and accessibility",
                 "Git",
                 "Webpack",
                 "Vite",
                 "Node.js",
                 "APIs REST",
                 "Jest",
-                "Figma"     
+                "Figma",
+                "GitHub",
+                "CI/CD",
+                "Agile/Scrum"
             ],
             "soft": [
                 "Problem Solving",

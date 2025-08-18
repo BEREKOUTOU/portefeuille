@@ -11,7 +11,7 @@
       "website": "berekoutou.github.io/portefeuille/",
       "photo": "/portefeuille/assets/images/Boniface.webp"
     },
-    "summary": "Développeur Frontend passionné avec une expertise en React, TypeScript et technologies web modernes. Expérimenté dans la création d'applications réactives et conviviales avec un focus sur la performance et l'accessibilité. Solide expérience en principes de design UI/UX et développement collaboratif.",
+    "summary": "Développeur Frontend passionné avec une expertise en React, TypeScript et technologies web modernes. Expérimenté dans la création d'applications réactives et conviviales avec un focus sur la performance et l'accessibilité. Solide expérience en principes de design UI/UX et en intégration de maquettes Figma dans le développement collaboratif.",
     "experience": [
       {
         "id": 1,
@@ -72,11 +72,11 @@
       },
       {
         "id": 3,
-        "institution":"CITISFORMATION PowrBache",
-        "degree":"Certificat  en sécretariat Bureautique",
-        "duration":"2015 ",
+        "institution": "CITISFORMATION PowrBache",
+        "degree": "Certificat  en sécretariat Bureautique",
+        "duration": "2015 ",
         "description": "Création de contenu graphique et de documents administratifs en utilisant des outils numériques"
-      }    
+      }
     ],
     "skills": {
       "technical": [
@@ -87,14 +87,17 @@
         "CSS3",
         "Tailwind CSS",
         "SCSS",
-        "Design Réactif",
+        "Design Réactif (Responsive) et Accessibilité",
         "Git",
         "Webpack",
         "Vite",
         "Node.js",
         "APIs REST",
         "Jest",
-        "Figma"        
+        "Figma",
+        "GitHub",
+        "CI/CD",
+        "Agile/Scrum"
       ],
       "soft": [
         "Résolution de Problèmes",

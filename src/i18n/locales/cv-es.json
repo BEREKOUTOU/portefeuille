@@ -11,7 +11,7 @@
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "Desarrollador Frontend apasionado con experiencia en React, TypeScript y tecnologías web modernas. Experimentado en la creación de aplicaciones responsivas y amigables para el usuario con enfoque en el rendimiento y la accesibilidad. Sólida experiencia en principios de diseño UI/UX y desarrollo colaborativo.",
+        "summary": "Desarrollador frontend apasionado con experiencia en React, TypeScript y tecnologías web modernas. Experiencia en la creación de aplicaciones responsivas e intuitivas, priorizando el rendimiento y la accesibilidad. Sólida formación en principios de diseño UI/UX e integración de maquetas de Figma en el desarrollo colaborativo.",
         "experience": [
             {
                 "id": 1,
@@ -62,19 +62,19 @@
                 "degree": "BTS en Ciencias de la Computación",
                 "duration": "2024 - 2025",
                 "description": "Especializado en desarrollo web y diseño de interfaces de usuario, con enfoque en frameworks JavaScript modernos y principios de diseño responsivo."
-                },
-                {
+            },
+            {
                 "id": 2,
                 "institution": "CITISFORMATION PowrBache",
                 "degree": "Certificado en Desarrollo de Aplicaciones",
                 "duration": "2020 - 2021",
                 "description": "Experto en desarrollo backend PHP/MySQL, especializado en el diseño y optimización de bases de datos relacionales de alto rendimiento."
-                },
+            },
             {
                 "id": 3,
-                "institution":"CITISFORMATION PowrBache",
-                "degree":"Certificado en Ofimática y Secretariado",
-                "duration":"2015",
+                "institution": "CITISFORMATION PowrBache",
+                "degree": "Certificado en Ofimática y Secretariado",
+                "duration": "2015",
                 "description": "Creación de contenido gráfico y documentos administrativos mediante herramientas digitales"
             }
         ],
@@ -87,14 +87,17 @@
                 "CSS3",
                 "Tailwind CSS",
                 "SCSS",
-                "Diseño Responsivo",
+                "Diseño reactivo (receptivo) y accesibilidad",
                 "Git",
                 "Webpack",
                 "Vite",
                 "Node.js",
                 "APIs REST",
                 "Jest",
-                "Figma"
+                "Figma",
+                "GitHub",
+                "CI/CD",
+                "Agile/Scrum"
             ],
             "soft": [
                 "Resolución de Problemas",

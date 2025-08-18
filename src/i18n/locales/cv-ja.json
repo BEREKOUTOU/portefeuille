@@ -11,7 +11,7 @@
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "React、TypeScript、そして最新のウェブテクノロジーに精通した、情熱的なフロントエンド開発者です。パフォーマンスとアクセシビリティを重視し、レスポンシブでユーザーフレンドリーなアプリケーションの構築経験が豊富です。UI/UXデザインの原則と共同開発に関する豊富な経験を有しています。",
+        "summary": "React、TypeScript、そして最新のWebテクノロジーに精通した、情熱的なフロントエンド開発者です。パフォーマンスとアクセシビリティを重視し、レスポンシブでユーザーフレンドリーなアプリケーションの開発経験が豊富です。UI/UXデザインの原則と、共同開発におけるFigmaモックアップの統合に関する豊富な経験を有しています。",
         "experience": [
             {
                 "id": 1,
@@ -72,9 +72,9 @@
             },
             {
                 "id": 3,
-                "institution":"CITISFORMATION PowrBache",
-                "degree":"オフィスオートメーション秘書サービス認定証",
-                "duration":"2015",
+                "institution": "CITISFORMATION PowrBache",
+                "degree": "オフィスオートメーション秘書サービス認定証",
+                "duration": "2015",
                 "description": "デジタルツールを用いたグラフィックコンテンツおよび管理文書の作成"
             }
         ],
@@ -87,14 +87,17 @@
                 "CSS3",
                 "Tailwind CSS",
                 "SCSS",
-                "Design Réactif",
+                "リアクティブな（応答性の高い）設計とアクセシビリティ",
                 "Git",
                 "Webpack",
                 "Vite",
                 "Node.js",
                 "APIs REST",
                 "Jest",
-                "Figma"
+                "Figma",
+                "GitHub",
+                "CI/CD",
+                "Agile/Scrum"
             ],
             "soft": [
                 "問題解決力",
