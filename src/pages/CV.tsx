@@ -72,7 +72,7 @@ export default function CV() {
     pageStyle: `
       @page {
         size: A4;
-        margin: 20mm;
+        margin: 5mm;
       }
       @media print {
         body {
@@ -378,17 +378,23 @@ export default function CV() {
                 <div className="flex flex-wrap gap-6 items-center">
                   <div className="flex items-center gap-2">
                     <GiCommercialAirplane className="w-5 h-5 text-primary" />
-                    <span className="text-muted-foreground">{t("cv.travel")}</span>
+                    <span className="text-muted-foreground">
+                      {t("cv.travel")}
+                    </span>
                   </div>
-                  
+
                   <div className="flex items-center gap-2">
                     <FiMusic className="w-5 h-5 text-primary" />
-                    <span className="text-muted-foreground">{t("cv.music")}</span>
+                    <span className="text-muted-foreground">
+                      {t("cv.music")}
+                    </span>
                   </div>
-                  
+
                   <div className="flex items-center gap-2">
                     <FiBookOpen className="w-5 h-5 text-primary" />
-                    <span className="text-muted-foreground">{t("cv.reading")}</span>
+                    <span className="text-muted-foreground">
+                      {t("cv.reading")}
+                    </span>
                   </div>
                 </div>
               </motion.section>
