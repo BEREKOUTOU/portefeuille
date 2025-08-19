@@ -11,7 +11,7 @@
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "Desarrollador frontend apasionado con experiencia en React, TypeScript y tecnologías web modernas. Experiencia en la creación de aplicaciones responsivas e intuitivas, priorizando el rendimiento y la accesibilidad. Sólida formación en principios de diseño UI/UX e integración de maquetas de Figma en el desarrollo colaborativo.",
+        "summary": "Desarrollador frontend apasionado con experiencia en React, TypeScript, Tailwind CSS y tecnologías web modernas. Experiencia en la creación de aplicaciones responsivas e intuitivas, priorizando el rendimiento y la accesibilidad. Sólida formación en principios de diseño UI/UX e integración de maquetas de Figma en el desarrollo colaborativo.",
         "experience": [
             {
                 "id": 1,
@@ -96,8 +96,8 @@
                 "Jest",
                 "Figma",
                 "GitHub",
-                "CI/CD",
-                "Agile/Scrum"
+                "Tests",
+                "Redux"
             ],
             "soft": [
                 "Resolución de Problemas",
@@ -116,7 +116,7 @@
                 },
                 {
                     "name": "Inglés",
-                    "level": "Principiante"
+                    "level": "Intermedio"
                 }
             ]
         },

@@ -11,47 +11,66 @@
       "website": "berekoutou.github.io/portefeuille/",
       "photo": "/portefeuille/assets/images/Boniface.webp"
     },
-    "summary": "Développeur Frontend passionné avec une expertise en React, TypeScript et technologies web modernes. Expérimenté dans la création d'applications réactives et conviviales avec un focus sur la performance et l'accessibilité. Solide expérience en principes de design UI/UX et en intégration de maquettes Figma dans le développement collaboratif.",
+    "summary": "Développeur Frontend passionné avec une expertise en React, TypeScript, Tailwind CSS et technologies web modernes. Expérimenté dans la création d'applications réactives et conviviales avec un focus sur la performance et l'accessibilité. Solide expérience en principes de design UI/UX et en intégration de maquettes Figma dans le développement collaboratif.",
     "experience": [
       {
         "id": 1,
-        "company": "Secretariat Général",
-        "position": "Agent Administratif",
-        "duration": "2017 - 2019",
-        "location": "Yaoundé, Cameroun",
+        "company": "Solutions Innovatech",
+        "position": "Frontend Developer",
+        "duration": "2024 - 2025",
+        "location": "Paris, France",
         "description": [
-          "Création de contenu graphique et de documents administratifs en utilisant des outils numériques",
-          "Recherches sur internet pour la collecte d'informations et la rédaction de rapports",
-          "Saisie de documents et gestion de bases de données",
-          "Mise à disposition outils de communication et de collaboration pour l'équipe"
+          "Développement et maintenance de sites web côté client avec React, Next.js et TypeScript",
+          "Collaboré avec des concepteurs et des développeurs back-end pour créer des expériences utilisateur fluides",
+          "Mise en œuvre de principes de conception réactive garantissant des performances optimales sur tous les appareils",
+          "Performances des applications optimisées et temps de chargement améliorés de 40 %"
         ],
         "technologies": [
-          "Word",
-          "Excel",
-          "PowerPoint",
-          "Outlook",
-          "Internet"
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Next.js",
+          "Node.js"
         ]
       },
       {
         "id": 2,
-        "company": "DAK Sécurités",
-        "position": "Agent de Sécurités",
-        "duration": "2015 - 2017",
-        "location": "Yaoudé, Cameroun",
+        "company": "Studio WebCraft",
+        "position": "Développeur Web Junior",
+        "duration": "2023 - 2024",
+        "location": "Lyon, France",
         "description": [
-          "Veiller à la sécurité des biens et des personnes en tant qu'agent de Sécurités",
-          "Intervenir lors d'un incident pour assurer la sécurité des lieux et des personnes",
-          "Prendre les mesures qui s'imposent pour prévenir les risques et Garder les accès sécurisés",
-          "Effectuer des rondes,Contrôler les allées et venues des personnes et des véhicules",
-          " Rédiger des rapports d'incidents et de sécurité"
+          "Création de sites web réactifs et implémentation de composants d'interface utilisateur pour les projets clients",
+          "J'ai travaillé avec JavaScript, HTML5 et CSS3 pour créer des applications web modernes.",
+          "A aidé à la migration d'applications héritées vers une architecture React moderne",
+          "Participer aux revues de code et contribuer au partage des connaissances de l'équipe"
         ],
         "technologies": [
-          "Le Tonfa",
-          "Le talkie-walkie",
-          "La lampe torche",
-          "La tenue de secours",
-          "Le sifflet"
+          "JavaScript",
+          "React",
+          "CSS3",
+          "Git",
+          "Figma"
+        ]
+      },
+      {
+        "id": 3,
+        "company": "DigitalEdge",
+        "position": "Web Development Intern",
+        "duration": "2022 - 2023",
+        "location": "Rome, Italie",
+        "description": [
+          "A aidé au développement d'applications Web en utilisant des technologies modernes",
+          "J'ai acquis une expérience pratique avec l'écosystème React et les meilleures pratiques de développement",
+          "Contribution à des projets et à la documentation open source",
+          "Participation aux processus de développement agile et aux réunions quotidiennes"
+        ],
+        "technologies": [
+          "React",
+          "JavaScript",
+          "Git",
+          "Agile",
+          "Jest"
         ]
       }
     ],
@@ -96,8 +115,8 @@
         "Jest",
         "Figma",
         "GitHub",
-        "CI/CD",
-        "Agile/Scrum"
+        "Tests",
+        "Redux"
       ],
       "soft": [
         "Résolution de Problèmes",
@@ -116,7 +135,7 @@
         },
         {
           "name": "Anglais",
-          "level": "Débutant"
+          "level": "Intermédiaire"
         }
       ]
     },
@@ -128,7 +147,7 @@
       },
       {
         "name": "Développeur D’Applications WEB",
-        "issuer": "PowrBache",
+        "issuer": "PowerBache",
         "date": "2020"
       },
       {
