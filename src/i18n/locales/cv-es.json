@@ -11,47 +11,66 @@
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "Desarrollador frontend apasionado con experiencia en React, TypeScript, Tailwind CSS y tecnologías web modernas. Experiencia en la creación de aplicaciones responsivas e intuitivas, priorizando el rendimiento y la accesibilidad. Sólida formación en principios de diseño UI/UX e integración de maquetas de Figma en el desarrollo colaborativo.",
+        "summary": "Desarrollador Frontend apasionado con experiencia en React, TypeScript, Tailwind CSS y tecnologías web modernas. Experimentado en la creación de aplicaciones responsivas e intuitivas con enfoque en rendimiento y accesibilidad. Sólida experiencia en principios de diseño UI/UX e integración de maquetas Figma en desarrollo colaborativo.",
         "experience": [
             {
                 "id": 1,
-                "company": "Secretaría General",
-                "position": "Agente administrativo",
-                "duration": "2017 - 2019",
-                "location": "Yaoundé, Cameroun",
+                "company": "Solutions Innovatech OpenClassrooms",
+                "position": "Desarrollador Frontend",
+                "duration": "2024 - 2025",
+                "location": "Cherbourg-en-Cotentin, Francia",
                 "description": [
-                    "Creación de contenido gráfico y documentos administrativos mediante herramientas digitales",
-                    "Búsqueda en internet para la recopilación de información y redacción de informes",
-                    "Ingreso de documentos y gestión de bases de datos",
-                    "Disponibilidad de herramientas de comunicación y colaboración para el equipo"
+                    "Desarrollo y mantenimiento de sitios web del lado del cliente con React, TypeScript y Tailwind CSS",
+                    "Colaboración con diseñadores y desarrolladores backend para crear experiencias de usuario fluidas",
+                    "Implementación de principios de diseño responsivo asegurando rendimiento óptimo en todos los dispositivos",
+                    "Aplicaciones optimizadas y tiempos de carga mejorados en un 40%"
                 ],
                 "technologies": [
-                    "Word",
-                    "Excel",
-                    "PowerPoint",
-                    "Outlook",
-                    "Internet"
+                    "React",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "Kanban",
+                    "Node.js"
                 ]
             },
             {
                 "id": 2,
-                "company": "DAK Sécurités",
-                "position": "Agente de Seguridad",
-                "duration": "2015 - 2017",
-                "location": "Yaoundé, Cameroun",
+                "company": "OpenClassrooms",
+                "position": "Desarrollador Web Junior",
+                "duration": "2024 - 2025",
+                "location": "Cherbourg-en-Cotentin, Francia",
                 "description": [
-                    "Veiller à la sécurité des biens et des personnes en tant qu'agent de Sécurités",
-                    "Intervenir lors d'un incident pour assurer la sécurité des lieux et des personnes",
-                    "Prendre les mesures qui s'imposent pour prévenir les risques et Garder les accès sécurisés",
-                    "Effectuer des rondes,Contrôler les allées et venues des personnes et des véhicules",
-                    "Rédiger des rapports d'incidents et de sécurité"
+                    "Creación de sitios web responsivos e implementación de componentes de interfaz de usuario para proyectos de clientes",
+                    "Trabajé con JavaScript, HTML5 y CSS3 para crear aplicaciones web modernas",
+                    "Ayudé en la migración de aplicaciones heredadas a una arquitectura React moderna",
+                    "Participación en revisiones de código y contribución al intercambio de conocimientos del equipo"
                 ],
                 "technologies": [
-                    "La tonfa",
-                    "El walkie-talkie",
-                    "la linterna",
-                    "El equipo de emergencia",
-                    "El sifflet"
+                    "JavaScript",
+                    "React",
+                    "CSS3",
+                    "Git",
+                    "Figma"
+                ]
+            },
+            {
+                "id": 3,
+                "company": "OpenClassrooms",
+                "position": "Pasante en Desarrollo Web",
+                "duration": "2023 - 2024",
+                "location": "Cherbourg-en-Cotentin, Francia",
+                "description": [
+                    "Ayudé en el desarrollo de aplicaciones web utilizando tecnologías modernas",
+                    "Adquirí experiencia práctica con el ecosistema React y las mejores prácticas de desarrollo",
+                    "Contribución a proyectos y documentación de código abierto",
+                    "Participación en procesos de desarrollo ágil y reuniones diarias"
+                ],
+                "technologies": [
+                    "React",
+                    "JavaScript",
+                    "Git",
+                    "Agile",
+                    "Jest"
                 ]
             }
         ],
@@ -59,23 +78,23 @@
             {
                 "id": 1,
                 "institution": "Instituto Universitario de Tecnología",
-                "degree": "BTS en Ciencias de la Computación",
+                "degree": "BTS en Informática",
                 "duration": "2024 - 2025",
-                "description": "Especializado en desarrollo web y diseño de interfaces de usuario, con enfoque en frameworks JavaScript modernos y principios de diseño responsivo."
+                "description": "Especializado en desarrollo web y diseño de interfaces de usuario, enfocándose en frameworks JavaScript modernos y principios de diseño responsivo."
             },
             {
                 "id": 2,
                 "institution": "CITISFORMATION PowrBache",
                 "degree": "Certificado en Desarrollo de Aplicaciones",
                 "duration": "2020 - 2021",
-                "description": "Experto en desarrollo backend PHP/MySQL, especializado en el diseño y optimización de bases de datos relacionales de alto rendimiento."
+                "description": "Experto en desarrollo backend PHP/MySQL, especializado en diseño y optimización de bases de datos relacionales de alto rendimiento."
             },
             {
                 "id": 3,
                 "institution": "CITISFORMATION PowrBache",
-                "degree": "Certificado en Ofimática y Secretariado",
+                "degree": "Certificado en Secretariado y Ofimática",
                 "duration": "2015",
-                "description": "Creación de contenido gráfico y documentos administrativos mediante herramientas digitales"
+                "description": "Creación de contenido gráfico y documentos administrativos utilizando herramientas digitales"
             }
         ],
         "skills": {
@@ -87,7 +106,7 @@
                 "CSS3",
                 "Tailwind CSS",
                 "SCSS",
-                "Diseño reactivo (receptivo) y accesibilidad",
+                "Diseño Responsivo y Accesibilidad",
                 "Git",
                 "Webpack",
                 "Vite",

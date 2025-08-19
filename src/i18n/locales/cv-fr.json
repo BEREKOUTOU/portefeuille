@@ -15,12 +15,12 @@
     "experience": [
       {
         "id": 1,
-        "company": "Solutions Innovatech",
+        "company": "Solutions Innovatech OpenClassrooms",
         "position": "Frontend Developer",
         "duration": "2024 - 2025",
-        "location": "Paris, France",
+        "location": "Cherbourg-en-Cotentin, France",
         "description": [
-          "Développement et maintenance de sites web côté client avec React, Next.js et TypeScript",
+          "Développement et maintenance de sites web côté client avec React, TypeScript et Tilwind CSS",
           "Collaboré avec des concepteurs et des développeurs back-end pour créer des expériences utilisateur fluides",
           "Mise en œuvre de principes de conception réactive garantissant des performances optimales sur tous les appareils",
           "Performances des applications optimisées et temps de chargement améliorés de 40 %"
@@ -29,16 +29,16 @@
           "React",
           "TypeScript",
           "Tailwind CSS",
-          "Next.js",
+          "Kanban",
           "Node.js"
         ]
       },
       {
         "id": 2,
-        "company": "Studio WebCraft",
+        "company": "OpenClassrooms",
         "position": "Développeur Web Junior",
-        "duration": "2023 - 2024",
-        "location": "Lyon, France",
+        "duration": "2024 - 2025",
+        "location": "Cherbourg-en-Cotentin, France",
         "description": [
           "Création de sites web réactifs et implémentation de composants d'interface utilisateur pour les projets clients",
           "J'ai travaillé avec JavaScript, HTML5 et CSS3 pour créer des applications web modernes.",
@@ -55,10 +55,10 @@
       },
       {
         "id": 3,
-        "company": "DigitalEdge",
+        "company": "OpenClassrooms",
         "position": "Web Development Intern",
-        "duration": "2022 - 2023",
-        "location": "Rome, Italie",
+        "duration": "2023 - 2024",
+        "location": "Cherbourg-en-Cotentin, France",
         "description": [
           "A aidé au développement d'applications Web en utilisant des technologies modernes",
           "J'ai acquis une expérience pratique avec l'écosystème React et les meilleures pratiques de développement",

@@ -5,77 +5,96 @@
             "title": "프론트엔드 개발자",
             "email": "allahtoralphdjamel@gmail.com",
             "phone": "+33 07 75 95 44 11",
-            "location": "Cherbourg-en-Cotentin, 프랑스",
-            "linkedin": "www.linkedin.com/in/boniface-berekoutoutou-4b068a36a/",
+            "location": "셰르부르 앙 코트랑탱, 프랑스",
+            "linkedin": "www.linkedin.com/in/boniface-berekoutou-4b068a36a/",
             "github": "github.com/BEREKOUTOU",
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "React, TypeScript, Tailwind CSS 및 최신 웹 기술에 대한 전문 지식을 갖춘 열정적인 프런트엔드 개발자입니다. 성능과 접근성에 중점을 두고 반응형이고 사용자 친화적인 애플리케이션을 제작해 온 경험이 있습니다. UI/UX 디자인 원칙에 대한 탄탄한 배경 지식과 Figma 목업을 협업 개발에 통합하는 능력을 갖추고 있습니다.",
+        "summary": "React, TypeScript, Tailwind CSS 및 최신 웹 기술에 대한 전문 지식을 갖춘 열정적인 프론트엔드 개발자입니다. 성능과 접근성에 중점을 둔 반응형이고 사용자 친화적인 애플리케이션 생성에 경험이 풍부합니다. UI/UX 디자인 원칙과 Figma 목업을 협업 개발에 통합하는 데 강력한 배경을 가지고 있습니다.",
         "experience": [
             {
                 "id": 1,
-                "company": "사무국",
-                "position": "행정 대리인",
-                "duration": "2017 - 2019",
-                "location": "야운데, 카메룬",
+                "company": "Solutions Innovatech OpenClassrooms",
+                "position": "프론트엔드 개발자",
+                "duration": "2024 - 2025",
+                "location": "셰르부르 앙 코트랑탱, 프랑스",
                 "description": [
-                    "디지털 도구를 활용한 그래픽 콘텐츠 및 행정 문서 제작",
-                    "정보 수집 및 보고서 작성을 위한 인터넷 조사",
-                    "문서 입력 및 데이터베이스 관리",
-                    "팀을 위한 커뮤니케이션 및 협업 도구 제공"
+                    "React, TypeScript, Tailwind CSS를 사용한 클라이언트 사이드 웹사이트 개발 및 유지보수",
+                    "디자이너 및 백엔드 개발자와 협력하여 원활한 사용자 경험 구축",
+                    "모든 장치에서 최적의 성능을 보장하는 반응형 디자인 원칙 구현",
+                    "애플리케이션 성능 최적화 및 로딩 시간 40% 개선"
                 ],
                 "technologies": [
-                    "Word",
-                    "Excel",
-                    "PowerPoint",
-                    "Outlook",
-                    "인터넷"
+                    "React",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "Kanban",
+                    "Node.js"
                 ]
             },
             {
                 "id": 2,
-                "company": "DAK 보안",
-                "position": "보안요원",
-                "duration": "2015 - 2017",
-                "location": "야운데, 카메룬",
+                "company": "OpenClassrooms",
+                "position": "주니어 웹 개발자",
+                "duration": "2024 - 2025",
+                "location": "셰르부르 앙 코트랑탱, 프랑스",
                 "description": [
-                    "보안 요원으로서 재산과 사람의 안전을 보장합니다.",
-                    "건물과 사람들의 안전을 보장하기 위해 사고 발생 시 개입합니다.",
-                    "위험을 예방하고 접근 보안을 유지하기 위해 필요한 조치를 취하십시오.",
-                    "순찰을 실시하고 사람과 차량의 출입을 확인한다.",
-                    "사고 및 보안 보고서 작성"
+                    "클라이언트 프로젝트를 위한 반응형 웹사이트 및 UI 컴포넌트 생성",
+                    "JavaScript, HTML5, CSS3를 사용하여 모던 웹 애플리케이션 구축",
+                    "레거시 애플리케이션을 모던 React 아키텍처로 마이그레이션 지원",
+                    "코드 리뷰 참여 및 팀 지식 공유 기여"
                 ],
                 "technologies": [
-                    "더 톤파",
-                    "무전기",
-                    "손전등",
-                    "비상 복장",
-                    "휘파람"
+                    "JavaScript",
+                    "React",
+                    "CSS3",
+                    "Git",
+                    "Figma"
+                ]
+            },
+            {
+                "id": 3,
+                "company": "OpenClassrooms",
+                "position": "웹 개발 인턴",
+                "duration": "2023 - 2024",
+                "location": "셰르부르 앙 코트랑탱, 프랑스",
+                "description": [
+                    "최신 기술을 사용한 웹 애플리케이션 개발 지원",
+                    "React 생태계와 개발 모범 사례에 대한 실무 경험 습득",
+                    "오픈 소스 프로젝트 및 문서에 기여",
+                    "애자일 개발 프로세스 및 데일리 스탠드업 미팅 참여"
+                ],
+                "technologies": [
+                    "React",
+                    "JavaScript",
+                    "Git",
+                    "Agile",
+                    "Jest"
                 ]
             }
         ],
         "education": [
             {
                 "id": 1,
-                "institution": "대학교 기술 연구소",
-                "degree": "컴퓨터 과학 분야의 BTS",
+                "institution": "기술 대학원",
+                "degree": "컴퓨터 과학 BTS",
                 "duration": "2024 - 2025",
-                "description": "웹 개발 및 사용자 인터페이스 디자인 전문 분야로, 최신 JavaScript 프레임워크와 반응형 디자인 원칙에 중점을 두고 있습니다."
+                "description": "웹 개발 및 사용자 인터페이스 디자인을 전문으로 하며, 모던 JavaScript 프레임워크와 반응형 디자인 원칙에 중점을 둡니다."
             },
             {
                 "id": 2,
                 "institution": "CITISFORMATION PowrBache",
-                "degree": "애플리케이션 개발 자격증",
+                "degree": "애플리케이션 개발 인증서",
                 "duration": "2020 - 2021",
-                "description": "PHP/MySQL 백엔드 개발 전문가로, 고성능 관계형 데이터베이스 설계 및 최적화를 전문으로 합니다."
+                "description": "PHP/MySQL 백엔드 개발 전문가로, 고성능 관계형 데이터베이스 설계 및 최적화에 특화되어 있습니다."
             },
             {
                 "id": 3,
                 "institution": "CITISFORMATION PowrBache",
-                "degree": "사무 자동화 비서 서비스 자격증",
+                "degree": "사무 자동화 및 비서 인증서",
                 "duration": "2015",
-                "description": "디지털 도구를 활용한 그래픽 콘텐츠 및 행정 문서 제작"
+                "description": "디지털 도구를 사용한 그래픽 콘텐츠 및 관리 문서 작성"
             }
         ],
         "skills": {
@@ -87,32 +106,32 @@
                 "CSS3",
                 "Tailwind CSS",
                 "SCSS",
-                "반응성 (반응 형) 설계 및 접근성",
+                "반응형 디자인 및 접근성",
                 "Git",
                 "Webpack",
                 "Vite",
                 "Node.js",
-                "REST APIs",
+                "REST API",
                 "Jest",
                 "Figma",
                 "GitHub",
-                "Tests",
+                "테스트",
                 "Redux"
             ],
             "soft": [
                 "문제 해결",
-                "의사 소통",
+                "의사소통",
                 "팀워크",
                 "적응력",
                 "시간 관리",
                 "세부 사항 주의",
                 "창의적 사고",
-                "자치"
+                "자율성"
             ],
             "languages": [
                 {
                     "name": "프랑스어",
-                    "level": "유창함"
+                    "level": "유창"
                 },
                 {
                     "name": "영어",
@@ -127,12 +146,12 @@
                 "date": "2025"
             },
             {
-                "name": "웹 애플리케이션 개발자",
+                "name": "웹 애플리케이션 개발",
                 "issuer": "PowerBache",
                 "date": "2020"
             },
             {
-                "name": "비서 및 행정 관리",
+                "name": "비서 및 관리",
                 "issuer": "PowerBache",
                 "date": "2015"
             }

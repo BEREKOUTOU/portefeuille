@@ -5,77 +5,96 @@
             "title": "フロントエンド開発者",
             "email": "allahtoralphdjamel@gmail.com",
             "phone": "+33 07 75 95 44 11",
-            "location": "Cherbourg-en-Cotentin, France",
+            "location": "シェルブール・アン・コトランタン、フランス",
             "linkedin": "www.linkedin.com/in/boniface-berekoutou-4b068a36a/",
             "github": "github.com/BEREKOUTOU",
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "React、TypeScript、Tailwind CSS、そして最新のWebテクノロジーに精通した、情熱的なフロントエンド開発者です。パフォーマンスとアクセシビリティを重視し、レスポンシブでユーザーフレンドリーなアプリケーションの開発経験が豊富です。UI/UXデザインの原則と、共同開発におけるFigmaモックアップの統合に関する豊富な経験を有しています。",
+        "summary": "React、TypeScript、Tailwind CSS、そして最新のWeb技術に精通した情熱的なフロントエンド開発者です。パフォーマンスとアクセシビリティに重点を置いた、レスポンシブでユーザーフレンドリーなアプリケーションの作成に経験豊富です。UI/UXデザインの原則と、Figmaモックアップを協働開発に統合する強力なバックグラウンドを持っています。",
         "experience": [
             {
                 "id": 1,
-                "company": "事務総局",
-                "position": "行政代理人",
-                "duration": "2017 - 2019",
-                "location": "Yaoundé, Cameroun",
+                "company": "Solutions Innovatech OpenClassrooms",
+                "position": "フロントエンド開発者",
+                "duration": "2024 - 2025",
+                "location": "シェルブール・アン・コトランタン、フランス",
                 "description": [
-                    "デジタルツールを使用したグラフィックコンテンツおよび管理文書の作成",
-                    "インターネット上の情報収集とレポート作成",
-                    "文書の入力とデータベースの管理",
-                    "コミュニケーションと協働ツールの提供"
+                    "React、TypeScript、Tailwind CSSを使用したクライアントサイドウェブサイトの開発と保守",
+                    "デザイナーやバックエンド開発者と協力して、シームレスなユーザー体験を作成",
+                    "すべてのデバイスで最適なパフォーマンスを確保するレスポンシブデザインの実装",
+                    "アプリケーションのパフォーマンスを最適化し、読み込み時間を40%改善"
                 ],
                 "technologies": [
-                    "Word",
-                    "Excel",
-                    "PowerPoint",
-                    "Outlook",
-                    "インターネット"
+                    "React",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "Kanban",
+                    "Node.js"
                 ]
             },
             {
                 "id": 2,
-                "company": "DAKセキュリティ",
-                "position": "保安代理人",
-                "duration": "2015 - 2017",
-                "location": "Yaoundé, Cameroun",
+                "company": "OpenClassrooms",
+                "position": "ジュニアWeb開発者",
+                "duration": "2024 - 2025",
+                "location": "シェルブール・アン・コトランタン、フランス",
                 "description": [
-                    "警備会社として財産と人々の安全を確保する",
-                    "事故発生時に介入し、施設と人々の安全を確保する",
-                    "リスクを防ぐための措辞を講じ、アクセスを確保する",
-                    "巡回を行い、人々と車両の出入りを制御する",
-                    "事故と安全保障に関するレポートを書く"
+                    "クライアントプロジェクトのためのレスポンシブウェブサイトとUIコンポーネントの作成",
+                    "JavaScript、HTML5、CSS3を使用してモダンなWebアプリケーションを作成",
+                    "レガシーアプリケーションをモダンなReactアーキテクチャへ移行を支援",
+                    "コードレビューへの参加とチームのナレッジ共有への貢献"
                 ],
                 "technologies": [
-                    "トンファー",
-                    "トランシーバー",
-                    "懐中電灯",
-                    "備用装備",
-                    "哨子"
+                    "JavaScript",
+                    "React",
+                    "CSS3",
+                    "Git",
+                    "Figma"
+                ]
+            },
+            {
+                "id": 3,
+                "company": "OpenClassrooms",
+                "position": "Web開発インターン",
+                "duration": "2023 - 2024",
+                "location": "シェルブール・アン・コトランタン、フランス",
+                "description": [
+                    "最新の技術を使用したWebアプリケーション開発の支援",
+                    "Reactエコシステムと開発のベストプラクティスについて実践的な経験を獲得",
+                    "オープンソースプロジェクトとドキュメントへの貢献",
+                    "アジャイル開発プロセスとデイリースタンドアップミーティングへの参加"
+                ],
+                "technologies": [
+                    "React",
+                    "JavaScript",
+                    "Git",
+                    "Agile",
+                    "Jest"
                 ]
             }
         ],
         "education": [
             {
                 "id": 1,
-                "institution": "大学工科大学",
-                "degree": "コンピュータサイエンスのBTS",
+                "institution": "大学技術研究所",
+                "degree": "コンピュータサイエンスBTS",
                 "duration": "2024 - 2025",
-                "description": "Web開発とユーザーインターフェースデザインを専門とし、最新のJavaScriptフレームワークとレスポンシブデザインの原則に重点を置いています。"
+                "description": "Web開発とユーザーインターフェースデザインを専門とし、モダンなJavaScriptフレームワークとリアクティブデザインの原則に焦点を当てています。"
             },
             {
                 "id": 2,
                 "institution": "CITISFORMATION PowrBache",
-                "degree": "Certificate in Application Development",
+                "degree": "アプリケーション開発証明書",
                 "duration": "2020 - 2021",
-                "description": "PHP/MySQLバックエンド開発の専門家。高性能リレーショナルデータベースの設計と最適化を専門としています。"
+                "description": "PHP/MySQLバックエンド開発の専門家で、高性能リレーショナルデータベースの設計と最適化に特化しています。"
             },
             {
                 "id": 3,
                 "institution": "CITISFORMATION PowrBache",
-                "degree": "オフィスオートメーション秘書サービス認定証",
+                "degree": "オフィスオートメーション・秘書スキル証明書",
                 "duration": "2015",
-                "description": "デジタルツールを用いたグラフィックコンテンツおよび管理文書の作成"
+                "description": "デジタルツールを使用したグラフィックコンテンツと管理文書の作成"
             }
         ],
         "skills": {
@@ -87,35 +106,35 @@
                 "CSS3",
                 "Tailwind CSS",
                 "SCSS",
-                "リアクティブな（応答性の高い）設計とアクセシビリティ",
+                "レスポンシブデザインとアクセシビリティ",
                 "Git",
                 "Webpack",
                 "Vite",
                 "Node.js",
-                "APIs REST",
+                "REST API",
                 "Jest",
                 "Figma",
                 "GitHub",
-                "Tests",
+                "テスト",
                 "Redux"
             ],
             "soft": [
-                "問題解決力",
+                "問題解決",
                 "コミュニケーション",
                 "チームワーク",
-                "適応力",
-                "時間管理",
-                "細部への注意",
+                "適応性",
+                "タイムマネジメント",
+                "注意深さ",
                 "創造的思考",
                 "自律性"
             ],
             "languages": [
                 {
-                    "name": "Français",
+                    "name": "フランス語",
                     "level": "流暢"
                 },
                 {
-                    "name": "Anglais",
+                    "name": "英語",
                     "level": "中級"
                 }
             ]
@@ -127,12 +146,12 @@
                 "date": "2025"
             },
             {
-                "name": "ウェブアプリケーション開発",
+                "name": "Webアプリケーション開発",
                 "issuer": "PowerBache",
                 "date": "2020"
             },
             {
-                "name": "秘書および管理管理",
+                "name": "秘書業務および管理",
                 "issuer": "PowerBache",
                 "date": "2015"
             }
