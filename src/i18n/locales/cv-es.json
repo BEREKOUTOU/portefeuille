@@ -35,7 +35,7 @@
             },
             {
                 "id": 2,
-                "company": "OpenClassrooms",
+                "company": "Proyecto validado por OpenClassrooms",
                 "position": "Desarrollador Web Junior",
                 "duration": "2024 - 2025",
                 "location": "Cherbourg-en-Cotentin, Francia",
@@ -55,9 +55,9 @@
             },
             {
                 "id": 3,
-                "company": "OpenClassrooms",
+                "company": "Proyecto validado por OpenClassrooms",
                 "position": "Pasante en Desarrollo Web",
-                "duration": "2023 - 2024",
+                "duration": "2024 - 2025",
                 "location": "Cherbourg-en-Cotentin, Francia",
                 "description": [
                     "Ayudé en el desarrollo de aplicaciones web utilizando tecnologías modernas",
@@ -77,21 +77,21 @@
         "education": [
             {
                 "id": 1,
-                "institution": "Instituto Universitario de Tecnología",
+                "institution": "Proyecto de Soluciones Innovatech Validado por OpenClassrooms",
                 "degree": "BTS en Informática",
                 "duration": "2024 - 2025",
                 "description": "Especializado en desarrollo web y diseño de interfaces de usuario, enfocándose en frameworks JavaScript modernos y principios de diseño responsivo."
             },
             {
                 "id": 2,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "Certificado en Desarrollo de Aplicaciones",
                 "duration": "2020 - 2021",
                 "description": "Experto en desarrollo backend PHP/MySQL, especializado en diseño y optimización de bases de datos relacionales de alto rendimiento."
             },
             {
                 "id": 3,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "Certificado en Secretariado y Ofimática",
                 "duration": "2015",
                 "description": "Creación de contenido gráfico y documentos administrativos utilizando herramientas digitales"

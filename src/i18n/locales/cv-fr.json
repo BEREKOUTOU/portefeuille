@@ -15,8 +15,8 @@
     "experience": [
       {
         "id": 1,
-        "company": "Solutions Innovatech OpenClassrooms",
-        "position": "Frontend Developer",
+        "company": "Solutions Innovatech Projet Validé par OpenClassrooms",
+        "position": "Développeur Frontend",
         "duration": "2024 - 2025",
         "location": "Cherbourg-en-Cotentin, France",
         "description": [
@@ -35,7 +35,7 @@
       },
       {
         "id": 2,
-        "company": "OpenClassrooms",
+        "company": "Projet Validé par OpenClassrooms",
         "position": "Développeur Web Junior",
         "duration": "2024 - 2025",
         "location": "Cherbourg-en-Cotentin, France",
@@ -55,9 +55,9 @@
       },
       {
         "id": 3,
-        "company": "OpenClassrooms",
+        "company": "Projet Validé par OpenClassrooms",
         "position": "Web Development Intern",
-        "duration": "2023 - 2024",
+        "duration": "2024 - 2025",
         "location": "Cherbourg-en-Cotentin, France",
         "description": [
           "A aidé au développement d'applications Web en utilisant des technologies modernes",
@@ -84,14 +84,14 @@
       },
       {
         "id": 2,
-        "institution": "CITISFORMATION PowrBache",
+        "institution": "CITISFORMATION PowerBache",
         "degree": "Certificat  en Développement d'Application",
         "duration": "2020 - 2021",
         "description": "Expert en développement backend PHP/MySQL, spécialisé dans la conception et l’optimisation de bases de données relationnelles haute performance."
       },
       {
         "id": 3,
-        "institution": "CITISFORMATION PowrBache",
+        "institution": "CITISFORMATION PowerBache",
         "degree": "Certificat  en sécretariat Bureautique",
         "duration": "2015 ",
         "description": "Création de contenu graphique et de documents administratifs en utilisant des outils numériques"

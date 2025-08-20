@@ -15,7 +15,7 @@
         "experience": [
             {
                 "id": 1,
-                "company": "Solutions Innovatech OpenClassrooms",
+                "company": "Innovatech Solutions Project Validated by OpenClassrooms",
                 "position": "Frontend Developer",
                 "duration": "2024 - 2025",
                 "location": "Cherbourg-en-Cotentin, France",
@@ -35,7 +35,7 @@
             },
             {
                 "id": 2,
-                "company": "OpenClassrooms",
+                "company": "Project Validated by OpenClassrooms",
                 "position": "Junior Web Developer",
                 "duration": "2024 - 2025",
                 "location": "Cherbourg-en-Cotentin, France",
@@ -55,9 +55,9 @@
             },
             {
                 "id": 3,
-                "company": "OpenClassrooms",
+                "company": "Project Validated by OpenClassrooms",
                 "position": "Web Development Intern",
-                "duration": "2023 - 2024",
+                "duration": "2024 - 2025",
                 "location": "Cherbourg-en-Cotentin, France",
                 "description": [
                     "Assisted in developing web applications using modern technologies",
@@ -84,14 +84,14 @@
             },
             {
                 "id": 2,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "Certificate in Application Development",
                 "duration": "2020 - 2021",
                 "description": "PHP/MySQL backend development expert, specializing in the design and optimization of high-performance relational databases."
             },
             {
                 "id": 3,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "Certificate in Office Automation and Secretarial Services",
                 "duration": "2015",
                 "description": "Creation of graphic content and administrative documents using digital tools"

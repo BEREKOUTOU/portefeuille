@@ -15,7 +15,7 @@
         "experience": [
             {
                 "id": 1,
-                "company": "Solutions Innovatech OpenClassrooms",
+                "company": "โครงการ Innovatech Solutions ได้รับการรับรองโดย OpenClassrooms",
                 "position": "นักพัฒนา Frontend",
                 "duration": "2024 - 2025",
                 "location": "เชอร์บูร์ก-อ็อง-โกต็องติน, ฝรั่งเศส",
@@ -35,7 +35,7 @@
             },
             {
                 "id": 2,
-                "company": "OpenClassrooms",
+                "company": "โครงการได้รับการตรวจสอบโดย OpenClassrooms",
                 "position": "นักพัฒนาเว็บจูเนียร์",
                 "duration": "2024 - 2025",
                 "location": "เชอร์บูร์ก-อ็อง-โกต็องติน, ฝรั่งเศส",
@@ -55,9 +55,9 @@
             },
             {
                 "id": 3,
-                "company": "OpenClassrooms",
+                "company": "โครงการได้รับการตรวจสอบโดย OpenClassrooms",
                 "position": "นักพัฒนาเว็บฝึกงาน",
-                "duration": "2023 - 2024",
+                "duration": "2024 - 2025",
                 "location": "เชอร์บูร์ก-อ็อง-โกต็องติน, ฝรั่งเศส",
                 "description": [
                     "ช่วยในการพัฒนาแอปพลิเคชันเว็บโดยใช้เทคโนโลยีสมัยใหม่",
@@ -84,14 +84,14 @@
             },
             {
                 "id": 2,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "ใบรับรองการพัฒนาแอปพลิเคชัน",
                 "duration": "2020 - 2021",
                 "description": "ผู้เชี่ยวชาญด้านการพัฒนาแบ็กเอนด์ PHP/MySQL โดยเชี่ยวชาญในการออกแบบและปรับปรุงฐานข้อมูลแบบสัมพันธ์ที่มีประสิทธิภาพสูง"
             },
             {
                 "id": 3,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "ใบรับรองการบริหารสำนักงานและงานเลขานุการ",
                 "duration": "2015",
                 "description": "การสร้างเนื้อหากราฟิกและเอกสารทางการด้วยเครื่องมือดิจิทัล"

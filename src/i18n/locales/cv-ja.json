@@ -15,7 +15,7 @@
         "experience": [
             {
                 "id": 1,
-                "company": "Solutions Innovatech OpenClassrooms",
+                "company": "OpenClassrooms による Innovatech ソリューション プロジェクト検証",
                 "position": "フロントエンド開発者",
                 "duration": "2024 - 2025",
                 "location": "シェルブール・アン・コトランタン、フランス",
@@ -35,7 +35,7 @@
             },
             {
                 "id": 2,
-                "company": "OpenClassrooms",
+                "company": "OpenClassroomsによって検証されたプロジェクト",
                 "position": "ジュニアWeb開発者",
                 "duration": "2024 - 2025",
                 "location": "シェルブール・アン・コトランタン、フランス",
@@ -55,9 +55,9 @@
             },
             {
                 "id": 3,
-                "company": "OpenClassrooms",
+                "company": "OpenClassroomsによって検証されたプロジェクト",
                 "position": "Web開発インターン",
-                "duration": "2023 - 2024",
+                "duration": "2024 - 2025",
                 "location": "シェルブール・アン・コトランタン、フランス",
                 "description": [
                     "最新の技術を使用したWebアプリケーション開発の支援",
@@ -84,14 +84,14 @@
             },
             {
                 "id": 2,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "アプリケーション開発証明書",
                 "duration": "2020 - 2021",
                 "description": "PHP/MySQLバックエンド開発の専門家で、高性能リレーショナルデータベースの設計と最適化に特化しています。"
             },
             {
                 "id": 3,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "オフィスオートメーション・秘書スキル証明書",
                 "duration": "2015",
                 "description": "デジタルツールを使用したグラフィックコンテンツと管理文書の作成"

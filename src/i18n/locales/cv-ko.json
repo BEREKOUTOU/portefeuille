@@ -15,7 +15,7 @@
         "experience": [
             {
                 "id": 1,
-                "company": "Solutions Innovatech OpenClassrooms",
+                "company": "Innovatech Solutions 프로젝트, OpenClassrooms에서 검증 완료",
                 "position": "프론트엔드 개발자",
                 "duration": "2024 - 2025",
                 "location": "셰르부르 앙 코트랑탱, 프랑스",
@@ -35,7 +35,7 @@
             },
             {
                 "id": 2,
-                "company": "OpenClassrooms",
+                "company": "OpenClassrooms에서 검증된 프로젝트",
                 "position": "주니어 웹 개발자",
                 "duration": "2024 - 2025",
                 "location": "셰르부르 앙 코트랑탱, 프랑스",
@@ -55,9 +55,9 @@
             },
             {
                 "id": 3,
-                "company": "OpenClassrooms",
+                "company": "OpenClassrooms에서 검증된 프로젝트",
                 "position": "웹 개발 인턴",
-                "duration": "2023 - 2024",
+                "duration": "2024 - 2025",
                 "location": "셰르부르 앙 코트랑탱, 프랑스",
                 "description": [
                     "최신 기술을 사용한 웹 애플리케이션 개발 지원",
@@ -84,14 +84,14 @@
             },
             {
                 "id": 2,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "애플리케이션 개발 인증서",
                 "duration": "2020 - 2021",
                 "description": "PHP/MySQL 백엔드 개발 전문가로, 고성능 관계형 데이터베이스 설계 및 최적화에 특화되어 있습니다."
             },
             {
                 "id": 3,
-                "institution": "CITISFORMATION PowrBache",
+                "institution": "CITISFORMATION PowerBache",
                 "degree": "사무 자동화 및 비서 인증서",
                 "duration": "2015",
                 "description": "디지털 도구를 사용한 그래픽 콘텐츠 및 관리 문서 작성"
