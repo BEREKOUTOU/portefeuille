@@ -80,6 +80,23 @@ export default function CV() {
           print-color-adjust: exact;
           font-size: 12px; /
         }
+          .print-compact h3, .print-compact h4 {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            font-size: 14px;
+          } 
+          .print-compact p, .print-compact li, .print-compact span {
+            font-size: 10px;
+            padding: 0;
+            margin: 0;
+          }
+          .print-compact ul {
+            padding-left: 10px;
+          }
+          .print-compact .mb-4 {
+            margin-bottom: 0px;
+            
+          }
       }
     `,
   });
