@@ -149,7 +149,7 @@ export default function CV() {
                   <img
                     src={cvData.personal.photo}
                     alt={cvData.personal.name}
-                    className="w-24 h-24 rounded-full object-cover border-2 border-primary/20 print:w-20 print:h-20"
+                    className="w-32 h-32 rounded-full object-cover border-2 border-primary/20 print:w-20 print:h-20"
                   />
                 </div>
 
