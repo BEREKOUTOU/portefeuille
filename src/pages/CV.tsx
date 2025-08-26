@@ -72,12 +72,13 @@ export default function CV() {
     pageStyle: `
       @page {
         size: A4;
-        margin: 5mm;
+        margin: 3mm;
       }
       @media print {
         body {
           -webkit-print-color-adjust: exact;
           print-color-adjust: exact;
+          font-size: 12px; /
         }
       }
     `,
@@ -141,71 +142,71 @@ export default function CV() {
             {/* Header Section */}
             <motion.div
               variants={itemVariants}
-              className="bg-primary/10 p-8 border-b"
+              className="bg-primary/10 p-6 border-b print:p-4"
             >
-              <div className="flex flex-col md:flex-row items-center gap-6">
+              <div className="flex flex-col md:flex-row items-center gap-4">
                 <div className="flex-shrink-0">
                   <img
                     src={cvData.personal.photo}
                     alt={cvData.personal.name}
-                    className="w-32 h-32 rounded-full object-cover border-4 border-primary/20"
+                    className="w-24 h-24 rounded-full object-cover border-2 border-primary/20 print:w-20 print:h-20"
                   />
                 </div>
 
                 <div className="flex-1 text-center md:text-left">
-                  <h2 className="text-3xl font-bold mb-2">
+                  <h2 className="text-2xl font-bold mb-1 print:text-xl">
                     {cvData.personal.name}
                   </h2>
-                  <p className="text-xl text-primary mb-4">
+                  <p className="text-lg text-primary mb-3 print:text-base">
                     {cvData.personal.title}
                   </p>
 
-                  <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-muted-foreground">
+                  <div className="flex flex-wrap justify-center md:justify-start gap-3 text-xs text-muted-foreground print:gap-2 print:text-2xs">
                     <a
                       href={`mailto:${cvData.personal.email}`}
-                      className="flex items-center hover:text-primary"
+                      className="flex items-center hover:text-primary print:text-xs"
                     >
-                      <FiMail className="mr-1" /> {cvData.personal.email}
+                      <FiMail className="mr-1 print:w-3 print:h-3" /> {cvData.personal.email}
                     </a>
-                    <span className="flex items-center">
-                      <FiPhone className="mr-1" /> {cvData.personal.phone}
+                    <span className="flex items-center print:text-xs">
+                      <FiPhone className="mr-1 print:w-3 print:h-3" /> {cvData.personal.phone}
                     </span>
-                    <span className="flex items-center">
-                      <FiMapPin className="mr-1" /> {cvData.personal.location}
+                    <span className="flex items-center print:text-xs">
+                      <FiMapPin className="mr-1 print:w-3 print:h-3" /> {cvData.personal.location}
                     </span>
                   </div>
 
-                  <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-muted-foreground mt-2">
+                  <div className="flex flex-wrap justify-center md:justify-start gap-3 text-xs text-muted-foreground mt-1 print:gap-2 print:text-2xs">
                     <a
                       href={`https://${cvData.personal.linkedin}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center hover:text-primary"
+                      className="flex items-center hover:text-primary print:text-xs"
                     >
-                      <FiLinkedin className="mr-1" /> LinkedIn
+                      <FiLinkedin className="mr-1 print:w-3 print:h-3" /> LinkedIn
                     </a>
                     <a
                       href={`https://${cvData.personal.github}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center hover:text-primary"
+                      className="flex items-center hover:text-primary print:text-xs"
                     >
-                      <FiGithub className="mr-1" /> GitHub
+                      <FiGithub className="mr-1 print:w-3 print:h-3" /> GitHub
                     </a>
                     <a
                       href={`https://${cvData.personal.website}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center hover:text-primary"
+                      className="flex items-center hover:text-primary print:text-xs"
                     >
-                      <FiGlobe className="mr-1" /> Portfolio
+                      <FiGlobe className="mr-1 print:w-3 print:h-3" /> Portfolio
                     </a>
                   </div>
                 </div>
               </div>
             </motion.div>
 
-            <div className="p-8 space-y-8">
+            <div className="p-4 space-y-4 print-compact">
               {/* Summary Section */}
               <motion.section variants={itemVariants}>
                 <h3 className="text-2xl font-bold mb-4 text-primary">
