@@ -78,26 +78,8 @@ export default function CV() {
         body {
           -webkit-print-color-adjust: exact;
           print-color-adjust: exact;
-          font-size: 12px; /
+          font-size: 12px; 
         }
-          .print-compact h3, .print-compact h4 {
-            margin: 0px;
-            margin: 0px;
-            font-size: 12px;
-          } 
-          .print-compact p, .print-compact li, .print-compact span {
-            font-size: 10px;
-            padding: 0;
-            margin: 0;
-          }
-          .print-compact ul {
-            padding-left: 10px;
-          }
-           .print-compact .mb-3, .print-compact .mb-2, .print-compact .mb-1, .print-compact .mt-2 {
-            padding: 0;
-            margin: 0;
-            font-size: 10px;   
-          }
       }
     `,
   });
