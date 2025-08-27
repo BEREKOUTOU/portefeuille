@@ -81,9 +81,9 @@ export default function CV() {
           font-size: 12px; /
         }
           .print-compact h3, .print-compact h4 {
-            margin-bottom: 0px;
-            margin-top: 0px;
-            font-size: 14px;
+            margin: 0px;
+            margin: 0px;
+            font-size: 12px;
           } 
           .print-compact p, .print-compact li, .print-compact span {
             font-size: 10px;
@@ -93,9 +93,10 @@ export default function CV() {
           .print-compact ul {
             padding-left: 10px;
           }
-          .print-compact .mb-4 {
-            margin-bottom: 0px;
-            
+           .print-compact .mb-3, .print-compact .mb-2, .print-compact .mb-1, .print-compact .mt-2 {
+            padding: 0;
+            margin: 0;
+            font-size: 10px;   
           }
       }
     `,
