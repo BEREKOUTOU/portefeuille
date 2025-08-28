@@ -78,7 +78,130 @@ export default function CV() {
         body {
           -webkit-print-color-adjust: exact;
           print-color-adjust: exact;
-          font-size: 12px; 
+          font-size: 11px;
+          line-height: 1.02;
+        }
+        
+        /* Reduce spacing between sections */
+        .print-compact section {
+          margin-bottom: 0 !important;
+          padding-bottom: 0 !important;
+        }
+        
+        /* Reduce section heading spacing */
+        .print-compact h3.text-primary {
+          margin-bottom: 0 !important;
+          font-size: 12px !important;
+        }
+        
+        /* Reduce spacing within experience/education items */
+        .print-compact .space-y-6 > * {
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+        }
+        
+        .print-compact .space-y-4 > * {
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+        }
+        
+        /* Reduce list spacing */
+        .print-compact .space-y-1 > * {
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+        }
+        
+        /* Reduce margin-bottom classes */
+        .print-compact .mb-0 {
+          margin-bottom: 0 !important;
+          margin-top: 0 !important;
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+        }
+        
+        .print-compact .mb-3 {
+          margin-bottom: 0 !important;
+        }
+        
+        .print-compact .mb-2 {
+          margin-bottom: 0px !important;
+        }
+        
+        .print-compact .mb-1 {
+          margin-bottom: 0px !important;
+        }
+        
+        /* Reduce padding in header */
+        .print-compact .p-6 {
+          padding: 0px !important;
+        }
+        
+        .print-compact .p-4 {
+          padding: 0px !important;
+        }
+        
+        /* Reduce gap spacing */
+        .print-compact .gap-6 {
+          gap: 0px !important;
+        }
+        
+        .print-compact .gap-4 {
+          gap: 0px !important;
+        }
+        
+        .print-compact .gap-3 {
+          gap: 0px !important;
+        }
+        
+        .print-compact .gap-2 {
+          gap: 0px !important;
+        }
+        
+        /* Optimize text sizes */
+        .print-compact .text-2xl {
+          font-size: 5px !important;
+        }
+        
+        .print-compact .text-lg {
+          font-size: 8px !important;
+        }
+        
+        .print-compact .text-sm {
+          font-size: 10px !important;
+        }
+        
+        .print-compact .text-xs {
+          font-size: 9px !important;
+        }
+        
+        .print-compact .text-2xs {
+          font-size: 8px !important;
+        }
+        
+        /* Reduce line height */
+        .print-compact .leading-relaxed {
+          line-height: 1.3 !important;
+        }
+        
+        /* Compact list items */
+        .print-compact ul.list-disc {
+          padding-left: 16px !important;
+          margin-top: 0px !important;
+          margin-bottom: 2px !important;
+        }
+        
+        .print-compact ul.list-disc li {
+          margin-bottom: 1px !important;
+        }
+        
+        /* Reduce border spacing */
+        .print-compact .border-l-2.pl-4 {
+          padding-left: 8px !important;
+        }
+        
+        /* Compact flex items */
+        .print-compact .flex-wrap.gap-2 {
+          gap: 2px !important;
         }
       }
     `,
@@ -209,7 +332,7 @@ export default function CV() {
             <div className="p-4 space-y-4 print-compact">
               {/* Summary Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">
+                <h3 className="text-2xl font-bold mb-0 text-primary">
                   {t("cv.summary")}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -219,7 +342,7 @@ export default function CV() {
 
               {/* Experience Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">
+                <h3 className="text-2xl font-bold mb-0 text-primary">
                   {t("cv.experience")}
                 </h3>
                 <div className="space-y-6">
@@ -266,7 +389,7 @@ export default function CV() {
 
               {/* Education Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">
+                <h3 className="text-2xl font-bold mb-0 text-primary">
                   {t("cv.education")}
                 </h3>
                 <div className="space-y-4">
@@ -296,7 +419,7 @@ export default function CV() {
 
               {/* Skills Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">
+                <h3 className="text-2xl font-bold mb-0 text-primary">
                   {t("cv.skills")}
                 </h3>
                 <div className="grid md:grid-cols-3 gap-6">
@@ -346,7 +469,7 @@ export default function CV() {
 
               {/* Certifications Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">
+                <h3 className="text-2xl font-bold mb-0 text-primary">
                   {t("cv.certifications")}
                 </h3>
                 <div className="space-y-3">
@@ -373,7 +496,7 @@ export default function CV() {
 
               {/* Interests Section */}
               <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-4 text-primary">
+                <h3 className="text-2xl font-bold mb-0 text-primary">
                   {t("cv.interests")}
                 </h3>
                 <div className="flex flex-wrap gap-6 items-center">
