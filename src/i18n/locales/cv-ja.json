@@ -11,19 +11,19 @@
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "React、TypeScript、Tailwind CSS、そして最新のWeb技術に精通した情熱的なフロントエンド開発者です。パフォーマンスとアクセシビリティに重点を置いた、レスポンシブでユーザーフレンドリーなアプリケーションの作成に経験豊富です。UI/UXデザインの原則と、Figmaモックアップを協働開発に統合する強力なバックグラウンドを持っています。",
+        "summary": "React & TypeScriptに特化したフロントエンド開発者で、モダンでパフォーマンスが高く、アクセスしやすいインターフェースの作成に情熱を注いでいます。Figmaモックアップの統合、レスポンシブデザイン、フロントエンドパフォーマンス最適化の経験があります。常勤契約、期間限定契約、研修、またはパートタイムのリモートワークにオープンです。",
         "experience": [
             {
                 "id": 1,
-                "company": "OpenClassrooms による Innovatech ソリューション プロジェクト検証",
+                "company": "実践プロジェクト (OpenClassrooms)",
                 "position": "フロントエンド開発者",
                 "duration": "2024 - 2025",
                 "location": "シェルブール・アン・コトランタン、フランス",
                 "description": [
-                    "React、TypeScript、Tailwind CSSを使用したクライアントサイドウェブサイトの開発と保守",
-                    "デザイナーやバックエンド開発者と協力して、シームレスなユーザー体験を作成",
-                    "すべてのデバイスで最適なパフォーマンスを確保するレスポンシブデザインの実装",
-                    "アプリケーションのパフォーマンスを最適化し、読み込み時間を40%改善"
+                    "React、TypeScript、Tailwind CSSを使用したWebアプリケーションの開発。",
+                    "Figmaモックアップの統合 → マルチデバイス対応のレスポンシブインターフェース。",
+                    "パフォーマンス最適化 (読み込み時間が40%削減)。",
+                    "アジャイル環境でのコラボレーション (コードレビュー、Kanban)。"
                 ],
                 "technologies": [
                     "React",
@@ -35,15 +35,14 @@
             },
             {
                 "id": 2,
-                "company": "OpenClassroomsによって検証されたプロジェクト",
+                "company": "OpenClassroomsとのシミュレートされたクライアントプロジェクト",
                 "position": "ジュニアWeb開発者",
                 "duration": "2024 - 2025",
                 "location": "シェルブール・アン・コトランタン、フランス",
                 "description": [
-                    "クライアントプロジェクトのためのレスポンシブウェブサイトとUIコンポーネントの作成",
-                    "JavaScript、HTML5、CSS3を使用してモダンなWebアプリケーションを作成",
-                    "レガシーアプリケーションをモダンなReactアーキテクチャへ移行を支援",
-                    "コードレビューへの参加とチームのナレッジ共有への貢献"
+                    "JavaScript、HTML5、CSS3を使用したモダンなウェブサイトの作成。",
+                    "アプリケーションをReactアーキテクチャに移行。",
+                    "オープンソース貢献と技術文書。"
                 ],
                 "technologies": [
                     "JavaScript",
@@ -52,49 +51,20 @@
                     "Git",
                     "Figma"
                 ]
-            },
-            {
-                "id": 3,
-                "company": "OpenClassroomsによって検証されたプロジェクト",
-                "position": "Web開発インターン",
-                "duration": "2024 - 2025",
-                "location": "シェルブール・アン・コトランタン、フランス",
-                "description": [
-                    "最新の技術を使用したWebアプリケーション開発の支援",
-                    "Reactエコシステムと開発のベストプラクティスについて実践的な経験を獲得",
-                    "オープンソースプロジェクトとドキュメントへの貢献",
-                    "アジャイル開発プロセスとデイリースタンドアップミーティングへの参加"
-                ],
-                "technologies": [
-                    "React",
-                    "JavaScript",
-                    "Git",
-                    "Agile",
-                    "Jest"
-                ]
             }
         ],
         "education": [
             {
                 "id": 1,
-                "institution": "大学技術研究所",
+                "institution": "技術大学研究所",
                 "degree": "コンピュータサイエンスBTS",
                 "duration": "2024 - 2025",
-                "description": "Web開発とユーザーインターフェースデザインを専門とし、モダンなJavaScriptフレームワークとリアクティブデザインの原則に焦点を当てています。"
+                "description": "ウェブ開発とインターフェースの専門化 (React、TypeScript、UI/UX)。"
             },
             {
                 "id": 2,
-                "institution": "CITISFORMATION PowerBache",
-                "degree": "アプリケーション開発証明書",
-                "duration": "2020 - 2021",
-                "description": "PHP/MySQLバックエンド開発の専門家で、高性能リレーショナルデータベースの設計と最適化に特化しています。"
-            },
-            {
-                "id": 3,
-                "institution": "CITISFORMATION PowerBache",
-                "degree": "オフィスオートメーション・秘書スキル証明書",
-                "duration": "2015",
-                "description": "デジタルツールを使用したグラフィックコンテンツと管理文書の作成"
+                "degree": "証明書:",
+                "description": "React開発者 – OpenClassrooms (2025) & Webアプリケーション開発者 – PowerBache (2020)"
             }
         ],
         "skills": {
@@ -135,7 +105,7 @@
                 },
                 {
                     "name": "英語",
-                    "level": "中級"
+                    "level": "プロフェッショナル"
                 }
             ]
         },

@@ -72,24 +72,32 @@ export default function CV() {
     pageStyle: `
       @page {
         size: A4;
-        margin: 10mm;
+        margin: 9mm;
       }
       @media print {
         body {
           -webkit-print-color-adjust: exact;
           print-color-adjust: exact;
-          font-size: 11px;
+          font-size: 10px;
         }
-        // .print-compact {
-        //   margin: 0 !important;
-        //   padding: 0 !important;
-        // }
-        // .print-compact * {
-        //   margin: 0 !important;
-        //   padding: 0 !important;
-        // }
+       .print-compact *{
+          margin: 0 !important;
+          padding: 0 !important;
+        }
         .print-compact .text-2xl {
-          font-size: 12px !important;
+          font-size: 10px !important;
+        }
+        .print-compact .text-lg {
+          font-size: 10px !important;
+        }
+        .print-compact .text-primary {
+          font-size: 10px !important;
+        }
+        .print-compact .text-secondary {
+          font-size: 10px !important;
+        }
+        .print-compact .text-sm {
+          font-size: 10px !important;
         }
     `,
   });
@@ -176,13 +184,16 @@ export default function CV() {
                       href={`mailto:${cvData.personal.email}`}
                       className="flex items-center hover:text-primary print:text-xs"
                     >
-                      <FiMail className="mr-1 print:w-3 print:h-3" /> {cvData.personal.email}
+                      <FiMail className="mr-1 print:w-3 print:h-3" />{" "}
+                      {cvData.personal.email}
                     </a>
                     <span className="flex items-center print:text-xs">
-                      <FiPhone className="mr-1 print:w-3 print:h-3" /> {cvData.personal.phone}
+                      <FiPhone className="mr-1 print:w-3 print:h-3" />{" "}
+                      {cvData.personal.phone}
                     </span>
                     <span className="flex items-center print:text-xs">
-                      <FiMapPin className="mr-1 print:w-3 print:h-3" /> {cvData.personal.location}
+                      <FiMapPin className="mr-1 print:w-3 print:h-3" />{" "}
+                      {cvData.personal.location}
                     </span>
                   </div>
 
@@ -193,7 +204,8 @@ export default function CV() {
                       rel="noopener noreferrer"
                       className="flex items-center hover:text-primary print:text-xs"
                     >
-                      <FiLinkedin className="mr-1 print:w-3 print:h-3" /> LinkedIn
+                      <FiLinkedin className="mr-1 print:w-3 print:h-3" />{" "}
+                      LinkedIn
                     </a>
                     <a
                       href={`https://${cvData.personal.github}`}
@@ -351,33 +363,6 @@ export default function CV() {
                       )}
                     </div>
                   </div>
-                </div>
-              </motion.section>
-
-              {/* Certifications Section */}
-              <motion.section variants={itemVariants}>
-                <h3 className="text-2xl font-bold mb-0 text-primary">
-                  {t("cv.certifications")}
-                </h3>
-                <div className="space-y-3">
-                  {cvData.certifications.map(
-                    (cert: { name: string; issuer: string; date: string }) => (
-                      <div
-                        key={cert.name}
-                        className="flex justify-between items-center"
-                      >
-                        <div>
-                          <h4 className="font-semibold">{cert.name}</h4>
-                          <p className="text-sm text-muted-foreground">
-                            {cert.issuer}
-                          </p>
-                        </div>
-                        <span className="text-sm text-muted-foreground">
-                          {cert.date}
-                        </span>
-                      </div>
-                    )
-                  )}
                 </div>
               </motion.section>
 

@@ -11,19 +11,19 @@
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "React, TypeScript, Tailwind CSS 및 최신 웹 기술에 대한 전문 지식을 갖춘 열정적인 프론트엔드 개발자입니다. 성능과 접근성에 중점을 둔 반응형이고 사용자 친화적인 애플리케이션 생성에 경험이 풍부합니다. UI/UX 디자인 원칙과 Figma 목업을 협업 개발에 통합하는 데 강력한 배경을 가지고 있습니다.",
+        "summary": "React & TypeScript에 특화된 프론트엔드 개발자로, 현대적이고 성능이 뛰어나며 접근하기 쉬운 인터페이스 생성에 열정을 가지고 있습니다. Figma 목업 통합, 반응형 디자인, 프론트엔드 성능 최적화 경험이 있습니다. 정규직 계약, 기간제 계약, 인턴십 또는 파트타임 원격 근무에 열려 있습니다.",
         "experience": [
             {
                 "id": 1,
-                "company": "Innovatech Solutions 프로젝트, OpenClassrooms에서 검증 완료",
+                "company": "실천 프로젝트 (OpenClassrooms)",
                 "position": "프론트엔드 개발자",
                 "duration": "2024 - 2025",
                 "location": "셰르부르 앙 코트랑탱, 프랑스",
                 "description": [
-                    "React, TypeScript, Tailwind CSS를 사용한 클라이언트 사이드 웹사이트 개발 및 유지보수",
-                    "디자이너 및 백엔드 개발자와 협력하여 원활한 사용자 경험 구축",
-                    "모든 장치에서 최적의 성능을 보장하는 반응형 디자인 원칙 구현",
-                    "애플리케이션 성능 최적화 및 로딩 시간 40% 개선"
+                    "React, TypeScript, Tailwind CSS를 사용한 웹 애플리케이션 개발.",
+                    "Figma 목업 통합 → 다중 장치 반응형 인터페이스.",
+                    "성능 최적화 (로딩 시간 40% 감소).",
+                    "애자일 환경에서의 협업 (코드 리뷰, Kanban)."
                 ],
                 "technologies": [
                     "React",
@@ -35,15 +35,14 @@
             },
             {
                 "id": 2,
-                "company": "OpenClassrooms에서 검증된 프로젝트",
+                "company": "OpenClassrooms와의 시뮬레이션된 클라이언트 프로젝트",
                 "position": "주니어 웹 개발자",
                 "duration": "2024 - 2025",
                 "location": "셰르부르 앙 코트랑탱, 프랑스",
                 "description": [
-                    "클라이언트 프로젝트를 위한 반응형 웹사이트 및 UI 컴포넌트 생성",
-                    "JavaScript, HTML5, CSS3를 사용하여 모던 웹 애플리케이션 구축",
-                    "레거시 애플리케이션을 모던 React 아키텍처로 마이그레이션 지원",
-                    "코드 리뷰 참여 및 팀 지식 공유 기여"
+                    "JavaScript, HTML5, CSS3를 사용한 현대적인 웹사이트 생성.",
+                    "애플리케이션을 React 아키텍처로 마이그레이션.",
+                    "오픈 소스 기여 및 기술 문서."
                 ],
                 "technologies": [
                     "JavaScript",
@@ -52,49 +51,20 @@
                     "Git",
                     "Figma"
                 ]
-            },
-            {
-                "id": 3,
-                "company": "OpenClassrooms에서 검증된 프로젝트",
-                "position": "웹 개발 인턴",
-                "duration": "2024 - 2025",
-                "location": "셰르부르 앙 코트랑탱, 프랑스",
-                "description": [
-                    "최신 기술을 사용한 웹 애플리케이션 개발 지원",
-                    "React 생태계와 개발 모범 사례에 대한 실무 경험 습득",
-                    "오픈 소스 프로젝트 및 문서에 기여",
-                    "애자일 개발 프로세스 및 데일리 스탠드업 미팅 참여"
-                ],
-                "technologies": [
-                    "React",
-                    "JavaScript",
-                    "Git",
-                    "Agile",
-                    "Jest"
-                ]
             }
         ],
         "education": [
             {
                 "id": 1,
-                "institution": "기술 대학원",
+                "institution": "기술 대학 연구소",
                 "degree": "컴퓨터 과학 BTS",
                 "duration": "2024 - 2025",
-                "description": "웹 개발 및 사용자 인터페이스 디자인을 전문으로 하며, 모던 JavaScript 프레임워크와 반응형 디자인 원칙에 중점을 둡니다."
+                "description": "웹 개발 및 인터페이스 전문화 (React, TypeScript, UI/UX)."
             },
             {
                 "id": 2,
-                "institution": "CITISFORMATION PowerBache",
-                "degree": "애플리케이션 개발 인증서",
-                "duration": "2020 - 2021",
-                "description": "PHP/MySQL 백엔드 개발 전문가로, 고성능 관계형 데이터베이스 설계 및 최적화에 특화되어 있습니다."
-            },
-            {
-                "id": 3,
-                "institution": "CITISFORMATION PowerBache",
-                "degree": "사무 자동화 및 비서 인증서",
-                "duration": "2015",
-                "description": "디지털 도구를 사용한 그래픽 콘텐츠 및 관리 문서 작성"
+                "degree": "증명서:",
+                "description": "React 개발자 – OpenClassrooms (2025) & 웹 애플리케이션 개발자 – PowerBache (2020)"
             }
         ],
         "skills": {
@@ -135,7 +105,7 @@
                 },
                 {
                     "name": "영어",
-                    "level": "중급"
+                    "level": "전문가"
                 }
             ]
         },

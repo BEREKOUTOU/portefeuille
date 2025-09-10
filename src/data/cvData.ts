@@ -61,9 +61,10 @@ export const cvData: CVData = {
     linkedin: "www.linkedin.com/in/boniface-berekoutou-4b068a36a/",
     github: "github.com/BEREKOUTOU",
     website: "berekoutou.github.io/portefeuille/",
-    photo: "/portefeuille/assets/images/Boniface.webp"
+    photo: "/portefeuille/assets/images/Boniface.webp",
   },
-  summary: "Passionate Frontend Developer with expertise in React, TypeScript, and modern web technologies. Experienced in creating responsive, user-friendly applications with a focus on performance and accessibility. Strong background in UI/UX design principles and collaborative development.",
+  summary:
+    "Passionate Frontend Developer with expertise in React, TypeScript, and modern web technologies. Experienced in creating responsive, user-friendly applications with a focus on performance and accessibility. Strong background in UI/UX design principles and collaborative development.",
   experience: [
     {
       id: 1,
@@ -75,9 +76,15 @@ export const cvData: CVData = {
         "Developed and maintained client-side websites using React, Next.js and TypeScript",
         "Collaborated with designers and backend developers to create fluid user experiences",
         "Implemented responsive design principles ensuring optimal performance across devices",
-        "Optimized application performance and improved loading times by 40%"
+        "Optimized application performance and improved loading times by 40%",
       ],
-      technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Node.js"]
+      technologies: [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+      ],
     },
     {
       id: 2,
@@ -89,9 +96,9 @@ export const cvData: CVData = {
         "Création de contenu graphique",
         "Recherches sur internet",
         "Saisie de documents",
-        "Mise à disposition outils de communication"
+        "Mise à disposition outils de communication",
       ],
-      technologies: ["Word", "Excel", "PowerPoint", "Outlook", "Internet"]
+      technologies: ["Word", "Excel", "PowerPoint", "Outlook", "Internet"],
     },
     {
       id: 3,
@@ -104,10 +111,16 @@ export const cvData: CVData = {
         "Intervenir lors d'un incident pour assurer la sécurité des lieux et des personnes",
         "Prendre les mesures qui s'imposent pour prévenir les risques et Garder les accès sécurisés",
         "Effectuer des rondes,Contrôler les allées et venues des personnes et des véhicules",
-        "Contrôler le fonctionnement des différents dispositifs de sécurité et Rédiger des rapports d'incidents et de sécurité"
+        "Contrôler le fonctionnement des différents dispositifs de sécurité et Rédiger des rapports d'incidents et de sécurité",
       ],
-      technologies: ["Le Tonfa", "Le talkie-walkie", "La lampe torche", "La tenue de secours", "Le sifflet"]
-    }
+      technologies: [
+        "Le Tonfa",
+        "Le talkie-walkie",
+        "La lampe torche",
+        "La tenue de secours",
+        "Le sifflet",
+      ],
+    },
   ],
   education: [
     {
@@ -115,48 +128,72 @@ export const cvData: CVData = {
       institution: "University of Technology",
       degree: "Bachelor of Computer Science",
       duration: "2024 - 2025",
-      description: "Specialized in web development and user interface design, focusing on modern JavaScript frameworks and reactive design principles."
+      description:
+        "Specialized in web development and user interface design, focusing on modern JavaScript frameworks and reactive design principles.",
     },
     {
       id: 2,
       institution: "Digital Innovation Institute",
       degree: "Advanced Frontend Development Certificate",
       duration: "2023",
-      description: "Intensive program covering React, state management, performance optimization and modern CSS frameworks."
-    }
+      description:
+        "Intensive program covering React, state management, performance optimization and modern CSS frameworks.",
+    },
   ],
   skills: {
     technical: [
-      "React", "TypeScript", "JavaScript", "Next.js", "Vue.js",
-      "HTML5", "CSS3", "Tailwind CSS", "SCSS", "Responsive Design",
-      "Git", "Webpack", "Vite", "Node.js", "REST APIs",
-      "GraphQL", "Jest", "Cypress", "Figma", "Adobe XD"
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Next.js",
+      "Vue.js",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "SCSS",
+      "Responsive Design",
+      "Git",
+      "Webpack",
+      "Vite",
+      "Node.js",
+      "REST APIs",
+      "GraphQL",
+      "Jest",
+      "Cypress",
+      "Figma",
+      "Adobe XD",
     ],
     soft: [
-      "Problem Solving", "Communication", "Teamwork", "Adaptability",
-      "Time Management", "Attention to Detail", "Creative Thinking"
+      "Résolution de Problèmes",
+      "Communication",
+      "Travail d'Équipe",
+      "Adaptabilité",
+      "Gestion du Temps",
+      "Attention aux Détails",
+      "Pensée Créative",
+      "Autonomie",
     ],
     languages: [
       { name: "French", level: "Courant" },
       { name: "English", level: "Débutant" },
-      { name: "Spanish", level: "Intermediate" }
-    ]
+      { name: "Spanish", level: "Intermediate" },
+    ],
   },
   certifications: [
     {
       name: "React Developer Certification",
       issuer: "OpenClassrooms",
-      date: "2025"
+      date: "2025",
     },
     {
       name: "DÉVELOPPEMENT D’APPLICATIONS WEB",
       issuer: "POWERBACHE",
-      date: "2020"
+      date: "2020",
     },
     {
       name: "Secrétariat et Gestion Administrative",
       issuer: "POWERBACHE",
-      date: "2015"
-    }
-  ]
+      date: "2015",
+    },
+  ],
 };

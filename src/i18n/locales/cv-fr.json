@@ -11,19 +11,19 @@
       "website": "berekoutou.github.io/portefeuille/",
       "photo": "/portefeuille/assets/images/Boniface.webp"
     },
-    "summary": "Développeur Frontend passionné avec une expertise en React, TypeScript, Tailwind CSS et technologies web modernes. Expérimenté dans la création d'applications réactives et conviviales avec un focus sur la performance et l'accessibilité. Solide expérience en principes de design UI/UX et en intégration de maquettes Figma dans le développement collaboratif.",
+    "summary": "Développeur Frontend spécialisé React & TypeScript, passionné par la création d’interfaces modernes, performantes et accessibles. Expérience en intégration de maquettes Figma, en design responsive et en optimisation des performances front.  Ouvert à CDI, CDD, alternance ou télétravail partiel.",
     "experience": [
       {
         "id": 1,
-        "company": "Solutions Innovatech Projet Validé par OpenClassrooms",
+        "company": "  Projets pratiques (OpenClassrooms)",
         "position": "Développeur Frontend",
         "duration": "2024 - 2025",
         "location": "Cherbourg-en-Cotentin, France",
         "description": [
-          "Développement et maintenance de sites web côté client avec React, TypeScript et Tilwind CSS",
-          "Collaboré avec des concepteurs et des développeurs back-end pour créer des expériences utilisateur fluides",
-          "Mise en œuvre de principes de conception réactive garantissant des performances optimales sur tous les appareils",
-          "Performances des applications optimisées et temps de chargement améliorés de 40 %"
+          "Développement d’applications web avec React, TypeScript, Tailwind CSS.",
+          "Intégration de maquettes Figma → interfaces responsives multi-devices.",
+          "Optimisation des performances (temps de chargement réduit de 40%).",
+          "Collaboration en environnement agile (revues de code, Kanban)."
         ],
         "technologies": [
           "React",
@@ -35,15 +35,14 @@
       },
       {
         "id": 2,
-        "company": "Projet Validé par OpenClassrooms",
+        "company": "Projets clients simulés avec OpenClassrooms",
         "position": "Développeur Web Junior",
         "duration": "2024 - 2025",
         "location": "Cherbourg-en-Cotentin, France",
         "description": [
-          "Création de sites web réactifs et implémentation de composants d'interface utilisateur pour les projets clients",
-          "J'ai travaillé avec JavaScript, HTML5 et CSS3 pour créer des applications web modernes.",
-          "A aidé à la migration d'applications héritées vers une architecture React moderne",
-          "Participer aux revues de code et contribuer au partage des connaissances de l'équipe"
+          "Création de sites modernes avec JavaScript, HTML5, CSS3.",
+          "Migration d’applications vers une architecture React.",
+          "Contribution open source et documentation technique."
         ],
         "technologies": [
           "JavaScript",
@@ -51,26 +50,6 @@
           "CSS3",
           "Git",
           "Figma"
-        ]
-      },
-      {
-        "id": 3,
-        "company": "Projet Validé par OpenClassrooms",
-        "position": "Web Development Intern",
-        "duration": "2024 - 2025",
-        "location": "Cherbourg-en-Cotentin, France",
-        "description": [
-          "A aidé au développement d'applications Web en utilisant des technologies modernes",
-          "J'ai acquis une expérience pratique avec l'écosystème React et les meilleures pratiques de développement",
-          "Contribution à des projets et à la documentation open source",
-          "Participation aux processus de développement agile et aux réunions quotidiennes"
-        ],
-        "technologies": [
-          "React",
-          "JavaScript",
-          "Git",
-          "Agile",
-          "Jest"
         ]
       }
     ],
@@ -80,21 +59,12 @@
         "institution": "Institut Universitaire de Technologie",
         "degree": "BTS en Informatique",
         "duration": "2024 - 2025",
-        "description": "Spécialisé en développement web et en design d'interfaces utilisateur, en se concentrant sur les frameworks JavaScript modernes et les principes de design réactifs."
+        "description": "spécialisation développement web & interfaces (React, TypeScript, UI/UX)."
       },
       {
         "id": 2,
-        "institution": "CITISFORMATION PowerBache",
-        "degree": "Certificat  en Développement d'Application",
-        "duration": "2020 - 2021",
-        "description": "Expert en développement backend PHP/MySQL, spécialisé dans la conception et l’optimisation de bases de données relationnelles haute performance."
-      },
-      {
-        "id": 3,
-        "institution": "CITISFORMATION PowerBache",
-        "degree": "Certificat  en sécretariat Bureautique",
-        "duration": "2015 ",
-        "description": "Création de contenu graphique et de documents administratifs en utilisant des outils numériques"
+        "degree": "Certificat :",
+        "description": "Développeur React – OpenClassrooms (2025) & Développeur d'applications web – PowerBache (2020)"
       }
     ],
     "skills": {
@@ -106,17 +76,14 @@
         "CSS3",
         "Tailwind CSS",
         "SCSS",
-        "Design Réactif (Responsive) et Accessibilité",
-        "Git",
+        "Figma",
+        "Responsive Design",
+        "Accessibilité",
+        "Git/github",
         "Webpack",
         "Vite",
-        "Node.js",
-        "APIs REST",
-        "Jest",
-        "Figma",
-        "GitHub",
-        "Tests",
-        "Redux"
+        "Jest(Tests)",
+        " Agile / Scrum"
       ],
       "soft": [
         "Résolution de Problèmes",
@@ -125,8 +92,7 @@
         "Adaptabilité",
         "Gestion du Temps",
         "Attention aux Détails",
-        "Pensée Créative",
-        "Autonomie"
+        "Pensée Créative"
       ],
       "languages": [
         {

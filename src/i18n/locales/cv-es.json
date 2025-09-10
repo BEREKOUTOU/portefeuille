@@ -11,19 +11,19 @@
             "website": "berekoutou.github.io/portefeuille/",
             "photo": "/portefeuille/assets/images/Boniface.webp"
         },
-        "summary": "Desarrollador Frontend apasionado con experiencia en React, TypeScript, Tailwind CSS y tecnologías web modernas. Experimentado en la creación de aplicaciones responsivas e intuitivas con enfoque en rendimiento y accesibilidad. Sólida experiencia en principios de diseño UI/UX e integración de maquetas Figma en desarrollo colaborativo.",
+        "summary": "Desarrollador Frontend especializado en React & TypeScript, apasionado por la creación de interfaces modernas, performantes y accesibles. Experiencia en integración de maquetas Figma, diseño responsivo y optimización de rendimiento frontend. Abierto a contratos permanentes, contratos de duración determinada, alternancias o teletrabajo parcial.",
         "experience": [
             {
                 "id": 1,
-                "company": "Solutions Innovatech OpenClassrooms",
+                "company": "Proyectos prácticos (OpenClassrooms)",
                 "position": "Desarrollador Frontend",
                 "duration": "2024 - 2025",
                 "location": "Cherbourg-en-Cotentin, Francia",
                 "description": [
-                    "Desarrollo y mantenimiento de sitios web del lado del cliente con React, TypeScript y Tailwind CSS",
-                    "Colaboración con diseñadores y desarrolladores backend para crear experiencias de usuario fluidas",
-                    "Implementación de principios de diseño responsivo asegurando rendimiento óptimo en todos los dispositivos",
-                    "Aplicaciones optimizadas y tiempos de carga mejorados en un 40%"
+                    "Desarrollo de aplicaciones web con React, TypeScript, Tailwind CSS.",
+                    "Integración de maquetas Figma → interfaces responsivas multi-dispositivos.",
+                    "Optimización de rendimiento (tiempo de carga reducido en 40%).",
+                    "Colaboración en entorno ágil (revisiones de código, Kanban)."
                 ],
                 "technologies": [
                     "React",
@@ -35,15 +35,14 @@
             },
             {
                 "id": 2,
-                "company": "Proyecto validado por OpenClassrooms",
+                "company": "Proyectos de clientes simulados con OpenClassrooms",
                 "position": "Desarrollador Web Junior",
                 "duration": "2024 - 2025",
                 "location": "Cherbourg-en-Cotentin, Francia",
                 "description": [
-                    "Creación de sitios web responsivos e implementación de componentes de interfaz de usuario para proyectos de clientes",
-                    "Trabajé con JavaScript, HTML5 y CSS3 para crear aplicaciones web modernas",
-                    "Ayudé en la migración de aplicaciones heredadas a una arquitectura React moderna",
-                    "Participación en revisiones de código y contribución al intercambio de conocimientos del equipo"
+                    "Creación de sitios web modernos con JavaScript, HTML5, CSS3.",
+                    "Migración de aplicaciones a una arquitectura React.",
+                    "Contribución de código abierto y documentación técnica."
                 ],
                 "technologies": [
                     "JavaScript",
@@ -52,49 +51,20 @@
                     "Git",
                     "Figma"
                 ]
-            },
-            {
-                "id": 3,
-                "company": "Proyecto validado por OpenClassrooms",
-                "position": "Pasante en Desarrollo Web",
-                "duration": "2024 - 2025",
-                "location": "Cherbourg-en-Cotentin, Francia",
-                "description": [
-                    "Ayudé en el desarrollo de aplicaciones web utilizando tecnologías modernas",
-                    "Adquirí experiencia práctica con el ecosistema React y las mejores prácticas de desarrollo",
-                    "Contribución a proyectos y documentación de código abierto",
-                    "Participación en procesos de desarrollo ágil y reuniones diarias"
-                ],
-                "technologies": [
-                    "React",
-                    "JavaScript",
-                    "Git",
-                    "Agile",
-                    "Jest"
-                ]
             }
         ],
         "education": [
             {
                 "id": 1,
-                "institution": "Proyecto de Soluciones Innovatech Validado por OpenClassrooms",
+                "institution": "Instituto Universitario de Tecnología",
                 "degree": "BTS en Informática",
                 "duration": "2024 - 2025",
-                "description": "Especializado en desarrollo web y diseño de interfaces de usuario, enfocándose en frameworks JavaScript modernos y principios de diseño responsivo."
+                "description": "especialización en desarrollo web e interfaces (React, TypeScript, UI/UX)."
             },
             {
                 "id": 2,
-                "institution": "CITISFORMATION PowerBache",
-                "degree": "Certificado en Desarrollo de Aplicaciones",
-                "duration": "2020 - 2021",
-                "description": "Experto en desarrollo backend PHP/MySQL, especializado en diseño y optimización de bases de datos relacionales de alto rendimiento."
-            },
-            {
-                "id": 3,
-                "institution": "CITISFORMATION PowerBache",
-                "degree": "Certificado en Secretariado y Ofimática",
-                "duration": "2015",
-                "description": "Creación de contenido gráfico y documentos administrativos utilizando herramientas digitales"
+                "degree": "Certificado:",
+                "description": "Desarrollador React – OpenClassrooms (2025) & Desarrollador de aplicaciones web – PowerBache (2020)"
             }
         ],
         "skills": {
@@ -135,7 +105,7 @@
                 },
                 {
                     "name": "Inglés",
-                    "level": "Intermedio"
+                    "level": "Profesional"
                 }
             ]
         },
