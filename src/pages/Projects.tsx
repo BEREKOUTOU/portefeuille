@@ -77,12 +77,12 @@ export default function Projects() {
       id: 4,
       title: t("projects1.title4"),
       description: t("projects1.description4"),
-      image:
-        "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
-      demoUrl: "#",
-      githubUrl: "#",
-      date: "2025-11",
-      tags: ["React", "NextJS", "Tailwind CSS", "OAuth"],
+      image:images["@/assets/images/Ohmyfood.webp"] ||
+        "/portefeuille/assets/images/BankApp.webp", 
+      demoUrl: "https://berekoutou.github.io/BankApp/",
+      githubUrl: "https://github.com/BEREKOUTOU/BankApp",
+      date: "2025-09",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Jest", "Tests"],
     },
     {
       id: 5,
@@ -92,19 +92,19 @@ export default function Projects() {
         "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80",
       demoUrl: "#",
       githubUrl: "#",
-      date: "2025-09",
+      date: "2025-12",
       tags: ["React", "Food API", "Styled Components"],
     },
     {
       id: 6,
       title: t("projects1.title6"),
       description: t("projects1.description6"),
-      image:
-        "https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image:images["@/assets/images/Ohmyfood.webp"] ||
+        "/portefeuille/assets/images/Portfolio.webp",
       demoUrl: "https://berekoutou.github.io/portefeuille/",
       githubUrl: "https://github.com/BEREKOUTOU/portefeuille.git",
       date: "2024-11",
-      tags: ["React", "Framer Motion", "Tailwind CSS"],
+      tags: ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
     },
   ];
 
