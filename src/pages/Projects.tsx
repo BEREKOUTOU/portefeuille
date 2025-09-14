@@ -82,7 +82,7 @@ export default function Projects() {
       demoUrl: "https://berekoutou.github.io/BankApp/",
       githubUrl: "https://github.com/BEREKOUTOU/BankApp",
       date: "2025-09",
-      tags: ["React", "TypeScript", "Tailwind CSS", "Jest", "Tests"],
+      tags: ["React",   "JavaScript", "Tailwind CSS", "Jest", "Tests"],
     },
     {
       id: 5,
