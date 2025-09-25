@@ -90,8 +90,8 @@ export default function Projects() {
       description: t("projects1.description5"),
       image:
         "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80",
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://berekoutou.github.io/Recette/",
+      githubUrl: "https://github.com/BEREKOUTOU/Recette",
       date: "2025-12",
       tags: ["React", "Food API", "Styled Components"],
     },
