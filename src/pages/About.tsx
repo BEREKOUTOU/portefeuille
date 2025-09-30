@@ -135,8 +135,8 @@ export default function About() {
                   transition={{ type: "spring", stiffness: 300, damping: 15 }}
                 >
                   <div className="absolute inset--0 bg-gradient-to-br from-primary/20 to-primary/60 dark:from-primary/40 dark:to-primary/80" />
-                  <div className="absolute inset--0 flex items-center justify-center">
-                    <img src={Boniface} alt="B. Boniface" className="w-full h-64" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <img src={Boniface} alt="B. Boniface" className="w-full h-64 object-cover" />
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent text-white">
                     <h3 className="font-bold">B. Boniface</h3>
