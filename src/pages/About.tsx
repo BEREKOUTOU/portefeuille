@@ -270,13 +270,13 @@ export default function About() {
                   <AccordionTrigger>{t('abouts.skills')}</AccordionTrigger>
                   <AccordionContent>
                     <ul className="space-y-2">
-                      <li>JavaScript/TypeScript (React, Vue)</li>
+                      <li>JavaScript/TypeScript (React, TypeScript,)</li>
                       <li>HTML5, CSS3, Tailwind CSS, SCSS</li>
                       <li>UI/UX Design principles</li>
                       <li>Responsive Design</li>
                       <li>Performance Optimization</li>
                       <li>Accessibility (WCAG)</li>
-                      <li>Version Control (Git)</li>
+                      <li>Version Control (Git/GitHub)</li>
                       <li>Testing (Jest, Cypress)</li>
                     </ul>
                   </AccordionContent>
