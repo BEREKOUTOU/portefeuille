@@ -8,7 +8,7 @@ export default function Footer() {
 
   const socialLinks = [
     { name: "GitHub", icon: <FiGithub />, url: "https://github.com/BEREKOUTOU" },
-    { name: "LinkedIn", icon: <FiLinkedin />, url: "https://www.linkedin.com/in/boniface-berekoutou-4b068a36a/" },
+    { name: "LinkedIn", icon: <FiLinkedin />, url: "https://www.linkedin.com/in/boniface-berekoutou/" },
     { name: "Twitter", icon: <FiTwitter />, url: "#" },
     { name: "Email", icon: <FiMail />, url: "mailto:allahtoralphdjamel@gmail.com" },
   ];
