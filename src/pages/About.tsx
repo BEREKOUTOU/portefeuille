@@ -139,7 +139,7 @@ export default function About() {
                     <img src={Boniface} alt="B. Boniface" className="w-full h-64 object-cover" />
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent text-white">
-                    <h3 className="font-bold">B. Boniface</h3>
+                    <h3 className="font-bold">BEREKOUTOU Boniface</h3>
                     <p className="text-sm">{t('abouts.position')}</p>
                   </div>
                 </motion.div>

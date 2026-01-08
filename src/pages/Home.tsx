@@ -115,7 +115,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              {t("greeting")} <span className="text-primary"> B. Boniface</span>
+              {t("greeting")} <span className="text-primary"> BEREKOUTOU Boniface</span>
             </motion.h1>
 
             <motion.div

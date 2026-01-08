@@ -9,6 +9,7 @@ import { Label } from '@/components/ui/label';
 import { FiSend, FiGithub,  FiLinkedin, FiMail, FiMapPin, FiCheck, FiFacebook } from 'react-icons/fi';
 import { toast } from 'sonner';
 import { useTranslation } from 'react-i18next';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -83,26 +84,29 @@ export default function Contact() {
     setIsSubmitting(true);
     
     try {
-      // Replace these with your EmailJS service details
-      // For demo purposes we'll just simulate a successful submission
-      // In production, you would use:
-      // await emailjs.sendForm(
-      //   'YOUR_SERVICE_ID',
-      //   'YOUR_TEMPLATE_ID',
-      //   formRef.current!,
-      //   'YOUR_USER_ID'
-      // );
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
+      // Send email to first recipient: allahtoralphdjal@gmail.com
+      await emailjs.sendForm(
+        'service_ssb0feb', // EmailJS service ID for allahtoralphdjal@gmail.com
+        'template_d20pakf', // EmailJS template ID
+        formRef.current!,
+        'T29FVJSCUOKszVbfk' // EmailJS public key
+      );
+
+      // Send email to second recipient: boniface.berekoutou@gmail.com
+      await emailjs.sendForm(
+        'service_s8o79tm', // EmailJS service ID for boniface.berekoutou@gmail.com
+        'template_tz5p48h', // EmailJS template ID
+        formRef.current!,
+        'L4AqU1cFI6HYwv8SE' // EmailJS public key
+      );
+
       setIsSubmitted(true);
       toast.success(t('contact1.success'), {
         description: t('contact1.successDescription'),
         position: 'top-center',
         style: { marginTop: '80%' },
       });
-      
+
       // Reset form
       setFormData({
         name: '',
@@ -110,7 +114,7 @@ export default function Contact() {
         subject: '',
         message: ''
       });
-      
+
       setTimeout(() => {
         setIsSubmitted(false);
       }, 5000);
@@ -120,7 +124,7 @@ export default function Contact() {
         position: 'top-center',
         style: { marginTop: '80%' },
       });
-      console.error('Error sending email:', error);
+      console.error('Error sending email:', error as Error);
     } finally {
       setIsSubmitting(false);
     }
