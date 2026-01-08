@@ -76,48 +76,79 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     if (!validateForm()) {
       return;
     }
-    
+
     setIsSubmitting(true);
-    
+
+    let emailSentCount = 0;
+    const errors: string[] = [];
+
     try {
       // Send email to first recipient: allahtoralphdjal@gmail.com
-      await emailjs.sendForm(
-        'service_ssb0feb', // EmailJS service ID for allahtoralphdjal@gmail.com
-        'template_d20pakf', // EmailJS template ID
-        formRef.current!,
-        'T29FVJSCUOKszVbfk' // EmailJS public key
-      );
+      try {
+        await emailjs.sendForm(
+          'service_ssb0feb', // EmailJS service ID for allahtoralphdjal@gmail.com
+          'template_d20pakf', // EmailJS template ID
+          formRef.current!,
+          'T29FVJSCUOKszVbfk' // EmailJS public key
+        );
+        emailSentCount++;
+        console.log('Email sent successfully to allahtoralphdjal@gmail.com');
+      } catch (error) {
+        errors.push('allahtoralphdjal@gmail.com');
+        console.error('Failed to send email to allahtoralphdjal@gmail.com:', error);
+      }
 
       // Send email to second recipient: boniface.berekoutou@gmail.com
-      await emailjs.sendForm(
-        'service_s8o79tm', // EmailJS service ID for boniface.berekoutou@gmail.com
-        'template_tz5p48h', // EmailJS template ID
-        formRef.current!,
-        'L4AqU1cFI6HYwv8SE' // EmailJS public key
-      );
+      try {
+        await emailjs.sendForm(
+          'service_s8o79tm', // EmailJS service ID for boniface.berekoutou@gmail.com
+          'template_s5rts4u', // EmailJS template ID
+          formRef.current!,
+          'L4AqU1cFI6HYwv8SE' // EmailJS public key
+        );
+        emailSentCount++;
+        console.log('Email sent successfully to boniface.berekoutou@gmail.com');
+      } catch (error) {
+        errors.push('boniface.berekoutou@gmail.com');
+        console.error('Failed to send email to boniface.berekoutou@gmail.com:', error);
+      }
 
-      setIsSubmitted(true);
-      toast.success(t('contact1.success'), {
-        description: t('contact1.successDescription'),
-        position: 'top-center',
-        style: { marginTop: '80%' },
-      });
+      // Handle results
+      if (emailSentCount > 0) {
+        setIsSubmitted(true);
 
-      // Reset form
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-      });
+        if (emailSentCount === 2) {
+          toast.success(t('contact1.success'), {
+            description: t('contact1.successDescription'),
+            position: 'top-center',
+            style: { marginTop: '80%' },
+          });
+        } else {
+          toast.success('Message sent partially', {
+            description: `Email sent to ${emailSentCount} recipient(s). Failed for: ${errors.join(', ')}`,
+            position: 'top-center',
+            style: { marginTop: '80%' },
+          });
+        }
 
-      setTimeout(() => {
-        setIsSubmitted(false);
-      }, 5000);
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: ''
+        });
+
+        setTimeout(() => {
+          setIsSubmitted(false);
+        }, 5000);
+      } else {
+        throw new Error('All email sends failed');
+      }
     } catch (error) {
       toast.error('Failed to send message', {
         description: 'Please try again or contact me directly.',
