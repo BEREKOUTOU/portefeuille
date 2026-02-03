@@ -87,8 +87,9 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Portfolio | Home </title>
-        <meta name="description" content="Welcome to my portfolio website" />
+        <link rel="icon" type="image/x-icon" href="/portefeuille/favicon.ico" />
+        <title>Boniface Berekoutou | Portfolio </title>
+        <meta name="description" content="Portfolio de Boniface Berekoutou developpeur web front-end passionné spécialisé en React, Typescript, Tailwind CSS et technologies modernes. Découvrez mes projets et compétences." />
       </Helmet>
 
       <section className="relative min-h-screen pt-20 flex items-center">
