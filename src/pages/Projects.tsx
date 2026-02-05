@@ -145,9 +145,10 @@ export default function Projects() {
     <>
       <Helmet>
         <title>Portfolio | Projects</title>
-        <meta
-          name="description"
-          content="Explore my portfolio of web development projects"
+        <meta name="description"content="Découvrez mes projets de développement web, mettant en avant mes compétences en React, TypeScript, Tailwind CSS et plus encore. Explorez mes réalisations et les technologies utilisées." />
+        <meta name="keywords" content="BEREKOUTOU Boniface, projets, développement web, React, TypeScript, Tailwind CSS, portfolio, réalisations" />
+        <meta name="author" content="BEREKOUTOU Boniface" />
+        <meta name="google-site-verification" content="uVyY4pdQUE2Zl7Yo7A6TjR7h_lInZerqyqUm-TV_djI"
         />
       </Helmet>
 

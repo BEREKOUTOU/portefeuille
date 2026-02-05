@@ -95,7 +95,10 @@ export default function About() {
     <>
       <Helmet>
         <title>Portfolio | About Me</title>
-        <meta name="description" content="Learn more about my background, experience, and what drives me as a developer." />
+        <meta name="description" content="Apprenez-en davantage sur mon parcours, mon expérience et ce qui me motive en tant que développeur." />
+        <meta name="keywords" content="BEREKOUTOU Boniface, développeur web, front-end, React, TypeScript, Tailwind CSS, parcours, expérience, motivation" />
+        <meta name="author" content="BEREKOUTOU Boniface" />
+        <meta name="google-site-verification" content="uVyY4pdQUE2Zl7Yo7A6TjR7h_lInZerqyqUm-TV_djI" />
       </Helmet>
 
       <motion.div

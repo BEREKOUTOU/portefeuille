@@ -201,7 +201,10 @@ export default function Skills() {
     <>
       <Helmet>
         <title>Portfolio | Skills</title>
-        <meta name="description" content="Explore my technical and professional skills" />
+        <meta name="description" content="Découvrez mes compétences techniques et professionnelles" />
+        <meta name="keywords" content="BEREKOUTOU Boniface, compétences, techniques, professionnelles, React, TypeScript, Tailwind CSS, développement web" />
+        <meta name="author" content="BEREKOUTOU Boniface" />
+        <meta name="google-site-verification" content="uVyY4pdQUE2Zl7Yo7A6TjR7h_lInZerqyqUm-TV_djI" />
       </Helmet>
 
       <motion.div

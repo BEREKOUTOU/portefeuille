@@ -32,6 +32,9 @@ const { t } = useTranslation();
       <Helmet>
         <title>Portfolio | 404 - Page Not Found</title>
         <meta name="description" content="The page you're looking for doesn't exist" />
+        <meta name="keywords" content="404, page not found, error, portfolio" />
+        <meta name="author" content="BEREKOUTOU Boniface" />
+        <meta name="google-site-verification" content="uVyY4pdQUE2Zl7Yo7A6TjR7h_lInZerqyqUm-TV_djI" />
       </Helmet>
       
       <div className="min-h-screen flex items-center justify-center px-4">

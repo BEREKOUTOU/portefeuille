@@ -185,7 +185,10 @@ export default function Contact() {
     <>
       <Helmet>
         <title>Portfolio | Contact Me</title>
-        <meta name="description" content="Get in touch with me for collaborations, job opportunities, or just to say hello" />
+        <meta name="description" content="Contactez-moi pour des collaborations, des opportunités d'emploi ou simplement pour me dire bonjour." />
+        <meta name="keywords" content="BEREKOUTOU Boniface, contact, email, location, social media, collaborations, job opportunities" />
+        <meta name="author" content="BEREKOUTOU Boniface" />
+        <meta name="google-site-verification" content="uVyY4pdQUE2Zl7Yo7A6TjR7h_lInZerqyqUm-TV_djI" />
       </Helmet>
 
       <motion.div

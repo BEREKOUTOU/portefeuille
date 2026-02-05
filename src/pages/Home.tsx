@@ -87,8 +87,13 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title> Portfolio | Home </title>
+        <html lang="fr" />
+        <link rel="icon" type="image/x-icon" href="/portefeuille/favicon.ico" />
+        <title> BEREKOUTOU Boniface - Développeur Web Front-End</title>
         <meta name="description" content="BEREKOUTOU Boniface - Développeur passionné avec une expertise dans React, TypeScript, Tailwind CSS et les technologies web modernes. J'adore construire des interfaces visuellement attrayantes." />
+        <meta name="keywords" content="développeur web, front-end, React, TypeScript, Tailwind CSS, technologies modernes, portfolio, BEREKOUTOU Boniface" />
+        <meta name="author" content="BEREKOUTOU Boniface" />
+        <meta name="google-site-verification" content="uVyY4pdQUE2Zl7Yo7A6TjR7h_lInZerqyqUm-TV_djI" />
       </Helmet>
 
       <section className="relative min-h-screen pt-20 flex items-center">

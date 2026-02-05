@@ -125,10 +125,10 @@ export default function CV() {
     <>
       <Helmet>
         <title>Portfolio | CV </title>
-        <meta
-          name="description"
-          content={`Professional CV of ${cvData.personal.name}, ${cvData.personal.title}`}
-        />
+        <meta name="description"content={`Professional CV of ${cvData.personal.name}, ${cvData.personal.title}`}/>
+        <meta name="keywords" content={`CV, resume, ${cvData.personal.name}, ${cvData.personal.title}, experience, education, skills`} />
+        <meta name="author" content={cvData.personal.name} />
+        <meta name="google-site-verification" content="uVyY4pdQUE2Zl7Yo7A6TjR7h_lInZerqyqUm-TV_djI" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
