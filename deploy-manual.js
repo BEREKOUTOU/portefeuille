@@ -40,6 +40,10 @@ async function deploy() {
     
     // Copy files from dist to current directory
     await runCommand('xcopy /E /I /Y "' + distPath + '\\*" .');
+    
+    // Copy SEO files from root
+    await runCommand('copy ..\\robots.txt .');
+    await runCommand('copy ..\\sitemap.xml .');
 
     // Add all files
     await runCommand('git add .');
