@@ -48,7 +48,7 @@ async function deploy() {
     await runCommand('git commit -m "Deploy to gh-pages"');
 
     // Push to gh-pages branch
-    await runCommand('git push origin gh-pages');
+    await runCommand('git push --force origin gh-pages');
 
     console.log('Deploy successful!');
   } catch (err) {
