@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://berekoutou.github.io/portefeuille/sitemap.xml
