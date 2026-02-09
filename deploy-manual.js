@@ -49,7 +49,7 @@ async function deploy() {
     await runCommand('git add .');
 
     // Commit changes
-    await runCommand('git commit -m "Deploy to gh-pages"');
+    await runCommand('git commit -m "Deploy to gh-pages - ' + new Date().toISOString().slice(0,10) + '"');
 
     // Push to gh-pages branch
     await runCommand('git push --force origin gh-pages');

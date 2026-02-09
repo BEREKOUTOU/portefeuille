@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Portfolio - Redirecting...</title>
+  <title>BEREKOUTOU Boniface - Page non trouvée</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/portefeuille/favicon.ico" />
   <script>
-    // Simple redirect for GitHub Pages SPA routing
-    // This will redirect all 404 requests to index.html
-    // which will then be handled by React Router
-    
-    // Get the current path
+    // Segment the pathname to get the SPA route
     var path = window.location.pathname;
     var basePath = '/portefeuille';
+    var spaPath = path.replace(basePath, '') || '/';
     
-    // Redirect to index.html with the original path
-    window.location.replace(basePath + '/index.html');
+    // Store the intended route in sessionStorage
+    sessionStorage.setItem('spaRedirect', spaPath);
+    
+    // Redirect to index.html - React Router will handle the route
+    window.location.replace(basePath + '/index.html' + spaPath);
   </script>
 </head>
 <body>
-  <p>Redirecting to portfolio...</p>
+  <p>Redirection vers le portfolio...</p>
 </body>
 </html>
