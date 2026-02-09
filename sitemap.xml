@@ -2,22 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://berekoutou.github.io/portefeuille/</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://berekoutou.github.io/portefeuille/#about</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://berekoutou.github.io/portefeuille/#skills</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://berekoutou.github.io/portefeuille/#projects</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://berekoutou.github.io/portefeuille/#contact</loc>
-    <priority>0.8</priority>
   </url>
 </urlset>
